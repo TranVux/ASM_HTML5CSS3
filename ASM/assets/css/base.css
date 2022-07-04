@@ -1,0 +1,204 @@
+:root {
+    --amountOfCol: 4;
+    --amountOfCol_category: 6;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5px;
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+.web-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    border: solid #244b69 3px;
+    background-color: #1a374d6c;
+}
+
+@keyframes backgroundhover {
+    0.1% {
+        background-color: rgba(26, 55, 77, 0.1);
+    }
+
+    0.25% {
+        background-color: rgba(26, 55, 77, 0.25);
+    }
+
+    0.5% {
+        background-color: rgba(26, 55, 77, 0.5);
+    }
+}
+
+@keyframes opacityhover {
+    0.1% {
+        opacity: 0.1;
+    }
+
+    0.25% {
+        opacity: 0.;
+    }
+
+    0.5% {
+        opacity: 1;
+    }
+}
+
+@keyframes shadowhover {
+    0.2% {
+        box-shadow: inset 0 0 10px rgba(26, 55, 77, 0.5);
+    }
+
+    0.5% {
+        box-shadow: inset 0 0 10px rgba(26, 55, 77, 1);
+    }
+}
+
+@keyframes scalehover {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* 
+    <a href="#" class="navbar-item">Thể loại</a>
+    <a href="#" class="navbar-item">Movies</a>
+    <a href="#" class="navbar-item">Lịch chiếu</a>
+    <a href="#" class="navbar-item">Lọc phim</a>
+    <a href="#" class="navbar-item">Xem nhiều</a>
+*/
+
+@keyframes grandient1hover {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes grandienthover {
+    10% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 30%, rgba(117, 58, 136, 1) 70%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 30%, rgba(117, 58, 136, 1) 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    20% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 40%, rgba(117, 58, 136, 1) 80%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 40%, rgba(117, 58, 136, 1) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    30% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 50%, rgba(117, 58, 136, 1) 90%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 50%, rgba(117, 58, 136, 1) 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    40% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 60%, rgba(117, 58, 136, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 60%, rgba(117, 58, 136, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 70%, rgba(117, 58, 136, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 70%, rgba(117, 58, 136, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    60% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(204, 43, 94, 1) 80%, rgba(117, 58, 136, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(204, 43, 94, 1) 80%, rgba(117, 58, 136, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    70% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(117, 58, 136, 1) 10%, rgba(204, 43, 94, 1) 90%, rgba(117, 58, 136, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(117, 58, 136, 1) 10%, rgba(204, 43, 94, 1) 90%, rgba(117, 58, 136, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    80% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(117, 58, 136, 1) 20%, rgba(204, 43, 94, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(117, 58, 136, 1) 20%, rgba(204, 43, 94, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    90% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(117, 58, 136, 1) 30%, rgba(204, 43, 94, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(117, 58, 136, 1) 30%, rgba(204, 43, 94, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: rgb(204, 43, 94);
+        background: linear-gradient(75deg, rgba(117, 58, 136, 1) 40%, rgba(204, 43, 94, 1) 100%);
+        background: -webkit-linear-gradient(75deg, rgba(117, 58, 136, 1) 40%, rgba(204, 43, 94, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/* width of scrollbar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track of scrollbar*/
+::-webkit-scrollbar-track {
+    background: #ffffff65;
+    border-radius: 20px;
+}
+
+/* Handle of scrollbar*/
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(to right, #4e43768c, #2b587686);
+    background: linear-gradient(to right, #4e43768c, #2b587694);
+    border-radius: 20px;
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/category.css">
+    <link rel="stylesheet" href="assets/css/showtimes.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/icon/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <title>AVFilm</title>
+</head>
+
+<body>
+    <div class="web-container">
+        <!-- Header Mobile -->
+        <div class="header-mobile">
+            <div class="header-logo-mobile">
+                <img src="assets/images/logo-image-canvas.png" alt="">
+            </div>
+            <div class="header-nav-btn">
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+            </div>
+            <div class="nav-menu_mobile">
+                <div class="menu-search-item">
+                    <div class="search-bar-mobile">
+                        <input type="text" class="search-bar-mobile" placeholder="Tìm kiếm">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="menu_mobile-item"><a href="index.html" class="link_menu">Trang chủ</a></div>
+                <div class="menu_mobile-item"><a href="category.html" class="link_menu">Thể loại</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Movies</a></div>
+                <div class="menu_mobile-item"><a href="Showtimes.html" class="link_menu">Lịch chiếu</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Lọc phim</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Xem nhiều</a></div>
+                <div class="user">
+                    <div class="user-mobile-container">
+                        <img src="assets/images/avt.jpg" alt="" class="avt">
+                        <div class="user-name-mobile">TAVUX</div>
+                    </div>
+                    <i class="fas fa-sign-out-alt mobile-logout"></i>
+                </div>
+                <div class="gb-layer"></div>
+            </div>
+        </div>
+        <!-- Header -->
+        <div class="header-top">
+            <a href="index.html" class="logo">
+                <img class="logo-image" src="assets/images/logo-image-canvas.png" alt="">
+            </a>
+            <div class="searchbar-container">
+                <input type="text" class="searchbar" placeholder="Tìm kiếm">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+
+            <!-- Login -->
+            <!-- <div class="usercontainer">
+                <img src="assets/images/avt.jpg" alt="" class="user-img">
+                <span class="user-name">Vũ</span>
+                <ul class="user-list">
+                    <li class="list-item">
+                        <a href="#"><i class="fas fa-user item-icon"></i></a>
+                        <a href="#">Quản lý tài khoản</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"><i class="fas fa-bookmark item-icon"></i></a>
+                        <a href="#">Phim đã lưu</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"><i class="fas fa-sign-out-alt item-icon"></i></a>
+                        <a href="#">Đăng xuất</a>
+                    </li>
+                </ul>
+            </div> -->
+
+            <!-- None Login -->
+            <div class="usercontainer ">
+                <span class="user-name none-login">Tài khoản</span>
+                <ul class="user-list list-none-login">
+                    <li class="list-item">
+                        <a href="login.html"><i class="fas fa-sign-in-alt item-icon"></i></a>
+                        <a href="login.html">Đăng nhập</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="register.html"><i class="fas fa-user-plus item-icon"></i></a>
+                        <a href="register.html">Đăng ký</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-center">
+            <a href="#">
+                <div class="header-center-film">
+                    <p class="film-name">Kimetsu No Yaiba ss2: Yuukaku-hen</p>
+                    <p class="film-name1">Thanh Gươm Diệt Quỷ Phần 2 – Phố Đèn Đỏ
+                        <button class="watch-btn btn">Xem ngay</button>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="header-bottom">
+            <ul class="navbar">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Thể loại</a>
+                    <ul class="menu-child">
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Chuyển sinh</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Shounen</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Shoujo</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Comedy</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Hài hước</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Thám tử</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Phiêu lưu</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Xuyên không</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Siêu năng lực</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Âm nhạc</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Học đường</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Quân đội</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Huyền ảo</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Viễn tưởng</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Bí ẩn</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Live Action</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Phiêu lưu</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Hành động</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Đời thường</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Kinh dị</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Dị giới</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Kiếm hiệp</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Tiên hiệp</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Võ thuật</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Huyền ảo</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Võ hiệp</a>
+                        </li>
+                        <li class="child-item">
+                            <a href="category.html" class="item-category">Lịch sử</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Showtimes.html" class="nav-link">Lịch chiếu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Lọc phim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Xem nhiều</a>
+                </li>
+                <ul />
+        </div>
+
+        <!-- Section -->
+        <div class="section">
+            <div class="article">
+                <div class="showtime">
+                    <a href="" class="preview">
+                        <div class="week week-present">
+                            <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                                class="page-icon icon-left">
+                                <g>
+                                    <path
+                                        d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="day monday">Thứ hai</div>
+                    </a>
+                    <a href="">
+                        <div class="day tuesday">Thứ ba</div>
+                    </a>
+                    <a href="">
+                        <div class="day wednesday">Thứ tư</div>
+                    </a>
+                    <a href="">
+                        <div class="day thursday">Thứ năm</div>
+                    </a>
+                    <a href="">
+                        <div class="day friday">Thứ sáu</div>
+                    </a>
+                    <a href="">
+                        <div class="day satuday">Thứ bảy</div>
+                    </a>
+                    <a href="">
+                        <div class="day sunday">Chủ nhật</div>
+                    </a>
+                    <a href="" class="next">
+                        <div class="week week-future">
+                            <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                                class="page-icon icon-right">
+                                <g>
+                                    <path
+                                        d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="article-container">
+                    <div class="film-category-header" id="headerMonday">Thứ hai</div>
+                    <div class="film-category-container">
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerTuseday">Thứ Ba</div>
+                    <div class="film-category-container">
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerWednesday">Thứ tư</div>
+                    <div class="film-category-container">
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerThursday">Thứ năm</div>
+                    <div class="film-category-container">
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerFriday">Thứ sáu</div>
+                    <div class="film-category-container">
+
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerSaturday">Thứ bảy</div>
+                    <div class="film-category-container">
+
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="film-category-header" id="headerSunday">Chủ nhật</div>
+                    <div class="film-category-container">
+
+                    </div>
+                    <!-- <a href="#" class="other-link">
+                        <button class="other-btn btn">Xem thêm</button>
+                    </a> -->
+
+                    <!-- <div class="page">
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-left">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="number-page page-sentence">1</div>
+                        <div class="number-page">2</div>
+                        <div class="number-page">3</div>
+                        <div class="number-page dot">. . .</div>
+                        <div class="number-page">12</div>
+                        <svg enable-background="new 0 0 11 11" viewBox="0 0 11 11" x="0" y="0"
+                            class="page-icon icon-right">
+                            <g>
+                                <path
+                                    d="m8.5 11c-.1 0-.2 0-.3-.1l-6-5c-.1-.1-.2-.3-.2-.4s.1-.3.2-.4l6-5c .2-.2.5-.1.7.1s.1.5-.1.7l-5.5 4.6 5.5 4.6c.2.2.2.5.1.7-.1.1-.3.2-.4.2z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div> -->
+
+
+                </div>
+            </div>
+            <!-- <div class="aside">
+                
+            </div> -->
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-container">
+
+                <div class="footer-leftright">
+                    <div class="footer-logo">
+                        <div class="img">
+                            <a href="index.html">
+                                <img src="assets/images/logo-image-canvas.png" alt="" class="logoimg">
+                            </a>
+                        </div>
+                        <div class="title-box">
+                            <span class="title"><a href="#">AVFilm</a></span>
+                            <span class="title1">Xem phim không quảng cáo và hoàn toàn miễn phí</span>
+                            <span class="title2">Theo dõi chúng tôi tại
+                                <span class="link-follow">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-square icon-follow"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-youtube icon-follow"></i>
+                                    </a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cooparation">
+                        <p class="title-cooparation ">Đối tác của chúng tôi</p>
+                        <a href="https://www.youtube.com/channel/UCott96qGP5ADmsB_yNQMvDA" target="_blank"><img
+                                src="assets/images/muse vn.jpg" alt="" class="cooparation-img"></a>
+                        <a href="https://hhpanda.tv/" target="_blank"><img src="assets/images/hhpanda.png" alt=""
+                                class="cooparation-img"></a>
+                        <div class="img-doulbe">
+                            <a href="https://fptplay.vn/tim-kiem/anime" target="_blank"><img src="assets/images/fpt.png"
+                                    alt="" class="cooparation-img"></a>
+                            <a href="https://wetv.vip/" target="_blank"><img src="assets/images/wetv.jpg" alt=""
+                                    class="cooparation-img"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="copyright">
+                    <i class="far fa-copyright copyright-icon"></i>
+                    PS24414 - Trần Anh Vũ
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/showtimes.js"></script>
+</body>
+
+</html>

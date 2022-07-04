@@ -1,0 +1,25 @@
+import { filmsTrend } from "./data.js";
+import { loadFilm, loadFilmCategory, setCategory } from "./function.js";
+const container = document.getElementById('filmCategoryContainer');
+const trendContainer = document.getElementById('filmTrendCategory');
+const category = sessionStorage.getItem('category');
+const pageNumber = document.querySelector('.page');
+const arrItemCategory = document.querySelectorAll(".item-category");
+setCategory(arrItemCategory);
+loadFilmCategory(container, category);
+if (container.childElementCount == 0) {
+    pageNumber.innerHTML = '';
+    const img = document.createElement('img');
+    const text = document.createElement('p');
+    const containerAlert = document.createElement('div');
+    container.style.gridTemplateColumns = "1fr";
+    containerAlert.className = 'alert-container';
+    text.innerText = 'Website hiện chưa cập nhật phim của thể loại ' + category + '. Xin lỗi bạn vì sự bất tiện này.'
+    text.classList = 'empty-text';
+    img.src = 'assets/images/cartoon-owls-sad.png';
+    img.classList = 'empty-img';
+    containerAlert.appendChild(text);
+    containerAlert.appendChild(img);
+    container.appendChild(containerAlert);
+}
+loadFilm(trendContainer, filmsTrend, 'trend', 'trend');

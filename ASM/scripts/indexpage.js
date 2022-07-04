@@ -1,0 +1,13 @@
+import { filmsInMain } from "./data.js";
+import { setCategory } from "./function.js";
+import { loadTopComment, loadTopView, loadFilm, setOnClickForFilmTopCmt, setOnClickForFilmTopView } from "./function.js";
+const filmsContainer = document.getElementById('filmCateforyContainer');
+const asideContainer = document.getElementById('aside');
+const arrItemCategory = document.querySelectorAll(".item-category");
+loadTopView(asideContainer);
+loadTopComment(asideContainer);
+setOnClickForFilmTopCmt();
+setOnClickForFilmTopView();
+loadFilm(filmsContainer, filmsInMain, 'detail', 'detail');
+setCategory(arrItemCategory);
+console.table(filmsInMain);
