@@ -95,6 +95,38 @@
     .nav-menu_mobile {
         height: 82vh;
     }
+
+}
+
+@media only screen and (max-width: 25.875em) {
+    .film-img-pr {
+        flex-direction: column;
+    }
+
+    .title-pr, .title-dec {
+        font-size: 25px;
+    }
+
+    .title-dec {
+        margin-top: 25px;
+    }
+
+    .film-detail-bookmark {
+        font-size: 50px;
+    }
+
+    .thumbnail {
+        padding: 10px 0;
+        margin-left: 0;
+    }
+
+    .name-film-dec {
+        font-size: 19px;
+    }
+
+    .dec button {
+        margin-bottom: 20px;
+    }
 }
 
 /* Table width>=740px and width < 1024px */

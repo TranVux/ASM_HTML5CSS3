@@ -100,12 +100,14 @@ export function setOnClickForFilmTopCmt() {
         sessionStorage.setItem('indexFilm', 0);
         sessionStorage.setItem('typeOfData', 'topCmt');
         location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
+        // location.pathname = '/ASM/film-detail.html';
     });
     filmTopCmt.forEach((element, index) => {
         element.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', 'topCmt');
             location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
+            // location.pathname = '/ASM/film-detail.html';
             console.log(2);
         });
     });
@@ -118,13 +120,15 @@ export function setOnClickForFilmTopView() {
         sessionStorage.setItem('indexFilm', 0);
         sessionStorage.setItem('typeOfData', 'topView');
         location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
+        // location.pathname = '/ASM/film-detail.html';
+
     });
     filmTopView.forEach((elementFilm, index) => {
         elementFilm.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', 'topView');
             location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-            console.log(1);
+            // location.pathname = '/ASM/film-detail.html';
         });
     });
 }
@@ -204,6 +208,8 @@ export function loadFilm(container, listFilm, typeOfData, className) {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', typeOfData);
             location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
+            // location.pathname = '/ASM/film-detail.html';
+
         })
     });
 }
@@ -245,6 +251,8 @@ export function loadFilmCategory(container, category) {
             sessionStorage.setItem('indexFilm', arrIndex[index]);
             sessionStorage.setItem('typeOfData', 'detail')
             location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
+            // location.pathname = '/ASM/film-detail.html';
+
         })
     });
 }
@@ -303,7 +311,7 @@ export function loadFilmShowTime(container) {
                 container[6].innerHTML += temp;
                 break;
             default:
-                throw new Error('Invalid date if showtimes');
+                throw new Error('Invalid date of showtimes');
         }
     });
 

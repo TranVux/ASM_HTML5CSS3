@@ -3,8 +3,6 @@
     background-color: #406882;
 }
 
-
-
 .film-detail {
     width: 98%;
     height: max-content;
@@ -83,8 +81,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    height: 350px;
+    min-height: 350px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     border-radius: 3px;
 }
@@ -101,16 +101,16 @@
 }
 
 .thumbnail {
-    position: absolute;
-    top: 50%;
-    left: 25px;
+    z-index: 1;
     width: 210px;
+    height: 100%;
+    margin-left: 20px;
     height: fit-content;
     object-fit: cover;
-    transform: translateY(-50%);
 }
 
 .thumbnail-film {
+    display: block;
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
@@ -118,10 +118,9 @@
 }
 
 .dec {
-    position: absolute;
-    right: 25px;
-    margin-top: 30px;
-    width: 500px;
+    width: 68%;
+    padding: 0 20px 0 10px;
+    z-index: 1;
 }
 
 .title-dec {
@@ -152,9 +151,7 @@
 .dec button {
     border-radius: 3px;
     width: max-content;
-    padding: 0 10px;
     height: 40px;
-    margin-top: 20px;
     border: none;
     box-shadow: 1px 1px 1px rgba(160, 35, 75, 0.514);
     cursor: pointer;
@@ -280,3 +277,5 @@ textarea:focus {
 textarea {
     resize: none;
 }
+
+@media screen {}
