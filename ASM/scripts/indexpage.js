@@ -5,6 +5,10 @@ const asideContainer = document.getElementById('aside');
 const arrItemCategory = document.querySelectorAll(".item-category");
 const userContainer = document.querySelector(".usercontainer");
 var indexUser = localStorage.getItem("indexCurrentUser");
+if (indexUser == null) {
+    localStorage.setItem("indexCurrentUser", -1);
+    indexUser = localStorage.getItem("indexCurrentUser");
+}
 var btnLogout;
 loadTopView(asideContainer);
 loadTopComment(asideContainer);
