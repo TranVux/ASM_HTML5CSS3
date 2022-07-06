@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/icon/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <title>AVFilm</title>
+</head>
+
+<body>
+    <div class="web-container">
+        <!-- Header Mobile -->
+        <div class="header-mobile">
+            <div class="header-logo-mobile">
+                <a href="index.html"><img src="assets/images/logo-image-canvas.png" alt=""></a>
+            </div>
+            <div class="header-nav-btn">
+                <div class="roll"></div>
+                <div class="roll"></div>
+                <div class="roll"></div>
+            </div>
+            <div class="nav-menu_mobile">
+                <div class="menu-search-item">
+                    <div class="search-bar-mobile">
+                        <input type="text" class="search-bar-mobile" placeholder="Tìm kiếm">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="menu_mobile-item"><a href="index.html" class="link_menu">Trang chủ</a></div>
+                <div class="menu_mobile-item"><a href="category.html" class="link_menu">Thể loại</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Movies</a></div>
+                <div class="menu_mobile-item"><a href="Showtimes.html" class="link_menu">Lịch chiếu</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Lọc phim</a></div>
+                <div class="menu_mobile-item"><a href="#" class="link_menu">Xem nhiều</a></div>
+                <div class="user">
+                    <div class="user-mobile-container">
+                        <img src="assets/images/avt.jpg" alt="" class="avt">
+                        <div class="user-name-mobile">TAVUX</div>
+                    </div>
+                    <i class="fas fa-sign-out-alt mobile-logout"></i>
+                </div>
+                <div class="gb-layer"></div>
+            </div>
+        </div>
+        <!-- Header -->
+        <div class="header-top">
+            <a href="index.html" class="logo">
+                <img class="logo-image" src="assets/images/logo-image-canvas.png" alt="">
+            </a>
+            <div class="searchbar-container">
+                <input type="text" class="searchbar" placeholder="Tìm kiếm">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <div class="usercontainer ">
+            </div>
+
+        </div>
+        <div class="header-center">
+            <div class="mainavt-container">
+                <img src="assets/images/avt.jpg" alt="" class="big-avt">
+                <i class="fas fa-camera"></i>
+            </div>
+        </div>
+
+        <!-- Section -->
+        <div class="section">
+            <div class="info-container">
+                <div class="film-category-header">Thông tin tài khoản</div>
+                <div class="info-user">
+                    <span class="fullname">Họ và Tên</span>
+                    <input type="text" id="fullname" disabled>
+                    <br>
+                    <span class="email">Email</span>
+                    <input type="text" id="email" disabled>
+                    <div class="btn-group">
+                        <button id="btn_resetPass">Đặt lại mật khẩu</button>
+                        <button id="btnLogTowWayInfo">Đăng xuất</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bookmark-container">
+                <div class="film-category-header">Phim đã lưu</div>
+                <div class="bookmark" id="filmBookmarkContainer">
+                    <i class="previous fas fa-angle-left" id="btnPrevious"></i>
+                    <i class="next fas fa-angle-right" id="btnNext"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-container">
+
+                <div class="footer-leftright">
+                    <div class="footer-logo">
+                        <div class="img">
+                            <a href="index.html">
+                                <img src="assets/images/logo-image-canvas.png" alt="" class="logoimg">
+                            </a>
+                        </div>
+                        <div class="title-box">
+                            <span class="title"><a href="#">AVFilm</a></span>
+                            <span class="title1">Xem phim không quảng cáo và hoàn toàn miễn phí</span>
+                            <span class="title2">Theo dõi chúng tôi tại
+                                <span class="link-follow">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-square icon-follow"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-youtube icon-follow"></i>
+                                    </a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cooparation">
+                        <p class="title-cooparation ">Đối tác của chúng tôi</p>
+                        <a href="https://www.youtube.com/channel/UCott96qGP5ADmsB_yNQMvDA" target="_blank"><img
+                                src="assets/images/muse vn.jpg" alt="" class="cooparation-img"></a>
+                        <a href="https://hhpanda.tv/" target="_blank"><img src="assets/images/hhpanda.png" alt=""
+                                class="cooparation-img"></a>
+                        <div class="img-doulbe">
+                            <a href="https://fptplay.vn/tim-kiem/anime" target="_blank"><img src="assets/images/fpt.png"
+                                    alt="" class="cooparation-img"></a>
+                            <a href="https://wetv.vip/" target="_blank"><img src="assets/images/wetv.jpg" alt=""
+                                    class="cooparation-img"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="copyright">
+                    <i class="far fa-copyright copyright-icon"></i>
+                    PS24414 - Trần Anh Vũ
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="scripts/ueserpage.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>

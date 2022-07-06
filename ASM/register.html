@@ -22,24 +22,26 @@
 <body>
     <div class="web-container">
         <a href="index.html"><img src="assets/images/4baea7d9fff94eb78ebfa746a946df80.png" alt="" class="logo"></a>
-        <div class="form">
+        <form action="" class="form">
             <div class="form-title">
                 <a href="login.html"><span class="login">Đăng Nhập</span></a>
                 <a href="register.html"><span class="register">Đăng ký</span></a>
             </div>
             <div class="gr-input">
-                <input type="text" class="input-email" placeholder="Email">
+                <input id="email" type="email" class="input-email" placeholder="Email" required>
                 <div class="name">
-                    <input type="text" class="input-name" placeholder="Đệm và Tên">
-                    <input type="text" class="input-name" placeholder="Họ">
+                    <input id="firstName" type="text" class="input-name" placeholder="Đệm và Tên" required>
+                    <input id="lastName" type="text" class="input-name" placeholder="Họ" required>
                 </div>
-                <input type="password" class="input-pass" placeholder="Mật khẩu">
-                <input type="password" class="input-pass" placeholder="Nhập lại mật khẩu">
+                <input id="password" type="password" class="input-pass" placeholder="Mật khẩu" required>
+                <input id="rePassword" type="password" class="input-pass" placeholder="Nhập lại mật khẩu" required>
             </div>
             <span class="have-account">Đã có tài khoản? <a href="login.html">Đăng nhập</a></span>
-            <button class="register-btn">Đăng ký</button>
-        </div>
+            <button id="btnRegister" type="button" class="register-btn">Đăng ký</button>
+        </form>
+        <div class="warning">Password đã nhập không trùng với bên trên</div>
     </div>
 </body>
+<script type="module" src="scripts/registerPage.js"></script>
 
 </html>

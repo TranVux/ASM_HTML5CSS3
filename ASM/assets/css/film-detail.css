@@ -152,6 +152,7 @@
     border-radius: 3px;
     width: max-content;
     height: 40px;
+    margin-top: 10px;
     border: none;
     box-shadow: 1px 1px 1px rgba(160, 35, 75, 0.514);
     cursor: pointer;

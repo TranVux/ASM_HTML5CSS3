@@ -1,30 +1,30 @@
-*{
+* {
     box-sizing: inherit;
 }
 
-html{
+html {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5px;
-    background: #2b5876;  
-    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
     background: linear-gradient(to right, #4e4376, #2b5876);
 }
 
-.web-container{
+.web-container {
     width: min(100%, 1200px);
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     margin: 10px auto 10px;
     display: block;
     width: 110px;
     border-radius: 6px;
 }
 
-.form{
+.form {
     width: 550px;
     height: 500px;
     background-color: #406882;
@@ -34,7 +34,7 @@ html{
     position: relative;
 }
 
-.form-title{
+.form-title {
     display: flex;
     height: 50px;
     width: 90%;
@@ -43,7 +43,7 @@ html{
     left: 23px;
 }
 
-.form-title span{
+.form-title span {
     cursor: pointer;
     line-height: 50px;
     width: 150px;
@@ -55,24 +55,24 @@ html{
     transition: all linear 0.18s;
 }
 
-.login{
+.login {
     color: white;
     opacity: 0.5;
     position: absolute;
     left: 56px;
 }
 
-.login:hover{
+.login:hover {
     opacity: 1;
 }
 
-.register{
+.register {
     color: white;
     position: absolute;
     right: 70px;
 }
 
-.register::after{
+.register::after {
     display: block;
     content: "";
     height: 2px;
@@ -83,7 +83,7 @@ html{
     bottom: 3px;
 }
 
-.form::before{
+.form::before {
     display: block;
     content: "";
     height: 49px;
@@ -94,18 +94,17 @@ html{
     top: 30px;
 }
 
-.register:hover{
+.register:hover {
     opacity: 0.8;
 }
 
-.gr-input input{
+.gr-input input {
     display: block;
-    border:none;
+    border: none;
     border-radius: 6px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    outline: none;
     background-color: #f5f5f5;
     color: #1A374D;
     width: 100%;
@@ -113,41 +112,38 @@ html{
     font-size: 19px;
     margin-bottom: 13px;
     padding-left: 20px;
+    outline: 5px solid transparent;
+    transition: all ease-in-out 0.35s;
 }
 
-.gr-input input:focus{
-    outline-color: #20415a;
-    outline-style: solid;
+.gr-input input:focus {
+    outline-color: #04233c4f;
 }
 
-.gr-input{
+.gr-input {
     position: absolute;
     width: 80%;
     height: 310px;
-    top: 110px; 
+    top: 110px;
     left: 53px;
 }
 
-.input-email{
+.input-email {}
 
-}
-
-.name{
+.name {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.name>.input-name{
+.name>.input-name {
     width: calc(50% - 7px);
     text-transform: capitalize;
 }
 
-.input-pass{
+.input-pass {}
 
-}
-
-.have-account{
+.have-account {
     position: absolute;
     right: 59px;
     bottom: 86px;
@@ -156,17 +152,17 @@ html{
     cursor: pointer;
 }
 
-.have-account>a{
+.have-account>a {
     text-decoration: none;
     color: rgb(206, 204, 204);
     transition: all 0.2s linear;
 }
 
-.have-account>a:hover{
+.have-account>a:hover {
     color: white;
 }
 
-.register-btn{
+.register-btn {
     position: absolute;
     left: 50px;
     bottom: 23px;
@@ -181,7 +177,50 @@ html{
     transition: all 0.1s linear;
 }
 
-.register-btn:hover{
+.register-btn:hover {
     color: #f5f5f5;
     background-color: #1A374D;
+}
+
+input {
+    font-size: 21px;
+}
+
+.warning {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 10px;
+    background-color: #FFB562;
+    color: #F9F2ED;
+    border-right: 6px solid #F87474;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    top: 10px;
+    right: -350px;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+
+.warning.active {
+    right: 10px;
+}
+
+
+/* width of scrollbar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track of scrollbar*/
+::-webkit-scrollbar-track {
+    background: #ffffff65;
+    border-radius: 20px;
+}
+
+/* Handle of scrollbar*/
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(to right, #4e43768c, #2b587686);
+    background: linear-gradient(to right, #4e43768c, #2b587694);
+    border-radius: 20px;
 }

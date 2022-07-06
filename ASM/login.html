@@ -29,14 +29,16 @@
                     <a href="register.html"><span class="register">Đăng ký</span></a>
                 </div>
                 <div class="input">
-                    <input type="text" class="input-bar" placeholder="Email">
-                    <input type="password" class="input-bar pass" placeholder="Mật khẩu">
+                    <input id="email" type="text" class="input-bar" placeholder="Email" required>
+                    <input id="password" type="password" class="input-bar pass" placeholder="Mật khẩu" required>
                 </div>
                 <span class="forgot-password">Quên mật khẩu?</span>
-                <button class="login-btn">Đăng nhập</button>
+                <button id="btnLogin" type="button" class="login-btn">Đăng nhập</button>
             </form>
+            <div class="warning">Điền đầy đủ Email và Password</div>
         </div>
     </div>
 </body>
+<script type="module" src="scripts/loginPage.js"></script>
 
 </html>

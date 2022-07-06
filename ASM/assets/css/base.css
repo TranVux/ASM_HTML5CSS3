@@ -1,6 +1,7 @@
 :root {
     --amountOfCol: 4;
     --amountOfCol_category: 6;
+    --amountOfCol_user: 3;
 }
 
 * {
@@ -188,6 +189,7 @@ html {
 /* width of scrollbar*/
 ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
 }
 
 /* Track of scrollbar*/

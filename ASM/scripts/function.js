@@ -1,5 +1,7 @@
 import { filmsInMain, showTimes, topComment, topView } from "./data.js";
 
+// const pathNameDetailPage = '/ASM/film-detail.html'
+const pathNameDetailPage = '/ASM_HTML5CSS3/ASM/film-detail.html'
 
 export function loadTopView(container) {
     container.innerHTML += `
@@ -99,15 +101,13 @@ export function setOnClickForFilmTopCmt() {
     filmTop1Cmt.addEventListener("click", () => {
         sessionStorage.setItem('indexFilm', 0);
         sessionStorage.setItem('typeOfData', 'topCmt');
-        location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-        // location.pathname = '/ASM/film-detail.html';
+        location.pathname = pathNameDetailPage;
     });
     filmTopCmt.forEach((element, index) => {
         element.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', 'topCmt');
-            location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-            // location.pathname = '/ASM/film-detail.html';
+            location.pathname = pathNameDetailPage;
             console.log(2);
         });
     });
@@ -119,16 +119,14 @@ export function setOnClickForFilmTopView() {
     filmTop1View.addEventListener("click", () => {
         sessionStorage.setItem('indexFilm', 0);
         sessionStorage.setItem('typeOfData', 'topView');
-        location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-        // location.pathname = '/ASM/film-detail.html';
+        location.pathname = pathNameDetailPage;
 
     });
     filmTopView.forEach((elementFilm, index) => {
         elementFilm.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', 'topView');
-            location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-            // location.pathname = '/ASM/film-detail.html';
+            location.pathname = pathNameDetailPage;
         });
     });
 }
@@ -207,9 +205,7 @@ export function loadFilm(container, listFilm, typeOfData, className) {
         element.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', index);
             sessionStorage.setItem('typeOfData', typeOfData);
-            location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-            // location.pathname = '/ASM/film-detail.html';
-
+            location.pathname = pathNameDetailPage;
         })
     });
 }
@@ -250,9 +246,7 @@ export function loadFilmCategory(container, category) {
         element.addEventListener("click", () => {
             sessionStorage.setItem('indexFilm', arrIndex[index]);
             sessionStorage.setItem('typeOfData', 'detail')
-            location.pathname = '/ASM_HTML5CSS3/ASM/film-detail.html';
-            // location.pathname = '/ASM/film-detail.html';
-
+            location.pathname = pathNameDetailPage;
         })
     });
 }
@@ -266,9 +260,9 @@ export function setCategory(arrItemCategory) {
 }
 
 export function loadFilmShowTime(container) {
-    showTimes.map(film => {
+    showTimes.map((film, index) => {
         var temp = `
-        <div class="film-container">
+        <div class="film-container" name="${index}">
             <div class="film-epsoide">Tập ${film.newEpisode}</div>
             <div class="film-view">
                 <i class="fas fa-eye"></i> ${film.view}
@@ -314,5 +308,95 @@ export function loadFilmShowTime(container) {
                 throw new Error('Invalid date of showtimes');
         }
     });
+}
 
+export function setOnClickForFilmShowTime() {
+    const arrFilmShowTime = document.querySelectorAll(".film-container");
+    arrFilmShowTime.forEach(film => {
+        film.addEventListener('click', () => {
+            const indexFilm = film.getAttribute("name");
+            sessionStorage.setItem('indexFilm', indexFilm);
+            sessionStorage.setItem('typeOfData', 'showtime')
+            location.pathname = pathNameDetailPage;
+        });
+    })
+}
+
+export function changeUserContainer(userContainer, indexUser) {
+    userContainer.innerHTML = '';
+    if (indexUser != -1) {
+        var currentUser = JSON.parse(localStorage.getItem("listUser"))[indexUser];
+        var userName = currentUser.firstName;
+        userContainer.innerHTML += `
+    <img src="assets/images/avt.jpg" alt="" class="user-img">
+    <span class="user-name">${userName}</span>
+    <ul class="user-list">
+        <li class="list-item">
+            <a href="#"><i class="fas fa-user item-icon"></i></a>
+            <a href="user.html">Quản lý tài khoản</a>
+        </li>
+        <li class="list-item">
+            <a href="#"><i class="fas fa-bookmark item-icon"></i></a>
+            <a href="#">Phim đã lưu</a>
+        </li>
+        <li class="list-item">
+            <a href="#"><i class="fas fa-sign-out-alt item-icon"></i></a>
+            <a href="#" id="btnLogout">Đăng xuất</a>
+        </li>
+    </ul>
+    `;
+    } else {
+        userContainer.innerHTML += `
+    <span class="user-name none-login">Tài khoản</span>
+    <ul class="user-list list-none-login">
+        <li class="list-item">
+            <a href="login.html"><i class="fas fa-sign-in-alt item-icon"></i></a>
+            <a href="login.html">Đăng nhập</a>
+        </li>
+        <li class="list-item">
+            <a href="register.html"><i class="fas fa-user-plus item-icon"></i></a>
+            <a href="register.html">Đăng ký</a>
+        </li>
+    </ul>
+    `;
+    }
+}
+
+export function loadFlmBookmark(container) {
+    var count = 0;
+    filmsInMain.map(film => {
+        var temp;
+        if (film.bookmark) {
+            var temp = `
+            <div class="film-container">
+                <div class="film-view">
+                    <i class="fas fa-eye"></i> ${film.view}
+                </div>
+                <div class="film-bookmark" id="film-bookmark">
+                    <i class=" ${film.bookmark ? 'fas' : 'far'} fa-bookmark bookmark-icon"></i>
+                </div>
+                <img src="${film.thumbnail}"
+                    alt="" class="film-img">
+                <div class="film-title">
+                    <p class="main-title">${film.filmName}</p>
+                    <p class="sub">${film.subTitle}</p>
+                </div>
+                <div class="mask">
+                    <i class="far fa-play-circle"></i>
+                    <p class="info">Mô tả</p>
+                    <p class="episode">${film.episode}</p>
+                </div>
+            </div>`
+            container.innerHTML += temp;
+            count++;
+        }
+    });
+    const aFilmContainer = document.querySelectorAll(`.film-container`);
+    aFilmContainer.forEach((element, index) => {
+        element.addEventListener("click", () => {
+            sessionStorage.setItem('indexFilm', index);
+            sessionStorage.setItem('typeOfData', 'detail');
+            location.pathname = pathNameDetailPage;
+        })
+    });
 }

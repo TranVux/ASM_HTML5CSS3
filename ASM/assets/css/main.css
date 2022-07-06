@@ -272,8 +272,9 @@ input.search-bar-mobile:focus {
 
 /* 75px 6.4%*/
 .usercontainer {
-    width: 77px;
-    padding: 0 3px 0 0;
+    width: fit-content;
+    /* min-width: 77px; */
+    padding: 0 5px;
     height: 39px;
     display: flex;
     justify-content: center;
@@ -309,12 +310,17 @@ input.search-bar-mobile:focus {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    margin-left: -6px;
 }
 
 .user-name {
     color: #f5f5f5;
     margin-left: 5px;
+    font-size: 14px;
+}
+
+.user-name.none-login {
+    text-align: center;
+    margin: 0;
 }
 
 .user-list {

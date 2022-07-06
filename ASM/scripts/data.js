@@ -1081,7 +1081,7 @@ export const showTimes = [
         thumbnail: 'assets/images/img-film/top film/dau-la-dai-luc-1-250x350.jpg.webp',
         backgroundImg: 'https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png',
         view: 37000,
-        date: 'saturday',
+        date: 'monday',
         newEpisode: 194,
         episode: '193/???',
         urlVideo: '',
