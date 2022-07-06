@@ -1,5 +1,7 @@
 const btnRegister = document.querySelector("#btnRegister");
 const warning = document.querySelector(".warning");
+const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/index.html'
+// const pathnameLoginPage = '/ASM/index.html'
 var firstName = document.getElementById("firstName");
 var lastName = document.getElementById("lastName");
 var email = document.getElementById("email");
@@ -41,7 +43,7 @@ btnRegister.addEventListener("click", () => {
         warning.style.borderColor = "#6CC4A1";
         warning.classList = "warning active";
         setTimeout(() => {
-            location.pathname = '/ASM/login.html';
+            location.pathname = pathnameLoginPage;
         }, 4500);
     } else {
         warning.innerText = 'Phải điền đầy đủ thông tin trong form!';

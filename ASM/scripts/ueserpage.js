@@ -1,6 +1,6 @@
 import { changeUserContainer, loadFlmBookmark } from "./function.js";
-const pathnameIndexPage = '/ASM_HTML5CSS3/ASM/index.html'
-// const pathnameIndexPage = '/ASM/index.html'
+const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/login.html'
+// const pathnameIndexPage = '/ASM/login.html'
 const userContainer = document.querySelector(".usercontainer");
 const filmBookmarkContainer = document.getElementById("filmBookmarkContainer");
 const email = document.getElementById("email");
@@ -54,5 +54,5 @@ function logout() {
 }
 
 function handleGoToLoginPage() {
-    location.pathname = pathnameIndexPage;
+    location.pathname = pathnameLoginPage;
 }
