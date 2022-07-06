@@ -1,7 +1,7 @@
 const btnRegister = document.querySelector("#btnRegister");
 const warning = document.querySelector(".warning");
-const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/index.html'
-// const pathnameLoginPage = '/ASM/index.html'
+const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/login.html'
+// const pathnameLoginPage = '/ASM/login.html'
 var firstName = document.getElementById("firstName");
 var lastName = document.getElementById("lastName");
 var email = document.getElementById("email");
