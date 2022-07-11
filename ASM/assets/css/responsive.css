@@ -104,6 +104,14 @@
         display: flex;
     }
 
+    /* category */
+    .page {
+        width: 100%;
+    }
+
+    .empty-text {
+        font-size: 17px !important;
+    }
 }
 
 /* Menu mobile */
@@ -161,6 +169,88 @@
     .next, .previous {
         top: 73%;
     }
+
+    /* page login and register */
+    .form {
+        width: 97%;
+    }
+
+    .login-res.form {
+        height: 400px;
+    }
+
+    .register-res.form {
+        height: 475px;
+    }
+
+    .login, .register {
+        font-size: 17px !important;
+    }
+
+    .login {
+        left: 10px;
+    }
+
+    .register {
+        right: 10px;
+    }
+
+    .form-title span {
+        position: relative;
+    }
+
+    .form-title::before {
+        transform: translateX(calc(-50% + 6px));
+    }
+
+    .register::after {
+        width: 72px;
+        bottom: -2px;
+        right: 0;
+    }
+
+    .login::after {
+        width: 98px;
+        bottom: -2px;
+        left: 0;
+    }
+
+    #btnLogin {
+        bottom: 54px;
+        width: 138px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .register-btn {
+        width: 138px;
+        height: 48px;
+        font-size: 20px;
+        left: 42px;
+        bottom: 53px;
+    }
+
+    .forgot-password {
+        right: 45px;
+        bottom: 147px;
+        font-size: 15px;
+    }
+
+    .have-account {
+        right: 42px;
+        bottom: 127px;
+        font-size: 15px;
+    }
+
+    .input input, .gr-input input {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .input {
+        top: 90px;
+    }
+
 }
 
 /* Table width>=740px and width < 1024px */
@@ -198,6 +288,10 @@
     .info-user>input {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    .mainavt-container {
+        display: none;
     }
 
     .info-container, .bookmark-container {

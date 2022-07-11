@@ -138,7 +138,7 @@
     background-color: #E5F4FF;
     padding: 24px 10px;
     overflow-x: scroll;
-    white-space: nowrap;
+    white-space: normal;
     scroll-behavior: smooth;
 }
 
@@ -199,7 +199,7 @@
     font-size: 20px;
     color: #406882;
     position: absolute;
-    bottom: 50px;
+    bottom: 35px;
     left: 50%;
     transform: translateX(-50%);
 }

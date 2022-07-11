@@ -2,6 +2,8 @@ import { changeUserContainer, loadFlmBookmark } from "./function.js";
 const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/login.html'
 // const pathnameLoginPage = '/ASM/login.html'
 const userContainer = document.querySelector(".usercontainer");
+const userMobileContainer = document.querySelector("#useMobileContainer");
+const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
 const filmBookmarkContainer = document.getElementById("filmBookmarkContainer");
 const email = document.getElementById("email");
 const fullname = document.getElementById("fullname");
@@ -10,9 +12,11 @@ const listUser = localStorage.getItem("listUser");
 var btnLogTowWayInfo = document.getElementById("btnLogTowWayInfo");
 var btnLogout;
 
-changeUserContainer(userContainer, indexUser);
+changeUserContainer(userContainer, userMobileContainer, indexUser);
+
 
 if (indexUser != -1) {
+    filmBookmarkContainer.style.whiteSpace = "nowrap";
     loadFlmBookmark(filmBookmarkContainer);
     setInfo();
     btnLogout = document.getElementById("btnLogout");
@@ -53,12 +57,13 @@ function logout() {
     console.log('logout successfully!');
     localStorage.setItem("indexCurrentUser", -1);
     indexUser = localStorage.getItem("indexCurrentUser");
-    changeUserContainer(userContainer, indexUser);
+    changeUserContainer(userContainer, userMobileContainer, indexUser);
     btnLogTowWayInfo.innerText = "Đăng nhập";
     btnLogTowWayInfo.addEventListener("click", handleGoToLoginPage);
     fullname.value = '';
     email.value = '';
     filmBookmarkContainer.innerHTML = '';
+    filmBookmarkContainer.style.whiteSpace = "normal";
     notify(filmBookmarkContainer);
 }
 

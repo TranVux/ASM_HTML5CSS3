@@ -233,8 +233,9 @@ input.search-bar-mobile:focus {
 
 .user-mobile-container {
     width: fit-content;
-    padding: 5px;
+    padding: 6px;
     border-radius: 35px;
+    cursor: pointer;
     background-color: #102230;
     justify-content: center;
     align-items: center;

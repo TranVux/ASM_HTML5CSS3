@@ -41,6 +41,7 @@ html {
     position: absolute;
     top: 30px;
     left: 23px;
+    justify-content: space-around;
 }
 
 .form-title span {
@@ -55,11 +56,18 @@ html {
     transition: all linear 0.18s;
 }
 
+.form-title a {
+    width: 142px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
 .login {
     color: white;
     opacity: 0.5;
-    position: absolute;
-    left: 56px;
+    /* position: absolute; */
+    /* left: 56px; */
 }
 
 .login:hover {
@@ -68,30 +76,30 @@ html {
 
 .register {
     color: white;
-    position: absolute;
-    right: 70px;
+    /* position: absolute; */
+    /* right: 70px; */
 }
 
 .register::after {
     display: block;
     content: "";
     height: 2px;
-    width: 108px;
+    width: 106px;
     position: absolute;
     background-color: #f5f5f5;
-    right: 21px;
+    right: 70px;
     bottom: 3px;
 }
 
-.form::before {
+.form-title::before {
     display: block;
     content: "";
     height: 49px;
     width: 2px;
     position: absolute;
     background-color: #f5f5f5;
-    left: calc(50% - 2px);
-    top: 30px;
+    left: 50%;
+    transform: translateX(calc(-50% + 10px));
 }
 
 .register:hover {
@@ -125,7 +133,8 @@ html {
     width: 80%;
     height: 310px;
     top: 110px;
-    left: 53px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .input-email {}

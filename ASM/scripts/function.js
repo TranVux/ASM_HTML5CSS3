@@ -322,43 +322,51 @@ export function setOnClickForFilmShowTime() {
     })
 }
 
-export function changeUserContainer(userContainer, indexUser) {
+export function changeUserContainer(userContainer, mobileUserContainer, indexUser) {
     userContainer.innerHTML = '';
+    mobileUserContainer.innerHTML = "";
     if (indexUser != -1) {
         var currentUser = JSON.parse(localStorage.getItem("listUser"))[indexUser];
         var userName = currentUser.firstName;
         userContainer.innerHTML += `
-    <img src="assets/images/avt.jpg" alt="" class="user-img">
-    <span class="user-name">${userName}</span>
-    <ul class="user-list">
-        <li class="list-item">
-            <a href="#"><i class="fas fa-user item-icon"></i></a>
-            <a href="user.html">Quản lý tài khoản</a>
-        </li>
-        <li class="list-item">
-            <a href="#"><i class="fas fa-bookmark item-icon"></i></a>
-            <a href="#">Phim đã lưu</a>
-        </li>
-        <li class="list-item">
-            <a href="#"><i class="fas fa-sign-out-alt item-icon"></i></a>
-            <a href="#" id="btnLogout">Đăng xuất</a>
-        </li>
-    </ul>
-    `;
+            <img src="assets/images/avt.jpg" alt="" class="user-img">
+            <span class="user-name">${userName}</span>
+            <ul class="user-list">
+                <li class="list-item">
+                    <a href="#"><i class="fas fa-user item-icon"></i></a>
+                    <a href="user.html">Quản lý tài khoản</a>
+                </li>
+                <li class="list-item">
+                    <a href="#"><i class="fas fa-bookmark item-icon"></i></a>
+                    <a href="#">Phim đã lưu</a>
+                </li>
+                <li class="list-item">
+                    <a href="#"><i class="fas fa-sign-out-alt item-icon"></i></a>
+                    <a href="#" id="btnLogout">Đăng xuất</a>
+                </li>
+            </ul>
+        `;
+        mobileUserContainer.innerHTML += `
+            <img src="assets/images/avt.jpg" alt="" class="avt">
+            <div class="user-name-mobile">${userName}</div>
+        `
     } else {
         userContainer.innerHTML += `
-    <span class="user-name none-login">Tài khoản</span>
-    <ul class="user-list list-none-login">
-        <li class="list-item">
-            <a href="login.html"><i class="fas fa-sign-in-alt item-icon"></i></a>
-            <a href="login.html">Đăng nhập</a>
-        </li>
-        <li class="list-item">
-            <a href="register.html"><i class="fas fa-user-plus item-icon"></i></a>
-            <a href="register.html">Đăng ký</a>
-        </li>
-    </ul>
-    `;
+            <span class="user-name none-login">Tài khoản</span>
+            <ul class="user-list list-none-login">
+                <li class="list-item">
+                    <a href="login.html"><i class="fas fa-sign-in-alt item-icon"></i></a>
+                    <a href="login.html">Đăng nhập</a>
+                </li>
+                <li class="list-item">
+                    <a href="register.html"><i class="fas fa-user-plus item-icon"></i></a>
+                    <a href="register.html">Đăng ký</a>
+                </li>
+            </ul>
+        `;
+        mobileUserContainer.innerHTML += `
+        <div class="user-name-mobile" id="btnUser">Tài khoản</div>
+        `;
     }
 }
 

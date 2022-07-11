@@ -46,6 +46,14 @@ html {
     position: absolute;
     top: 30px;
     left: 23px;
+    justify-content: space-around;
+}
+
+.form-title a {
+    width: 142px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
 }
 
 .form-title span {
@@ -62,7 +70,7 @@ html {
 
 .login {
     color: white;
-    position: absolute;
+    /* position: absolute; */
     left: 56px;
 }
 
@@ -74,27 +82,28 @@ html {
     display: block;
     content: "";
     height: 2px;
-    width: 147px;
+    width: 141px;
     position: absolute;
     background-color: #f5f5f5;
     bottom: 3px;
+    left: 53px;
 }
 
-.form::before {
+.form-title::before {
     display: block;
     content: "";
     height: 49px;
     width: 2px;
     position: absolute;
     background-color: #f5f5f5;
-    left: calc(50% - 2px);
-    top: 160px;
+    left: 50%;
+    transform: translateX(calc(-50% + 10px));
 }
 
 .register {
     color: white;
     opacity: 0.5;
-    position: absolute;
+    /* position: absolute; */
     right: 70px;
 }
 

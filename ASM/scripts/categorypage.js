@@ -6,6 +6,8 @@ const category = sessionStorage.getItem('category');
 const pageNumber = document.querySelector('.page');
 const arrItemCategory = document.querySelectorAll(".item-category");
 const userContainer = document.querySelector(".usercontainer");
+const userMobileContainer = document.querySelector("#useMobileContainer");
+const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 setCategory(arrItemCategory);
@@ -26,19 +28,24 @@ if (container.childElementCount == 0) {
     container.appendChild(containerAlert);
 }
 if (container.childElementCount < 6) {
-    pageNumber.innerHTML = '';
+    pageNumber.style.display = "none";
 }
 loadFilm(trendContainer, filmsTrend, 'trend', 'trend');
 
+changeUserContainer(userContainer, userMobileContainer, indexUser);
 
-changeUserContainer(userContainer, indexUser);
-
+userMobileContainer.addEventListener("click", () => {
+    location.pathname = pathNameUserPage;
+})
 if (indexUser != -1) {
     btnLogout = document.getElementById("btnLogout");
-    btnLogout.addEventListener("click", () => {
-        console.log('logout successfully!');
-        localStorage.setItem("indexCurrentUser", -1);
-        indexUser = localStorage.getItem("indexCurrentUser");
-        changeUserContainer(userContainer, indexUser);
-    });
+    btnLogout.addEventListener("click", logout);
+    btnLogoutMobile.addEventListener("click", logout);
+}
+
+function logout() {
+    console.log('logout successfully!');
+    localStorage.setItem("indexCurrentUser", -1);
+    indexUser = localStorage.getItem("indexCurrentUser");
+    changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
