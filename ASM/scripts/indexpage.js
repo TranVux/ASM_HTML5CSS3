@@ -1,7 +1,6 @@
 import { filmsInMain } from "./data.js";
 import { loadTopComment, loadTopView, loadFilm, setOnClickForFilmTopCmt, setOnClickForFilmTopView, changeUserContainer, setCategory } from "./function.js";
-const pathNameUserPage = '/ASM_HTML5CSS3/ASM/user.html'
-// const pathNameUserPage = '/ASM/user.html'
+import { pathNameUserPage } from "./constants.js";
 const filmsContainer = document.getElementById('filmCateforyContainer');
 const asideContainer = document.getElementById('aside');
 const arrItemCategory = document.querySelectorAll(".item-category");

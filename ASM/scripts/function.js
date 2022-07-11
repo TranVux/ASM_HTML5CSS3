@@ -1,7 +1,5 @@
 import { filmsInMain, showTimes, topComment, topView } from "./data.js";
-
-const pathNameDetailPage = '/ASM_HTML5CSS3/ASM/film-detail.html'
-// const pathNameDetailPage = '/ASM/film-detail.html'
+import { pathNameDetailPage } from "./constants.js";
 
 export function loadTopView(container) {
     container.innerHTML += `

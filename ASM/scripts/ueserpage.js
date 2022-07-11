@@ -1,6 +1,6 @@
 import { changeUserContainer, loadFlmBookmark } from "./function.js";
-const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/login.html'
-// const pathnameLoginPage = '/ASM/login.html'
+import { pathnameLoginPage, pathNameUserPage } from "./constants.js";
+
 const userContainer = document.querySelector(".usercontainer");
 const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
@@ -53,6 +53,8 @@ btnPrevious.addEventListener('click', () => {
     filmBookmarkContainer.scrollLeft -= 195;
 })
 
+btnLogoutMobile.addEventListener("click", logout);
+
 function logout() {
     console.log('logout successfully!');
     localStorage.setItem("indexCurrentUser", -1);
@@ -84,3 +86,6 @@ function notify(container) {
     containerAlert.appendChild(img);
     container.appendChild(containerAlert);
 }
+userMobileContainer.addEventListener("click", () => {
+    location.pathname = pathNameUserPage;
+})

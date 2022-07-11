@@ -1,5 +1,6 @@
 import { filmsTrend } from "./data.js";
 import { loadFilm, loadFilmCategory, setCategory, changeUserContainer } from "./function.js";
+import { pathNameUserPage } from "./constants.js";
 const container = document.getElementById('filmCategoryContainer');
 const trendContainer = document.getElementById('filmTrendCategory');
 const category = sessionStorage.getItem('category');
@@ -36,7 +37,8 @@ changeUserContainer(userContainer, userMobileContainer, indexUser);
 
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;
-})
+});
+
 if (indexUser != -1) {
     btnLogout = document.getElementById("btnLogout");
     btnLogout.addEventListener("click", logout);

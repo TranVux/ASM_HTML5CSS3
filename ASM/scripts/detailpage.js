@@ -1,6 +1,6 @@
-import { setCategory } from "./function.js";
 import { filmsInMain, filmsTrend, showTimes, topComment, topView } from "./data.js";
-import { loadTopComment, loadTopView, loadFilmDetail, setOnClickForFilmTopCmt, setOnClickForFilmTopView, loadFilmCategory, changeUserContainer } from "./function.js";
+import { loadTopComment, loadTopView, loadFilmDetail, setOnClickForFilmTopCmt, setOnClickForFilmTopView, loadFilmCategory, changeUserContainer, setCategory } from "./function.js";
+import { pathNameUserPage } from "./constants.js";
 const asideContainer = document.getElementById('aside');
 const detailFilm = document.getElementById('articleDetailFilm');
 const relativeFilm = document.getElementById('titleRelatedFilms');

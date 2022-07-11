@@ -1,7 +1,7 @@
 const btnLogin = document.querySelector("#btnLogin");
 const warning = document.querySelector(".warning");
-const pathnameIndexPage = '/ASM_HTML5CSS3/ASM/index.html'
-// const pathnameIndexPage = '/ASM/index.html'
+// const pathnameIndexPage = '/ASM_HTML5CSS3/ASM/index.html'
+const pathnameIndexPage = '/ASM/index.html'
 var indexUser;
 var loginSuccess = false;
 var listUser = localStorage.getItem("listUser");

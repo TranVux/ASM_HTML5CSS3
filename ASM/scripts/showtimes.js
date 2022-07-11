@@ -1,4 +1,5 @@
 import { loadFilmShowTime, setCategory, setOnClickForFilmShowTime, changeUserContainer } from "./function.js";
+import { pathNameUserPage } from "./constants.js";
 const arrItemCategory = document.querySelectorAll(".item-category");
 const arrContainer = document.querySelectorAll(".film-category-container");
 
@@ -18,7 +19,8 @@ changeUserContainer(userContainer, userMobileContainer, indexUser);
 
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;
-})
+});
+
 if (indexUser != -1) {
     btnLogout = document.getElementById("btnLogout");
     btnLogout.addEventListener("click", logout);
