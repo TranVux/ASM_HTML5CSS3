@@ -29,8 +29,7 @@ html {
 }
 
 .btn:hover {
-    opacity: 0.7;
-    border: solid #244b69 3px;
+    outline-color: #244b69;
     background-color: #1a374d6c;
 }
 

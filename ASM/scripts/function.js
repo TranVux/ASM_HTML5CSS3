@@ -162,7 +162,7 @@ export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmNa
                     <p class="article-dec">${desc}</p>
                     <button class="trailer"><a target="_blank" rel="noopener noreferre"
                             href="${urlVideo}">Xem trailer</a></button>
-                    <button class="choice-epsoide">Xem Phim</button>
+                    <button class="choice-epsoide">Xem phim</button>
                 </div>
             </div>
             <div class="comment-field">

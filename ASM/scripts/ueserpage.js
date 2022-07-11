@@ -1,6 +1,6 @@
 import { changeUserContainer, loadFlmBookmark } from "./function.js";
 const pathnameLoginPage = '/ASM_HTML5CSS3/ASM/login.html'
-// const pathnameIndexPage = '/ASM/login.html'
+// const pathnameLoginPage = '/ASM/login.html'
 const userContainer = document.querySelector(".usercontainer");
 const filmBookmarkContainer = document.getElementById("filmBookmarkContainer");
 const email = document.getElementById("email");
@@ -11,7 +11,9 @@ var btnLogTowWayInfo = document.getElementById("btnLogTowWayInfo");
 var btnLogout;
 
 changeUserContainer(userContainer, indexUser);
+
 if (indexUser != -1) {
+    loadFlmBookmark(filmBookmarkContainer);
     setInfo();
     btnLogout = document.getElementById("btnLogout");
     btnLogTowWayInfo.innerText = "Đăng Xuất";
@@ -19,10 +21,10 @@ if (indexUser != -1) {
     btnLogout.addEventListener("click", logout);
 } else {
     btnLogTowWayInfo.innerText = "Đăng nhập";
-    btnLogTowWayInfo.addEventListener("click", handleGoToLoginPage)
+    btnLogTowWayInfo.addEventListener("click", handleGoToLoginPage);
+    notify(filmBookmarkContainer);
 }
 
-loadFlmBookmark(filmBookmarkContainer);
 
 function setInfo() {
     fullname.value = JSON.parse(listUser)[indexUser].lastName + " " + JSON.parse(listUser)[indexUser].firstName;
@@ -33,6 +35,11 @@ function setInfo() {
 
 var btnNext = document.getElementById("btnNext");
 var btnPrevious = document.getElementById("btnPrevious");
+
+if (filmBookmarkContainer.childElementCount <= 3) {
+    btnNext.style.display = 'none';
+    btnPrevious.style.display = 'none';
+}
 
 btnNext.addEventListener('click', () => {
     filmBookmarkContainer.scrollLeft += 195;
@@ -51,8 +58,24 @@ function logout() {
     btnLogTowWayInfo.addEventListener("click", handleGoToLoginPage);
     fullname.value = '';
     email.value = '';
+    filmBookmarkContainer.innerHTML = '';
+    notify(filmBookmarkContainer);
 }
 
 function handleGoToLoginPage() {
     location.pathname = pathnameLoginPage;
+}
+
+function notify(container) {
+    const img = document.createElement('img');
+    const text = document.createElement('p');
+    const containerAlert = document.createElement('div');
+    containerAlert.className = 'alert-container';
+    text.innerText = 'Đăng nhập để thì sẽ xuất hiện những phim đã lưu nha!'
+    text.classList = 'empty-text';
+    img.src = 'assets/images/cartoon-owls-sad.png';
+    img.classList = 'empty-img';
+    containerAlert.appendChild(text);
+    containerAlert.appendChild(img);
+    container.appendChild(containerAlert);
 }

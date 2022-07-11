@@ -1,6 +1,6 @@
 @media only screen and (max-width: 34.9375em) {
     .film-category-container {
-        --amountOfCol: 2;
+        --amountOfCol: 3;
     }
 }
 
@@ -67,17 +67,34 @@
     }
 
     .footer-logo {
-        margin-bottom: 130px;
+        margin: 50px auto 130px auto;
+        justify-content: center;
+    }
+
+    .img {
+        margin-right: 0;
     }
 
     .title-box {
         margin-top: 10px;
+        width: fit-content;
+        text-align: center;
     }
 
     .title1 {
         width: 300px;
     }
 
+    .title2 {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .cooparation {
+        margin: 25px auto 10px auto;
+        text-align: center;
+    }
 
     .film-top1-container {
         display: none;
@@ -127,6 +144,23 @@
     .dec button {
         margin-bottom: 20px;
     }
+
+    .film-category-container {
+        --amountOfCol: 2;
+    }
+
+    /* for user page */
+    .section-userpage {
+        flex-direction: column;
+    }
+
+    .bookmark-container, .info-container {
+        width: 100%;
+    }
+
+    .next, .previous {
+        top: 73%;
+    }
 }
 
 /* Table width>=740px and width < 1024px */
@@ -146,12 +180,39 @@
     .header-mobile {
         display: none;
     }
-
 }
 
 /* Pc width >= 1024px */
 @media only screen and (min-width: 64em) {
     .header-mobile {
         display: none;
+    }
+}
+
+/* Responsive for userpage */
+@media only screen and (max-width: 63.9375em) {
+    .info-user>span {
+        margin-bottom: 10px;
+    }
+
+    .info-user>input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .info-container, .bookmark-container {
+        padding-top: 20px;
+    }
+
+}
+
+/* userpage for tablet */
+@media only screen and (max-width: 63.9375em) and (min-width: 25.876em) {
+    .next, .previous {
+        top: 35%;
+    }
+
+    .info-user {
+        padding: 35px 10px 34px 10px;
     }
 }
