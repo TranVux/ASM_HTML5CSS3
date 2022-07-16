@@ -88,7 +88,7 @@
     .title2 {
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        margin: 10px 0;
     }
 
     .cooparation {
@@ -279,6 +279,16 @@
     }
 }
 
+@media only screen and (max-width: 64em) {
+    .subcribe {
+        display: none;
+    }
+
+    .footer-leftright {
+        justify-content: space-around;
+    }
+}
+
 /* Responsive for userpage */
 @media only screen and (max-width: 63.9375em) {
     .info-user>span {
@@ -310,3 +320,5 @@
         padding: 35px 10px 34px 10px;
     }
 }
+
+/* subcribe container */
