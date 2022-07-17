@@ -1,5 +1,5 @@
 import { filmsInMain, showTimes, topComment, topView } from "./data.js";
-import { pathNameDetailPage } from "./constants.js";
+import { pathNameDetailPage, pathNameWatchPage } from "./constants.js";
 
 export function loadTopView(container) {
     container.innerHTML += `
@@ -129,7 +129,11 @@ export function setOnClickForFilmTopView() {
     });
 }
 
-export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmName, subTitle, urlVideo, desc, bookmark, episode, backgroundImg, type }) {
+export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmName, subTitle, urlVideo, desc, bookmark, episode, backgroundImg, type, slugs }) {
+    if (localStorage.currentSlug != null) {
+        localStorage.setItem("currentSlug", slugs[0]);
+        console.log(slugs);
+    }
     var filmElement = document.createElement('div');
     var temp = `
         <div class="film-detail">
@@ -160,7 +164,7 @@ export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmNa
                     <p class="article-dec">${desc}</p>
                     <button class="trailer"><a target="_blank" rel="noopener noreferre"
                             href="${urlVideo}">Xem trailer</a></button>
-                    <button class="choice-epsoide">Xem phim</button>
+                    <button class="choice-epsoide" id="watchFilm">Xem phim</button>
                 </div>
             </div>
             <div class="comment-field">
@@ -174,6 +178,74 @@ export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmNa
     mainContainer.insertBefore(filmElement, beforeElement);
 }
 
+export function loadFilmWatchDetail(mainContainer, beforeElement, { filmName, bookmark, episode, type, slugs }) {
+    if (localStorage.currentSlug == null) {
+        localStorage.setItem("currentSlug", slugs[0]);
+    }
+    var filmElement = document.createElement('div');
+    var temp = `
+        <div class="film-detail">
+            <div class="film-title-pr">
+                <div class="film-detail-bookmark">
+                    <i class="${bookmark ? 'fas' : 'far'} fa-bookmark bookmark-icon-detail"></i>
+                </div>
+                <div class="title-pr">
+                    <div class="name-film-pr">
+                        ${filmName}
+                    </div>
+                    <div class="film-category__epsoide">
+                        <p class="film-epsoide-pr">${episode}</p>
+                        <div class="film-category-pr">${type}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="choice_episode_field">
+                <div class="choice_episode-title">Chọn tập: </div>
+                <div id="episode-container">
+                </div>
+            </div>
+            <div class="comment-field">
+                <div class="fb-comments"
+                    data-href="https://tranvux.github.io/AVFilm-demo/film-detail.html" data-width="770"
+                    data-numposts="10">
+                </div>
+            </div>
+        </div>
+    `;
+    filmElement.innerHTML += temp;
+    mainContainer.insertBefore(filmElement, beforeElement);
+    // here is fill amount of episodes into the container
+    let episodeContainer = document.querySelector("#episode-container");
+    slugs.map((slug, index) => {
+        episodeContainer.innerHTML += `<div class="a-episode" data-slug="${slug}">${index + 1}</div>`
+    });
+    // here set the event onClick for an episode container
+    let episodeArr = document.querySelectorAll(".a-episode");
+    if (episodeArr != null) {
+        episodeArr.forEach(episode => {
+            episode.addEventListener("click", () => {
+                setCurrentSlugVideo(episode.getAttribute("data-slug"));
+            });
+        })
+    }
+}
+
+function setCurrentSlugVideo(slug) {
+    localStorage.setItem("currentSlug", slug);
+    location.pathname = pathNameWatchPage;
+}
+
+export function loadVideoFilm(container, currentSlug) {
+    if (currentSlug === undefined) {
+        var temp = `Hiện website chưa cập nhật bộ phim này. Xin lỗi bạn vì sự bất tiện`;
+        container.innerHTML += temp;
+    } else {
+        container.innerHTML = `
+        <iframe width="1080" height="607.5" src="https://short.ink/${currentSlug}" frameborder="0" scrolling="0"
+        allowfullscreen></iframe>
+        `;
+    }
+}
 export function loadFilm(container, listFilm, typeOfData, className) {
     listFilm.map((film) => {
         var temp = `

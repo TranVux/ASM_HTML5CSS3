@@ -1,54 +1,56 @@
-import { filmsInMain, filmsTrend, showTimes, topComment, topView } from "./data.js";
-import { loadTopComment, loadTopView, loadFilmDetail, setOnClickForFilmTopCmt, setOnClickForFilmTopView, loadFilmCategory, changeUserContainer, setCategory } from "./function.js";
-import { pathNameUserPage, pathNameWatchPage } from "./constants.js";
+import { filmsInMain, topComment, topView, filmsTrend, showTimes } from "./data.js";
+import { loadTopView, setOnClickForFilmTopView, changeUserContainer, setCategory, loadFilmWatchDetail, loadVideoFilm } from "./function.js";
+import { pathNameUserPage } from "./constants.js";
 const asideContainer = document.getElementById('aside');
 const detailFilm = document.getElementById('articleDetailFilm');
 const relativeFilm = document.getElementById('titleRelatedFilms');
 const indexFilm = sessionStorage.getItem('indexFilm');
-const typeOfData = sessionStorage.getItem('typeOfData');
 
 const userContainer = document.querySelector(".usercontainer");
 const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
-var watchBtn;
+const videoFilmContainer = document.querySelector(".video-film-container");
+const typeOfData = sessionStorage.getItem('typeOfData');
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 
 changeUserContainer(userContainer, userMobileContainer, indexUser);
-
-
-loadTopView(asideContainer);
-loadTopComment(asideContainer);
-setOnClickForFilmTopCmt();
-setOnClickForFilmTopView();
-const arrItemCategory = document.querySelectorAll(".item-category");
-setCategory(arrItemCategory);
 switch (typeOfData) {
     case 'detail':
-        loadFilmDetail(detailFilm, relativeFilm, filmsInMain[indexFilm]);
+        loadFilmWatchDetail(detailFilm, relativeFilm, filmsInMain[indexFilm]);
         break;
     case 'topView':
-        loadFilmDetail(detailFilm, relativeFilm, topView[indexFilm]);
+        loadFilmWatchDetail(detailFilm, relativeFilm, topView[indexFilm]);
         break;
     case 'topCmt':
-        loadFilmDetail(detailFilm, relativeFilm, topComment[indexFilm]);
+        loadFilmWatchDetail(detailFilm, relativeFilm, topComment[indexFilm]);
         break;
     case 'trend':
-        loadFilmDetail(detailFilm, relativeFilm, filmsTrend[indexFilm]);
+        loadFilmWatchDetail(detailFilm, relativeFilm, filmsTrend[indexFilm]);
         break;
     case 'showtime':
-        loadFilmDetail(detailFilm, relativeFilm, showTimes[indexFilm]);
+        loadFilmWatchDetail(detailFilm, relativeFilm, showTimes[indexFilm]);
         break;
     default:
         throw new Error('Invalid type of list');
 }
+loadVideoFilm(videoFilmContainer, localStorage.currentSlug);
+// here set background of current episode
+var arrEpisode = document.querySelectorAll(".a-episode");
+arrEpisode.forEach(episode => {
+    if (episode.getAttribute("data-slug") == localStorage.currentSlug) {
+        episode.classList.add("current-episode");
+        return;
+    }
+});
+
+loadTopView(asideContainer);
+setOnClickForFilmTopView();
+const arrItemCategory = document.querySelectorAll(".item-category");
+setCategory(arrItemCategory);
 
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;
-});
-watchBtn = document.querySelector("#watchFilm");
-watchBtn.addEventListener("click", () => {
-    location.pathname = pathNameWatchPage;
 });
 if (indexUser != -1) {
     btnLogout = document.getElementById("btnLogout");
@@ -62,4 +64,3 @@ function logout() {
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
-
