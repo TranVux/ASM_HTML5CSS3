@@ -252,8 +252,20 @@
         top: 90px;
     }
 
-    .choice_episode-title {
-        font-size: 17px;
+
+    .choice_episode_field {
+        flex-direction: column;
+        margin: 15px 0 15px 25px;
+    }
+
+    #episode-container {
+        align-self: flex-start;
+        margin-top: 10px;
+        width: fit-content;
+    }
+
+    .a-episode {
+        width: 50px;
     }
 }
 
@@ -301,9 +313,8 @@
     }
 
     .choice_episode-title {
-        width: 102px;
+        font-size: 17px;
     }
-
 }
 
 /* Responsive for userpage */

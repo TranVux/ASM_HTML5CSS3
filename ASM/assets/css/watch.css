@@ -95,8 +95,7 @@ iframe {
 }
 
 .choice_episode-title {
-    width: 13%;
-    height: fit-content;
+    width: fit-content;
     font-weight: 500;
     font-size: 20px;
     margin-right: 20px;
@@ -106,9 +105,10 @@ iframe {
 #episode-container {
     display: grid;
     /* grid-template-columns: repeat(8, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     gap: 8px;
-    width: 88%;
+    max-width: 88%;
+    width: fit-content;
 }
 
 .a-episode {
