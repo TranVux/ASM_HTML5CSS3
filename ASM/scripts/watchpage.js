@@ -1,5 +1,5 @@
 import { filmsInMain, topComment, topView, filmsTrend, showTimes } from "./data.js";
-import { loadTopView, setOnClickForFilmTopView, changeUserContainer, setCategory, loadFilmWatchDetail, loadVideoFilm } from "./function.js";
+import { loadTopView, setOnClickForFilmTopView, changeUserContainer, setCategory, loadFilmWatchDetail, loadVideoFilm, setCurrentSlugVideo } from "./function.js";
 import { pathNameUserPage } from "./constants.js";
 const asideContainer = document.getElementById('aside');
 const detailFilm = document.getElementById('articleDetailFilm');
@@ -11,8 +11,13 @@ const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
 const videoFilmContainer = document.querySelector(".video-film-container");
 const typeOfData = sessionStorage.getItem('typeOfData');
-console.log(window.screen.width);
+const btnNext = document.querySelector("#btnNext");
+const btnPrevious = document.querySelector("#btnPrevious");
+const btnToggleLight = document.querySelector("#btnToggleLight");
+const mark = document.querySelector(".mark");
 const deviantSize = window.screen.width * 1 - 1080;
+
+var currentEpisodeIndex;
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 changeUserContainer(userContainer, userMobileContainer, indexUser);
@@ -38,12 +43,37 @@ switch (typeOfData) {
 loadVideoFilm(videoFilmContainer, localStorage.currentSlug);
 // here set background of current episode
 var arrEpisode = document.querySelectorAll(".a-episode");
-arrEpisode.forEach(episode => {
+arrEpisode.forEach((episode, index) => {
     if (episode.getAttribute("data-slug") == localStorage.currentSlug) {
         episode.classList.add("current-episode");
+        currentEpisodeIndex = index;
         return;
     }
 });
+
+btnNext.addEventListener("click", () => {
+    console.log(currentEpisodeIndex);
+    console.log(arrEpisode.length);
+    if (currentEpisodeIndex >= arrEpisode.length - 1) return;
+    setCurrentSlugVideo(arrEpisode[currentEpisodeIndex + 1].getAttribute("data-slug"));
+})
+btnPrevious.addEventListener("click", () => {
+    console.log(currentEpisodeIndex);
+    console.log(arrEpisode.length);
+    if (currentEpisodeIndex == 0) return;
+    setCurrentSlugVideo(arrEpisode[currentEpisodeIndex - 1].getAttribute("data-slug"));
+})
+
+btnToggleLight.addEventListener("click", () => {
+    console.log(mark);
+    mark.classList.toggle("turn_on");
+    if (mark.classList.contains("turn_on")) {
+        btnToggleLight.innerHTML = `<i class="fas fa-lightbulb" style="color: white;"></i> Turn on`
+
+    } else {
+        btnToggleLight.innerHTML = `<i class="fas fa-lightbulb" style="color: #E8AA42;"></i> Turn off`
+    }
+})
 
 loadTopView(asideContainer);
 setOnClickForFilmTopView();
@@ -53,6 +83,8 @@ setCategory(arrItemCategory);
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;
 });
+
+
 if (indexUser != -1) {
     btnLogout = document.getElementById("btnLogout");
     btnLogout.addEventListener("click", logout);
@@ -65,6 +97,8 @@ function logout() {
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
+
+
 resizeWatchContaner();
 window.onresize = () => {
     resizeWatchContaner();

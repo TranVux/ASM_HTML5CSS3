@@ -230,7 +230,7 @@ export function loadFilmWatchDetail(mainContainer, beforeElement, { filmName, bo
     }
 }
 
-function setCurrentSlugVideo(slug) {
+export function setCurrentSlugVideo(slug) {
     localStorage.setItem("currentSlug", slug);
     location.pathname = pathNameWatchPage;
 }
