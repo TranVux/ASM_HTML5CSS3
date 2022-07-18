@@ -140,7 +140,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: ["Pnq_X-rbo", "Paq_X-rbO", "CHA80_zRe", "CHA80_zRe", "UPzimYESu", "UPzimYESu", "YQ5yu_dNq", "YQ5yu_dNq"]
+        slugs: ["Pnq_X-rbO", "CHA80_zRe", "UPzimYESu", "YQ5yu_dNq"]
     },
     {
         filmName: 'Saiyuuki Reload: Zeroin',
@@ -964,7 +964,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: ["Pnq_X-rbO", "CHA80_zRe", "UPzimYESu", "YQ5yu_dNq",]
+        slugs: ["Pnq_X-rbO", "CHA80_zRe", "UPzimYESu", "YQ5yu_dNq"]
     },
     {
         filmName: 'Thanh Gươm Diệt Quỷ',
