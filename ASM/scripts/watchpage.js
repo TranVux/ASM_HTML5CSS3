@@ -5,15 +5,16 @@ const asideContainer = document.getElementById('aside');
 const detailFilm = document.getElementById('articleDetailFilm');
 const relativeFilm = document.getElementById('titleRelatedFilms');
 const indexFilm = sessionStorage.getItem('indexFilm');
-
+const watchContainer = document.querySelector("#watchContainer");
 const userContainer = document.querySelector(".usercontainer");
 const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
 const videoFilmContainer = document.querySelector(".video-film-container");
 const typeOfData = sessionStorage.getItem('typeOfData');
+console.log(window.screen.width);
+const deviantSize = window.screen.width * 1 - 1080;
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
-
 changeUserContainer(userContainer, userMobileContainer, indexUser);
 switch (typeOfData) {
     case 'detail':
@@ -63,4 +64,17 @@ function logout() {
     localStorage.setItem("indexCurrentUser", -1);
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
+}
+resizeWatchContaner();
+window.onresize = () => {
+    resizeWatchContaner();
+}
+
+function resizeWatchContaner() {
+    if (window.innerWidth <= 1080) {
+        console.log(true);
+        watchContainer.setAttribute("style", `--widthOfVideo: ${window.innerWidth - 5}px`);
+    } else {
+        watchContainer.setAttribute("style", `--widthOfVideo: 1080px`)
+    }
 }

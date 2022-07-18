@@ -169,7 +169,7 @@ export function loadFilmDetail(mainContainer, beforeElement, { thumbnail, filmNa
             </div>
             <div class="comment-field">
                 <div class="fb-comments" data-href="https://tranvux.github.io/AVFilm-demo/film-detail.html"
-                    data-width="770" data-numposts="10">
+                    data-width="100%" data-numposts="10">
                 </div>
             </div>
         </div>
@@ -206,7 +206,7 @@ export function loadFilmWatchDetail(mainContainer, beforeElement, { filmName, bo
             </div>
             <div class="comment-field">
                 <div class="fb-comments"
-                    data-href="https://tranvux.github.io/AVFilm-demo/film-detail.html" data-width="770"
+                    data-href="https://tranvux.github.io/AVFilm-demo/film-detail.html" data-width="100%"
                     data-numposts="10">
                 </div>
             </div>

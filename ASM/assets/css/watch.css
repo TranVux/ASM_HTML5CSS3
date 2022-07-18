@@ -13,8 +13,10 @@ section {
 }
 
 .watch-container {
+    --heightOfVideo: calc(var(--widthOfVideo) * 9 / 16);
     max-width: 1080px;
-    height: 608px;
+    width: var(--widthOfVideo);
+    height: var(--heightOfVideo);
     margin: 0 auto;
     padding: 10px 0;
 }
@@ -30,6 +32,8 @@ section {
 iframe {
     display: block;
     border-radius: 5px;
+    width: 100%;
+    height: 100%;
 }
 
 .play_icon {
@@ -101,10 +105,10 @@ iframe {
 
 #episode-container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
+    /* grid-template-columns: repeat(8, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 8px;
     width: 88%;
-    width: fit-content;
 }
 
 .a-episode {
@@ -166,7 +170,7 @@ iframe {
     height: 50%;
     background-size: 200%;
     background-repeat: no-repeat;
-    background-image: url('https://o.remove.bg/downloads/7f003577-35ee-4638-8966-dc59548e9601/image-removebg-preview.png');
+    background-image: url('/ASM/assets/images/image-removebg-preview.png');
 }
 
 
@@ -219,6 +223,7 @@ iframe {
 .box {
     display: flex;
     height: 100%;
+    width: 100%;
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;

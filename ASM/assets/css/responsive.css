@@ -1,3 +1,4 @@
+/* size of box chat */
 @media only screen and (max-width: 34.9375em) {
     .film-category-container {
         --amountOfCol: 3;
@@ -251,6 +252,9 @@
         top: 90px;
     }
 
+    .choice_episode-title {
+        font-size: 17px;
+    }
 }
 
 /* Table width>=740px and width < 1024px */
@@ -287,6 +291,19 @@
     .footer-leftright {
         justify-content: space-around;
     }
+
+    .week-present {
+        left: 15px;
+    }
+
+    .week-future {
+        right: 15px;
+    }
+
+    .choice_episode-title {
+        width: 102px;
+    }
+
 }
 
 /* Responsive for userpage */
@@ -322,3 +339,13 @@
 }
 
 /* subcribe container */
+
+@media only screen and (max-width: 43em) {
+    .showtime {
+        display: none;
+    }
+
+    .aside#aside {
+        margin-top: 0;
+    }
+}

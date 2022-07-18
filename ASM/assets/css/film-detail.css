@@ -136,6 +136,7 @@
     line-height: 20px;
     height: 150px;
     overflow: auto;
+    padding-right: 5px;
 }
 
 .name-film-dec {
