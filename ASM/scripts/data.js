@@ -1140,7 +1140,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["Tv41IWZm4A", "wbjdfrCCU", "Z8C2IRYh8", "vpF-A1PaeO", "exfwaB1gR", "lCVgvVzYZ", "ktl7fR8hK", "AvpfG4lKW", "z4ecSanKD", "OgXHqtKD5", "dA2uD76DD", "73OLLZpCg"]
     },
     {
         filmName: 'Thiếu Niên Ca Hành 2',
