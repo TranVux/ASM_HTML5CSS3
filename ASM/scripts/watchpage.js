@@ -27,6 +27,7 @@ switch (typeOfData) {
         break;
     case 'topView':
         loadFilmWatchDetail(detailFilm, relativeFilm, topView[indexFilm]);
+        console.log('top view');
         break;
     case 'topCmt':
         loadFilmWatchDetail(detailFilm, relativeFilm, topComment[indexFilm]);

@@ -1,5 +1,31 @@
 export const filmsInMain = [
     {
+        filmName: 'Tamako Market',
+        subTitle: 'Tamako Market',
+        thumbnail: 'assets/images/img-film/top film/tamakomarket.jpg',
+        backgroundImg: 'https://images2.alphacoders.com/701/701413.png',
+        view: 12000,
+        episode: '12/12',
+        urlVideo: '',
+        desc: 'Tamako là học sinh cấp ba năm nhất, gia đình làm mochi(bánh gạo). Bộ phim xoay quanh câu chuyện trường lớp và làm việc của cô tại cửa hàng bánh của gia đình.',
+        bookmark: true,
+        type: 'Anime, Đời thường, Lạng mãn',
+        slugs: ["sZAE7Xugm", "-bKQFF0fD", "ppeH_ry7j", "JbmgOfekm", "lRw85zME0", "WtTSqkYpY", "ZKFuiDhDR", "uYMrudMv8", "DHB4m-dcd", "drR73Ozg4", "IU3b2JpH_", "ZGykO1Xmm"]
+    },
+    {
+        filmName: 'Tamako Love Story',
+        subTitle: 'Tamako Love Story',
+        thumbnail: 'assets/images/img-film/top film/tamakolovestory.jpg',
+        backgroundImg: 'https://pic-bstarstatic.akamaized.net/ugc/081ccd56b436029508f4c315b372511bdc139fe6.png',
+        view: 30000,
+        episode: '01/01',
+        urlVideo: '',
+        desc: 'Câu chuyện tình yêu của Tamako',
+        bookmark: true,
+        type: 'Anime, Đời thường, Lạng mãn',
+        slugs: ["JyQbD4yfB"]
+    },
+    {
         filmName: 'Thanh Gươm Diệt Quỷ',
         subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
         thumbnail: 'assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp',
@@ -75,7 +101,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["miPhf8v8B", "anKXetNy9", "_JYgRvoiy"]
     },
     {
         filmName: 'Karakai Jouzu No Takagi-San 3',
@@ -101,7 +127,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["84_wasI7F", "D90azPQIH", "uOQTqAbmB", "eqQiilsv6", "SnZ2My5Dm", "594ewvh9U", "UJ5XWztkb", "yIJLoS0Vv", "-QnZ7q0mb", "gm_foIUD2Z", "27GF9aqFo", "v6h8f1S2t"]
     },
     {
         filmName: 'Nghịch Thiên Chí Tôn',
@@ -176,10 +202,10 @@ export const filmsInMain = [
         view: 30000,
         episode: '04/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: "Khi Hiyori⁠ - một cô gái trẻ có người cha quá cố đã dạy cho cô niềm vui của việc câu cá - - ra khơi một thời gian một mình, cô chưa bao giờ nghĩ rằng mình sẽ gặp một cô gái khác ở đó.Sau một thời gian, cô gái này⁠ tên là Koharu⁠ và cô ấy kết thúc câu cá và nấu ăn cùng nhau, và họ đã tìm hiểu nhau một chút trong thời gian đó. Trong khoảng thời gian ngắn ngủi bên nhau, Koharu phát hiện ra rằng lý do Hiyori đi ra biển vào ngày hôm đó là vì cô ấy do dự trong việc gặp gỡ gia đình mới của mình vào tối hôm đó. Nhưng thật là trùng hợp! Koharu cũng sẽ gặp gia đình mới của cô ấy vào tối nay! 'Không.Không thể là ngẫu nhiên ...' Cùng nhau theo dõi hai 'chị em' này và cuộc sống mới của họ!",
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["JXRkTXL7F", "iN6wPW7giv", "Rplr6x5kQ", "oEESmywyw", "iplp3sV0F", "4EhEf_FGI", "TceEwd_TCM", "M9yBo5Q3H", "wsd1tcM8c", "R_oc1T4cL", "dsu5UEAPD", "HxsKVU2YPg"]
     },
     {
         filmName: 'Thiếu Niên Ca Hành 2',
@@ -192,7 +218,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["MaRiHIADa", "Vnb-RON0Uy", "yh-bH0Em7G", "P08zsp7Ch", "EePzF_k9g", "Nsaagg79e", "QMMTjSDcb"]
     },
     {
         filmName: 'Yêu Thần Ký',
@@ -202,10 +228,10 @@ export const filmsInMain = [
         view: 46000,
         episode: '201/???',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Không phải là quốc gia có những bộ phim hoạt hình xuất sắc nhất của điện ảnh châu Á nhưng chắc chắn trung quốc đang ngày càng cho thấy sự phát triển rất mạnh mẽ về thể loại này khi ngày càng có nhiều những tác phẩm chất lượng cả về nội dung lẫn đồ họa, trong đó những tựa phim cổ trang, kiếm hiệp được xây dựng công phu cùng những nhân vật “đẹp như mơ” thì khó có nước nào theo kịp mà Yêu Thần Ký là một ví dụ. Phát hành vào năm 2017, phim được làm dựa trên một cuốn truyện rất nổi tiếng cùng tên của tác giả Đạp Tuyết Động Mạn, mặc cho việc lên sóng chậm cùng thời lượng siêu ngắn nhưng Yao Shen Ji vẫn đủ sức làm điên đảo nhiều khán giả mê hoạt hình Việt Nam',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["2EIYiLp9I", "j19H0noAo", "QSnq3LQzD", "vruasAPKP", "ptyMmsUsl", "YchFRPfXQ", "GXa34Tm-n", "efmPzEcZ6", "B_gsec-L2", "ISwKMDR1h"]
     },
     {
         filmName: 'Đấu Phá Thương Khung OVA',
@@ -228,10 +254,10 @@ export const filmsInMain = [
         view: 28000,
         episode: '16/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Rốt cuộc thì Sơn Hải Kinh kể về cái gì? Nhà ẩm thực Ăn Không Uổng quay về thời kỳ của Sơn Hải Kinh thám hiểm những ngọn núi vùng biển mà Sơn Hải Kinh nhắc đến, vậy mà phát hiện ra mọi thứ lại thú vị đến vậy! Hoá ra Trung Quốc đã có người cá từ lâu nhưng căn bản không phải là chị gái xinh đẹp.',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["ddSLPjemM", "LpShV50Jx", "LmkcJQUsR", "CXv03kJxn", "vjPpzk7oA", "EncjD47uM"]
     },
     {
         filmName: 'Đấu La Đại Lục',
@@ -244,7 +270,7 @@ export const filmsInMain = [
         desc: 'Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhất tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. Vũ hồn có thể là cái cày, cái cuốc, liêm đao… thuộc khối công cụ, một đóa hoa cúc, một cành mai… thuộc thực vật hệ, đến các vũ hồn cường đại như Tuyết Ảnh Ma Hùng, Tật Phong Ma Lang….',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: ["EF6c22eqR", "6USJTAQ90"]
+        slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
     },
     {
         filmName: 'Phàm Nhân Tu Tiên',
@@ -254,10 +280,10 @@ export const filmsInMain = [
         view: 36000,
         episode: '34/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Phàm Nhân Tu Tiên - Phong Khởi Thiên Nam. Nhân vật chính của truyện, Hàn Lập sinh ra trong một gia đình nông dân nghèo, có thúc thúc là nhân viên ngoại đường của một bang phái trung lưu. Bang phái tranh chấp nên đốc rút tuyển mộ đệ tử. Hàn Lập do tư chất thấp kém, trong vài đệ tử được tuyển thì hắn chỉ vào hạng vớt vát, hay còn gọi là kí danh đệ tử. Sau đó cùng một đệ tử khác nhập vào môn đồ của một thầy thuốc của bang phái. Sư phụ này của Hàn lập tuy là một gã võ công xuất chúng chứ không phải tu tiên giả nhưng biết được công pháp tu tiên và công pháp đoạt xá (đoạt lấy thân thể của người tu tiên, người nào có linh căn thì mới có thể tu tiên).',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["QTwrKeLB6", "aB6FxOMD3", "X62GxS-Aj", "DYJDmCSP_", "PMNM4WSUF", "_u_NYJ3PH", "WSaam0Clc", "rzRWBn2f0"]
     },
     {
         filmName: 'Vạn Giới Tiên Tung',
@@ -267,10 +293,10 @@ export const filmsInMain = [
         view: 37000,
         episode: '240/???',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Sau thành công của Yêu Thần Ký, nhà sản xuất phim đến từ trung quốc tiếp tục cho ra mắt những dự án mới hứa hẹn sẽ tiếp tục “làm mưa làm gió” tại nhiều quốc gia trong khu vực, trong đó có Việt Nam mà bằng chứng chính là bộ phim Vạn Giới Tiên Tung vốn được chuyển thể từ bộ manhua cùng tên của tác giả Đạp Tuyết Động Mạn. Phiên bản truyện tranh hiện tại đang vietsub đến chương 29 và nó cũng nhận được nhiều sự ủng hộ đến từ người đọc, đó cũng là bước đệm quan trọng để người xem đón nhận phiên bản hoạt hình với sự đầu tư công phu về kỹ thuật hình ảnh, âm thanh cũng như đồ họa 3D.',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["bTcwJ1kqH", "ZtcUISyZD", "ZsoTAxtFo", "XjBYTMfp8", "Ort0oD9vQ", "Pc5y0KulY", "-678CF_Ne"]
     },
     {
         filmName: 'Võ Thần Chúa Tể',
@@ -280,10 +306,10 @@ export const filmsInMain = [
         view: 59000,
         episode: '200/???',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Thiên Vũ đại lục nhất đại truyền kỳ Tần Trần, bởi vì bạn tốt phản bội bất ngờ ngã xuống Võ vực. 300 năm sau, hắn chuyển sinh ở một cái nhận hết ức hiếp vương phủ con riêng trên người, lợi dụng kiếp trước trình độ, ngưng thần công, luyện thần đan, đi ngược lên trời, quật khởi mạnh mẽ, từ đây bước lên một đoạn khiếp sợ đại lục kinh thế lữ trình.',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["2rGgFEuMp", "qI8bFYakx", "QLtmP-Bxj", "e5VexX1V6", "IYRsIYMBp"]
     },
     {
         filmName: 'Tuyết Ưng Lĩnh Chủ Phần 3',
@@ -293,10 +319,10 @@ export const filmsInMain = [
         view: 19000,
         episode: '06/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Đông Bá Liệt bỏ trốn cùng Mặc Dương Du sinh ra hai đứa con trai: Đông Bá Tuyết Ưng, Đông Bá Thanh Thạch, một nhà ẩn cư nơi quận Thanh Hà, Tuyết Ưng lĩnh. Năm Tuyết Ưng tám tuổi, hành tàng bại lộ, cữu cữu Mặc Dương Sâm cầm dụ lệnh đến bắt vợ chồng Đông Bá Liệt, Mặc Dương Du giam cầm trong biên cảnh Mặc Dương gia tộc. Vì cứu cha mẹ ra, Tuyết Ưng khổ luyện thương pháp, làm quen Dư Tĩnh Thu, trở thành Lưu Tinh kỵ sĩ. Nhưng vì đệ đệ vô ý giết chết công tử nhà giàu, khiến sát thủ của Huyết Nhận tửu quán, cao thủ Hạng Bàng của Long Sơn bảng truy sát.',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["er9ajxA8d", "nXKrKFf35", "A6G4RR1mu", "O9Mueu-Yj", "m0sVMhvQU", "cUAZwlTAef"]
     },
     {
         filmName: 'Thôn Phệ Tinh Không',
@@ -306,10 +332,10 @@ export const filmsInMain = [
         view: 21000,
         episode: '32/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Một ngày nọ, virus RR không rõ nguồn gốc xuất hiện trên trái đất, và thế giới dính vào thảm họa. Những con vật bị nhiễm bệnh đột biến thành những con quái vật đáng sợ và xâm chiếm hàng loạt. Thử thách mà nhân loại đã trải qua trong thời kỳ này được gọi là "Thời kỳ Niết bàn." Trong môi trường sống khắc nghiệt, thể chất của con người đang dần hoàn thiện và phát triển, xu hướng võ thuật đang lên, thể chất của con người cũng được cải thiện về chất so với trước đây. Và những người giỏi nhất trong số họ được gọi là "Warriors".',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["ozNzjfAN1", "awCJyeHbd", "OnDqREkfV", "2FeXpzGs4", "oZuf7UQjX", "OswbwtelQ", "91PHcmPln-"]
     },
     {
         filmName: 'Koroshi Ai',
@@ -319,10 +345,10 @@ export const filmsInMain = [
         view: 8000,
         episode: '03/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Hai sát thủ đối đầu tại một "nơi làm việc". Thợ săn tiền thưởng lạnh lùng Chateau và Ryang-Ha bí ẩn và mạnh mẽ.Chateau và Ryang-Ha trở thành kẻ thù sau cuộc chiến này — ít nhất, họ nên có, nhưng vì một số lý do Ryang-Ha thích Chateau và bắt đầu theo dõi cô ấy xung quanh.Từng chút một, Chateau phát triển mối quan hệ hợp tác với Ryang-Ha, khiến cô bị cuốn vào cuộc đấu tranh chống lại các tổ chức đang săn lùng anh ta. Hơn nữa, trận chiến đó cũng liên quan đến quá khứ của cô ấy.Tại sao Ryang-Ha lại tiếp cận Chateau? Quá khứ bí mật của Chateau là gì? Hai sát thủ không khớp nhau tạo nên một bộ phim kinh dị "Sát thủ X sát thủ".Những bánh răng kỳ lạ của số phận bắt đầu chuyển động.',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["6gRiMtD1K", "ot3J9_O-7", "CXsDsNipK", "8QVnAb3yg", "SsJidkOUA", "WOEIUSH7x", "Mfj0kMtld", "yZSKN6u9V", "ctLqT8Hqs", "7mMXhdoc-", "6vGBHOZX5", "nLLAPOx_ T"]
     },
     {
         filmName: 'Pocket Monsters: Kami To Yobareshi Arceus',
@@ -335,7 +361,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["GB1Jf4QOc", "DUzfEjTWo", "AsxYDDavlS", "ZXDEElNGX"]
     },
     {
         filmName: 'Kena No Deshi Wo Nanoru Kenja',
@@ -348,7 +374,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["OS3_vmb6f", "LIKJTaiey_", "qoBFu0UVP", "UiPl15TZu", "aqUCISimp"]
     },
     {
         filmName: 'Sabikui Bisco',
@@ -358,10 +384,10 @@ export const filmsInMain = [
         view: 10000,
         episode: '03/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Thành Phố Đang Rỉ Sét - Sabikui Bisco lấy bối cảnh sau hầu tận thế tại Nhật Bản, khi một cơn gió như bệnh dịch đã thổi qua vùng đất cả khiến những người sống và đã chết trở nên rỉ sét, tất cả do một bào tử nấm gây ra. Bisco Akaboshi kẻ có biệt danh Nấm ăn thịt người và cũng là một tên tội phạm truy nã khét tiếng. Nhưng thực tế anh ta chỉ là người bảo vệ nấm để đem lại nguồn tài nguyên cho vùng đất trở lại như trước.',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["i7fPJ-4Sa", "jLAEayGng", "KfzDf59vqs", "luwNVO6FO", "6hlSypXkN", "-7nj2zDmZ", "xDNkxP5mQ", "Oo7iohU8L", "p_FeRLuga", "8a6Za0cgC", "UCGojRjqh", "zQKPXD6mb"]
     },
     {
         filmName: 'Sabiiro No Armor: Reimei',
@@ -371,10 +397,10 @@ export const filmsInMain = [
         view: 2200,
         episode: '03/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Thời đại là thời Chiến quốc đầy biến động ở Hinomoto. Kinokuni, vùng núi và biển chưa được khám phá. Ở sâu trong rừng sâu này, có một nhóm sử dụng "Yatagarasu" làm biểu tượng cờ của họ và sử dụng súng làm vũ khí. Tên của họ là "Saikashu". Đó là "Magoichi" đến từ một đất nước xa lạ, kế thừa cái tên là người đứng đầu Saikashu. Mặt khác, "Saburo" nhanh chóng cảm nhận được dấu hiệu xâm lược từ các cường quốc châu Âu và đấu tranh để bảo vệ Hinomoto.',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["CnNVzI5jv", "1CTNQsXs-", "497B1SiKG", "gvcFega90", "xTWwb4xRJ", "qC5aQdFql", "nGqELhxUa", "aTskjP_in", "gOZyVDbr6", "c3JetmN17", "SOciqXVDv2", "8uTeT8hcM"]
     },
     {
         filmName: 'Tabi Wa Ni',
@@ -384,10 +410,10 @@ export const filmsInMain = [
         view: 283,
         episode: '05/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Phim Tabi wa ni 2022 vietsub thuyet minh tron bo hd xoay quanh câu chuyện kể về Akari (một học sinh trung học trầm tính, người thừa hưởng tình yêu du lịch từ chị gái, người đã chăm sóc cô thay cho cha mẹ thường xuyên vắng nhà) và Nagi (bạn học vui vẻ của Akari, người sẵn sàng tham gia bất kỳ hoạt động nào, và trở thành quan tâm đến Akari do không khí bí ẩn của cô ấy), người đi du lịch khắp Nhật Bản.',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["qy2Vc8etj"]
     },
     {
         filmName: 'Leadale No DaiChi Nite',
@@ -397,10 +423,10 @@ export const filmsInMain = [
         view: 41000,
         episode: '04/??',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Khởi đầu mới ở Vùng đất quen thuộc.Sau một tai nạn kinh hoàng khiến cô phải nhờ đến sự hỗ trợ của sự sống, dấu tích tự do cuối cùng mà Keina Kagami có được là trong Thế giới VRMMORPG của Leadale. Tuy nhiên, khi thức dậy trong cơ thể của hình đại diện trò chơi của mình, Keina - bây giờ là Cayna - thấy rằng những lo lắng về cuộc sống cũ của cô dường như đã trở thành dĩ vãng, nhưng bằng cách nào đó, vùng đất mới này dường như không phải là Leadale cô ấy nhớ...',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["hNdDMe6S-g", "y1ZhT4kBQ", "6eMvfj5Mc", "ARj4LZ-ty", "B_n0rMsvS", "vWcgZhGS7", "RxVQxJdMf", "xRrfKIL4Q", "oFH2gcoMe", "XcJ7FxFbj", "9c2sNqSB5", "-PW4j8R1X"]
     },
     {
         filmName: "Tokyo Revengers",
@@ -410,10 +436,10 @@ export const filmsInMain = [
         view: 881000,
         episode: '24/24',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Takemichi, thanh niên thất nghiệp còn trinh, được biết rằng người con gái đầu tiên và cũng là duy nhất cho đến bây giờ mà anh hẹn hò từ trung học đã chết. Sau một vụ tai nạn, anh ta thấy mình được quay về những ngày cấp hai. Anh ta thề sẽ thay đổi tương lai và giữ lấy người con gái ấy, để làm việc đó, anh ta quyết định sẽ vươn lên làm trùm băng đảng khét tiếng nhất ở vùng Kantou.',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["dRw9Bwocw", "Ng7DNp4Bu", "HOUft8bzv", "TfcGGojrX", "nXY-S_c_s"]
     },
     {
         filmName: "Kimetsu No Yaiba: Mugen Ressha-hen",
@@ -423,10 +449,10 @@ export const filmsInMain = [
         view: 357000,
         episode: '07/07',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Đây là bản anime truyền hình của tác phẩm điện ảnh cùng tên được ra mắt vào đầu năm. Đây là phiên bản bao gồm 7 tập với nhiều phân đoạn mới chưa xuất hiện trong bản điện ảnh đã được ra mắt trước đó. Trong phần này, Tanjiro cùng những người bạn của mình đã tới vùng đất của nhiệm vụ tiếp theo: "Chuyến tàu vô tận". Chỉ trong thời gian ngắn, nơi này đã có hơi bốn mươi người mất tích. Mặc dù đã có một số kiếm sĩ được phái ra ngoài, nhưng tất cả đều bị mất liên lạc. Nhóm Tanjiro và Zenitsu, Inosuke cùng với Nezuko họp mặt với một trong những kiếm sĩ "Trụ" mạnh nhất của Đội Diệt Quỷ là Rengoku Kyojuro. Trên chuyến tàu vô tận tiến về phía bóng tối, bọn họ sẽ phải đối mặt với những con quỷ mai phục tại đây.',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["C75Hizmgl", "Sc0EXYmc2", "KGpN9GvmW", "4ROiWutT_", "nN-rUOl2C", "3MYNsvISX", "apSruKYOM"]
     },
     {
         filmName: "Tensei Shirata Slime Datta Ken 2ND Season",
@@ -436,10 +462,10 @@ export const filmsInMain = [
         view: 2162000,
         episode: '24/24',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: 'Phần 2 của bộ phim Tensei shitara Slime Datta Ken',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng, Chuyển sinh',
-        slugs: []
+        slugs: ["Ay97p2kak", "sZiS4okt_", "2DeFyKn5-", "zskeRW6ZX", "9eTvwdnId", "CBtjVxOJ9", "rNe1Vw06c", "ycbzvvRf9", "6KHi0LwsE", "BjyDVerHh", "flOkVuJRI", "Dtlng_ZuH", "qrLqX-_N2", "eWWyuJbYS", "FvOxxV0DB", "tzelMrbww", "3uAfeqUFI", "SYlettdEM", "TLgFqTEY7", "ZBuzFNVIM", "XSFUuHfqJ", "ketyMUvAi", "BZZyVdshC", "-OAIPuliY", "5mejuvhV6", "pB5gdHcBF"]
     },
     {
         filmName: "Tensura Nikki Tensei Shirata Slime Datta Ken",
@@ -449,10 +475,10 @@ export const filmsInMain = [
         view: 751000,
         episode: '12/12',
         urlVideo: '',
-        desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
+        desc: '"Gửi nhật kí... tôi đã được tái sinh thành slime." Dù là ở thế giới khác, cuộc sống không phải lúc nào cũng bằng phẳng. Có rất nhiều việc phải làm, từ việc nuôi sống 1 cộng đồng và rèn những vật dụng thiết yếu, cũng như vui đùa... và quậy phá! Tham gia cùng Rimuru và bạn bè về cách họ tận hưởng cuộc sống hàng ngày của mình.',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Viễn tưởng, Chuyển sinh',
-        slugs: []
+        slugs: ["Ci96DIR69", "btho-F4ic", "yJ7FYc4VY", "QZLRyNmph", "xdeGiI6cC", "nf8Tqs7hX", "farFCBQbN", "PjZcblAJF", "V4Ulcazni", "Qs8MApsSS", "sLwClvNKF", "UU9gkOM6d", "9MfcTjGMK", "40w9iQl8P", "Nj5ho9_c5", "rbasnSqw6", "ZReQT1EJ3", "ppfbodYy8", "e23eNR17D", "5O55UYb69", "jBLSY2nKq", "tBRYvkvkM", "mhlpcNM1L", "l9PopVnLz", "nuY-qwfyQ", "Gr4vzcxXa"]
     },
     {
         filmName: "Edens Zero",
@@ -465,7 +491,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["Fwvc9lDGw", "6VkBvOl_o", "TfzjHLWfk", "w3SyUBlu9", "1Bw12XeE8", "C4aoBgERi", "_-K4whEBM", "OwGN-M0dm", "PK4hn8hG5", "c1SSMhhqp", "iRiGhVjUM", "6oU2h-I5Q", "-3ThALH-X", "Ai47t_Mdo", "gEhYsWTdb", "gyWfDDPlU", "nf8BvIBRP", "iZRplroq3", "sIk4bzXD7", "prJSQFjn3", "Tcy6cKVQPH", "2hLJGGLdY", "Zlnsis5et", "P6yzPQ_W5", "RMLD2rkY9"]
     },
     {
         filmName: "Fumetsu No Anata E",
@@ -478,7 +504,7 @@ export const filmsInMain = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["85HLejmkd", "L52vhb0Wa", "58YgP7kmy", "1t-z-y9pQ", "TDajnM-QI", "WK17_JoEu", "EEluyaZN_", "sU1f9Q6p4p", "cWqWFgWu7", "IzVW1QC2q", "BYfGPY6UK", "8j8flEpVT", "7I3GCZI6a", "pJA0Qm_Z1", "_IJS-mtYU", "FQCgYTljm", "xaJlA7XUm", "bOQ6rvTId", "Oqun0jPl4", "SZGMUMn-5"]
     },
     {
         filmName: "Shaman King",
@@ -488,10 +514,10 @@ export const filmsInMain = [
         view: 595000,
         episode: '41/52',
         urlVideo: '',
-        desc: '',
+        desc: 'Bản Remake bản đẹp của bộ anime đình đám Vua pháp thuật với nội dung Trong thế giới của Vua Pháp sư có những pháp sư có thể điều khiển được các linh hồn. Mỗi pháp sư có một linh hồn đi kèm để hỗ trợ. Cứ 500 năm 1 lần sẽ có một đại hội thi đấu giữa các pháp sư để chọn ra một vua pháp sư. Người này sẽ có được linh hồn vĩ đại của Trái Đất để giúp thế giới. Tuy nhiên 2 cuộc thi đấu gần đây nhất đã bị phá hoại bởi một pháp sư tên là Asakura Hao. Manta là một cậu bé đang học trung học ở Tokyo. Cậu tình cờ làm quen với Yoh, một pháp sư mới chuyển đến cùng lớp. Manta lần lượt gặp những pháp sư khác như Anna, Ryu, Tao Ren, Tao Jun. Vua Pháp sư kể về cuộc phiêu lưu của Yoh, Anna, và các bạn qua lời kể của Manta.',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["L_hU1s0pa", "s0yLbe-So", "pSbNS3BpT", "1v7PgVBC2", "9fa2cNUM6", "OvVpyEZZ8", "a3QvoJ6uB"]
     },
     {
         filmName: "Kakushigoto Movie",
@@ -501,10 +527,10 @@ export const filmsInMain = [
         view: 21000,
         episode: '01/01',
         urlVideo: '',
-        desc: '',
+        desc: 'Phim tổng hợp của loạt phim truyền hình bao gồm những cảnh mới chưa được chuyển thể trong anime truyền hình và các góc nhìn khác nhau. Kakushi Gotou là một họa sĩ truyện tranh nổi tiếng với những tác phẩm được biết đến với nội dung không phù hợp. Vì sự kỳ lạ này, khi cô con gái Hime được sinh ra, anh đã thề sẽ giấu kín nghề của mình với cô, tin rằng cô sẽ vỡ mộng nếu phát hiện ra.',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["ZrDIdVn0V"]
     },
     {
         filmName: "Boruto: Naruto Next Generations",
@@ -517,7 +543,7 @@ export const filmsInMain = [
         desc: '',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["etUYLbPZP", "U_Pltc6dG"]
     },
     {
         filmName: "Nanatsu No Taizai Movie 2 Hikari Ni Norowareshi Mono-Tachi",
@@ -527,10 +553,10 @@ export const filmsInMain = [
         view: 80000,
         episode: '01/01',
         urlVideo: '',
-        desc: '',
+        desc: 'Câu chuyện hoàn toàn mới của tác giả manga gốc Nakaba Suzuki lấy bối cảnh sau Bảy Đại Tội: Sự phán xét của Rồng.',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["JRGDAuQhB"]
     },
     {
         filmName: "Vua Hải Tặc",
@@ -543,7 +569,7 @@ export const filmsInMain = [
         desc: '',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["eR8qNcse-"]
     },
     {
         filmName: "Dragon Ball Heroes",
@@ -556,7 +582,7 @@ export const filmsInMain = [
         desc: '',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Viễn tưởng',
-        slugs: []
+        slugs: ["HivXHfZfh", "qlmhLOrEU", "4YBO9DTBq", "jJYCoyhgJ", "_mdckcsRk", "qLysePF7A", "ICzlk6deA", "SDnPpMdgr", "l3C66gHC9", "WiYZcPh7S"]
     },
 ];
 
@@ -572,7 +598,7 @@ export const topView = [
         thumbnail: "assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp",
         backgroundImg: "https://file.hstatic.net/1000231532/file/r_kimetsu_no_yaiba_-_the_hinokami_chronicles_ra_mat_trailer_cot_truyen_d82208c8197542a9a9db3506b45bc944.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["jDfmDW5B6", "K6P662qca", "51EQG9rrQ", "R6cILrKvv", "RZQFH5XOp", "bMHw5OjbH", "hJ2nIbs02", "hIouytgpG", "VDsN9VHBih", "9aCu_vUxJ", "z5GeOXnom"]
     },
     {
         filmName: "Black Clover",
@@ -585,7 +611,7 @@ export const topView = [
         thumbnail: "https://i.pinimg.com/originals/0a/2a/e8/0a2ae87158dbd761d30dd7be5517cfff.jpg",
         backgroundImg: "https://images3.alphacoders.com/911/911611.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["EOn7yukDl", "PCnmuSH0T", "klaY3n3S3K", "AyCOZHcVW", "EYLx6CuaD", "hsZY4OLWb", "u9klddoLIX", "2ciaVs8qr"]
     },
     {
         filmName: "Đấu La Đại Lục",
@@ -598,7 +624,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/dau-la-dai-luc-1-250x350.jpg.webp",
         backgroundImg: "https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: ["EF6c22eqR", "6USJTAQ90"]
+        slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
     },
     {
         filmName: "Doraemon New TV Series",
@@ -611,7 +637,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/doraemon-new-tv-series.jpg",
         backgroundImg: "https://cdn.voh.com.vn/voh/thumbnail/2022/03/12/list-15-phim-hoat-hinh-doraemon-tap-dai.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["9g7R-S9ew", "80wizFgT3", "l62Jdq8ti"]
     },
     {
         filmName: "Arifureta Shokugyou de Sekai Saikyou 2nd Season",
@@ -624,7 +650,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/arifureta-shokugyou-de-sekai-saikyou-2nd-season.jpg",
         backgroundImg: "https://www.kaorinusantara.or.id/wp-content/uploads/2019/10/arifureta.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["HPOI_Mm4x", "Cv0qBH_Os", "ZLdwvx_Xw", "yhSx6d2Iq", "3TPqpolFE", "2L5RGxCqN", "5AwLeMBFC", "ikC7Yf0al", "nYL7E8SiCh", "_VJTjsOKy", "GsaXhD06I", "XP89rnSZo", "8jQYJIq6N"]
     },
     {
         filmName: "Naruto: Shippuuden",
@@ -637,7 +663,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/naruto-shippuuden-thumbnail.jpg",
         backgroundImg: "https://cdn.tgdd.vn/2020/07/content/thumb-800x450-33.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["hSJbpmsAP", "RqmhY7B9e", "70_TXjMQO", "bpz-z6G1P", "Y7dYqGQ27"]
     },
     {
         filmName: "Ousama Ranking",
@@ -663,7 +689,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/shikkakumon-no-saikyou-kenja-thumbnail.jpg",
         backgroundImg: "https://truyengihot.net/uploads/anime/cover_1641666501.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["L2XHCumZi", "CjP4HJaG8", "u1ROrN995", "plPrFb4K_", "n5s85i68y", "pjE4A6sSh", "U4x1kV176", "DAjuUokMg", "tbcvYScmq", "pzu-Ds4BF", "KPyiRvubu", "0hXGEmTov"]
     },
     {
         filmName: "Sono Bisque Doll wa Koi wo Suru",
@@ -676,7 +702,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/sono-bisque-doll-wa-koi-wo-suru-thumbnail.jpg",
         backgroundImg: "https://static.lag.vn/upload/news/21/12/06/anime-Sono-Bisque-Doll-Wa-Koi-Wo-Suru_DGYY.jpg?w=800&encoder=wic&subsampling=444",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["-FSCpm7IT", "NzsgioFCd", "DsEN-tmoP", "2FOqcWCyz", "9VpUoiZ4_", "s90j7Og-9", "t64tJF-fIG", "50zcBdNno", "hbruYEm3F", "ZEjkow23w", "0Ytojtyav", "qvOWAVf_m"]
     },
     {
         filmName: "King's Raid: Ishi Wo Tsugumono-Tachi",
@@ -689,7 +715,7 @@ export const topView = [
         thumbnail: "assets/images/img-film/top-view-film/King raid.jpg",
         backgroundImg: "https://i.ytimg.com/vi/7FyrUKmai3I/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["O8sXI9KMJ", "hSg8Wn_3v", "3Ccfbrpf5G", "_r3TUdmRI", "PbVIty2lXm", "6PmzBEJkX3", "u4oOAXDDo", "KcfYzNPzgb", "_P_bCI6Vf", "LRGQZXXPO"]
     },
 ]
 
@@ -705,7 +731,7 @@ export const topComment = [
         thumbnail: "https://i.pinimg.com/originals/0a/2a/e8/0a2ae87158dbd761d30dd7be5517cfff.jpg",
         backgroundImg: "https://images3.alphacoders.com/911/911611.png",
         type: 'Phiêu lưu',
-        slugs: []
+        slugs: ["EOn7yukDl", "PCnmuSH0T", "klaY3n3S3K", "AyCOZHcVW", "EYLx6CuaD", "hsZY4OLWb", "u9klddoLIX", "2ciaVs8qr"]
     },
     {
         filmName: "Jujutsu Kaisen",
@@ -718,7 +744,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/Jujutsu Kaisen.jpg",
         backgroundImg: "https://i0.wp.com/dmtalkies.com/wp-content/uploads/2021/08/ezgif-1-078409066a3b-compressed-1.jpg?fit=1200%2C674&ssl=1",
         type: 'Hành động, viễn tưởng',
-        slugs: []
+        slugs: ["vzx7upXjI", "Orblz3UMi", "8Mg4jiydc3", "1DwbDQ6jW", "EU254N30N", "jgJott7Vp", "9SZ2Wrkzp", "8RrS7EexA", "7Z58yujDZ", "55E9n0tp7", "S0eMaIvpXb", "ylh4jv0H6", "uo4CK2QSt", "g8ThUQLPG", "bVxucyl9H", "0aX8FIZKL", "EHfeiOymd", "VNPJjd2kH", "95LCcfcQ8g", "JBQL9HoKc", "R8F4wtY7Q", "WOdbw850R", "yyg4x_nsT", "nztQ4xk048"]
     },
     {
         filmName: "Arifureta Shokugyou De Sekai Saikyou 2nd Season",
@@ -731,7 +757,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/arifureta-shokugyou-de-sekai-saikyou-2nd-season.jpg",
         backgroundImg: "https://www.kaorinusantara.or.id/wp-content/uploads/2019/10/arifureta.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["HPOI_Mm4x", "Cv0qBH_Os", "ZLdwvx_Xw", "yhSx6d2Iq", "3TPqpolFE", "2L5RGxCqN", "5AwLeMBFC", "ikC7Yf0al", "nYL7E8SiCh", "_VJTjsOKy", "GsaXhD06I", "XP89rnSZo", "8jQYJIq6N"]
     },
     {
         filmName: "Ousama Ranking",
@@ -757,7 +783,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/Majo No Tabitabi.jpg",
         backgroundImg: "https://i.ytimg.com/vi/SpTgCQGWqqc/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["HFnLY4mr2", "wAOL5eE17", "wAOL5eE17", "iylJ_ciIh", "gYUEFumo8"]
     },
     {
         filmName: "Doraemon New Tv Series",
@@ -770,7 +796,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/doraemon-new-tv-series.jpg",
         backgroundImg: "https://cdn.voh.com.vn/voh/thumbnail/2022/03/12/list-15-phim-hoat-hinh-doraemon-tap-dai.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["9g7R-S9ew", "80wizFgT3", "l62Jdq8ti"]
     },
     {
         filmName: "Đấu La Đại Lục",
@@ -783,7 +809,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/dau-la-dai-luc-1-250x350.jpg.webp",
         backgroundImg: "https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: ["EF6c22eqR", "6USJTAQ90"]
+        slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
     },
     {
         filmName: "Adachi To Shimamura",
@@ -796,7 +822,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/Adachi To Shimamura.jpg",
         backgroundImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyBFak6Vy0vpaUiBn-S6qEl7APLmgu7JND_w&usqp=CAU",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["5j6HLqmW6", "wHCsLDDYag", "O0cAdpOo5", "yVp70A2qjZ", "O6gsTiDQk", "vvY0Q0iYf"]
     },
     {
         filmName: "King's Raid: Ishi Wo Tsugumono-Tachi",
@@ -809,7 +835,7 @@ export const topComment = [
         thumbnail: "assets/images/img-film/top-film-cmt/King raid.jpg",
         backgroundImg: "https://i.ytimg.com/vi/7FyrUKmai3I/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["O8sXI9KMJ", "hSg8Wn_3v", "3Ccfbrpf5G", "_r3TUdmRI", "PbVIty2lXm", "6PmzBEJkX3", "u4oOAXDDo", "KcfYzNPzgb", "_P_bCI6Vf", "LRGQZXXPO"]
     },
 ]
 
@@ -877,7 +903,7 @@ export const filmsTrend = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["OS3_vmb6f", "LIKJTaiey_", "qoBFu0UVP", "UiPl15TZu", "aqUCISimp"]
     },
     {
         filmName: 'Sabikui Bisco',
@@ -890,7 +916,7 @@ export const filmsTrend = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["i7fPJ-4Sa", "jLAEayGng", "KfzDf59vqs", "luwNVO6FO", "6hlSypXkN", "-7nj2zDmZ", "xDNkxP5mQ", "Oo7iohU8L", "p_FeRLuga", "8a6Za0cgC", "UCGojRjqh", "zQKPXD6mb"]
     },
     {
         filmName: 'Sabiiro No Armor: Reimei',
@@ -903,7 +929,7 @@ export const filmsTrend = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["CnNVzI5jv", "1CTNQsXs-", "497B1SiKG", "gvcFega90", "xTWwb4xRJ", "qC5aQdFql", "nGqELhxUa", "aTskjP_in", "gOZyVDbr6", "c3JetmN17", "SOciqXVDv2", "8uTeT8hcM"]
     },
     {
         filmName: 'Tabi Wa Ni',
@@ -916,7 +942,7 @@ export const filmsTrend = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["qy2Vc8etj"]
     }
 ];
 
@@ -1009,11 +1035,11 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["miPhf8v8B", "anKXetNy9", "_JYgRvoiy"]
     },
     {
         filmName: 'Maiko-San Chi No Makanai-San',
-        subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
+        subTitle: 'The caterer at the Maiko Manor, Kiyo in Kyoto: From the Maiko House (2021)',
         thumbnail: 'assets/images/img-film/top film/MAIKO-SAN CHI NO MAKANAI-SAN.jpg',
         backgroundImg: 'https://i.ytimg.com/vi_webp/SZyuBw3dhOU/maxresdefault.webp',
         view: 14000,
@@ -1024,7 +1050,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["84_wasI7F", "D90azPQIH", "uOQTqAbmB", "eqQiilsv6", "SnZ2My5Dm", "594ewvh9U", "UJ5XWztkb", "yIJLoS0Vv", "-QnZ7q0mb", "gm_foIUD2Z", "27GF9aqFo", "v6h8f1S2t"]
     },
     {
         filmName: 'Saiyuuki Reload: Zeroin',
@@ -1043,7 +1069,7 @@ export const showTimes = [
     },
     {
         filmName: 'Maiko-San Chi No Makanai-San',
-        subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
+        subTitle: 'The caterer at the Maiko Manor, Kiyo in Kyoto: From the Maiko House (2021)',
         thumbnail: 'assets/images/img-film/top film/MAIKO-SAN CHI NO MAKANAI-SAN.jpg',
         backgroundImg: 'https://i.ytimg.com/vi_webp/SZyuBw3dhOU/maxresdefault.webp',
         view: 14000,
@@ -1054,7 +1080,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["84_wasI7F", "D90azPQIH", "uOQTqAbmB", "eqQiilsv6", "SnZ2My5Dm", "594ewvh9U", "UJ5XWztkb", "yIJLoS0Vv", "-QnZ7q0mb", "gm_foIUD2Z", "27GF9aqFo", "v6h8f1S2t"]
     },
     {
         filmName: 'Nghịch Thiên Chí Tôn',
@@ -1129,7 +1155,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["MaRiHIADa", "Vnb-RON0Uy", "yh-bH0Em7G", "P08zsp7Ch", "EePzF_k9g", "Nsaagg79e", "QMMTjSDcb"]
     },
     {
         filmName: 'Yêu Thần Ký',
@@ -1144,7 +1170,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["2EIYiLp9I", "j19H0noAo", "QSnq3LQzD", "vruasAPKP", "ptyMmsUsl", "YchFRPfXQ", "GXa34Tm-n", "efmPzEcZ6", "B_gsec-L2", "ISwKMDR1h"]
     },
     {
         filmName: 'Ăn Không Uổng Kể Sơn Hải Kinh',
@@ -1174,7 +1200,7 @@ export const showTimes = [
         desc: 'Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhất tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. Vũ hồn có thể là cái cày, cái cuốc, liêm đao… thuộc khối công cụ, một đóa hoa cúc, một cành mai… thuộc thực vật hệ, đến các vũ hồn cường đại như Tuyết Ảnh Ma Hùng, Tật Phong Ma Lang….',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: ["EF6c22eqR", "6USJTAQ90"]
+        slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
     },
     {
         filmName: 'Phàm Nhân Tu Tiên',
@@ -1189,7 +1215,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["QTwrKeLB6", "aB6FxOMD3", "X62GxS-Aj", "DYJDmCSP_", "PMNM4WSUF", "_u_NYJ3PH", "WSaam0Clc", "rzRWBn2f0"]
     },
     {
         filmName: 'Tuyết Ưng Lĩnh Chủ Phần 3',
@@ -1204,7 +1230,7 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: false,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["er9ajxA8d", "nXKrKFf35", "A6G4RR1mu", "O9Mueu-Yj", "m0sVMhvQU", "cUAZwlTAef"]
     },
     {
         filmName: 'Thôn Phệ Tinh Không',
@@ -1219,6 +1245,6 @@ export const showTimes = [
         desc: 'Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ',
         bookmark: true,
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
-        slugs: []
+        slugs: ["ozNzjfAN1", "awCJyeHbd", "OnDqREkfV", "2FeXpzGs4", "oZuf7UQjX", "OswbwtelQ", "91PHcmPln-"]
     },
 ];
