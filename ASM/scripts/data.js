@@ -10,7 +10,7 @@ export const filmsInMain = [
         desc: 'Tamako là học sinh cấp ba năm nhất, gia đình làm mochi(bánh gạo). Bộ phim xoay quanh câu chuyện trường lớp và làm việc của cô tại cửa hàng bánh của gia đình.',
         bookmark: true,
         type: 'Anime, Đời thường, Lạng mãn',
-        slugs: ["sZAE7Xugm", "-bKQFF0fD", "ppeH_ry7j", "JbmgOfekm", "lRw85zME0", "WtTSqkYpY", "ZKFuiDhDR", "uYMrudMv8", "DHB4m-dcd", "drR73Ozg4", "IU3b2JpH_", "ZGykO1Xmm"]
+        slugs: ["sZAE7Xugm", "-bKQFF0fD", "PpeH_ry7j", "JbmgOfekm", "lRw85zME0", "WtTSqkYpY", "ZKFuiDHDR", "uYMrudMv8", "DHB4m-dcd", "drR73Ozg4", "IU3b2JpH_", "ZGykO1Xmm"]
     },
     {
         filmName: 'Tamako Love Story',
