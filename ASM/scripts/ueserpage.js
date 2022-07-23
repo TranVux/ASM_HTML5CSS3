@@ -88,4 +88,4 @@ function notify(container) {
 }
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;
-})
+});

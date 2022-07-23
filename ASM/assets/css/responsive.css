@@ -1,11 +1,17 @@
-/* size of box chat */
-@media only screen and (max-width: 34.9375em) {
+/* @media only screen and (max-width: 34.9375em) {
     .film-category-container {
         --amountOfCol: 3;
     }
 }
 
 @media only screen and (min-width: 35em) and (max-width: 37.5em) {
+    .film-category-container {
+        --amountOfCol: 3;
+    }
+} */
+
+
+@media only screen and (max-width: 37.5em) {
     .film-category-container {
         --amountOfCol: 3;
     }
@@ -17,11 +23,26 @@
 } */
 
 @media only screen and (max-width: 46.25em) {
+
+    .footer-leftright {
+        display: block;
+    }
+
+    .footer {
+        padding: 1px;
+    }
+
+
+    .footer-logo {
+        margin: 50px auto 130px auto;
+        justify-content: center;
+    }
+
     .section {
         flex-wrap: wrap;
     }
 
-    .aside {
+    .aside, .article {
         width: 100%;
     }
 
@@ -32,9 +53,6 @@
 
     /* ------ */
 
-    .article {
-        width: 100%;
-    }
 
     .film-top1-container {
         width: 95%;
@@ -59,18 +77,6 @@
         flex: none;
     }
 
-    .footer {
-        padding: 1px;
-    }
-
-    .footer-leftright {
-        display: block;
-    }
-
-    .footer-logo {
-        margin: 50px auto 130px auto;
-        justify-content: center;
-    }
 
     .img {
         margin-right: 0;
@@ -125,6 +131,20 @@
 }
 
 @media only screen and (max-width: 25.875em) {
+
+    /* for user page */
+    .section-userpage {
+        flex-direction: column;
+    }
+
+    .bookmark-container, .info-container {
+        width: 100%;
+    }
+
+    .film-category-container {
+        --amountOfCol: 2;
+    }
+
     .film-img-pr {
         flex-direction: column;
     }
@@ -152,19 +172,6 @@
 
     .dec button {
         margin-bottom: 20px;
-    }
-
-    .film-category-container {
-        --amountOfCol: 2;
-    }
-
-    /* for user page */
-    .section-userpage {
-        flex-direction: column;
-    }
-
-    .bookmark-container, .info-container {
-        width: 100%;
     }
 
     .next, .previous {
@@ -297,12 +304,13 @@
 }
 
 @media only screen and (max-width: 64em) {
-    .subcribe {
-        display: none;
-    }
 
     .footer-leftright {
         justify-content: space-around;
+    }
+
+    .subcribe {
+        display: none;
     }
 
     .week-present {
@@ -320,6 +328,11 @@
 
 /* Responsive for userpage */
 @media only screen and (max-width: 63.9375em) {
+
+    .mainavt-container {
+        display: none;
+    }
+
     .info-user>span {
         margin-bottom: 10px;
     }
@@ -327,10 +340,6 @@
     .info-user>input {
         width: 100%;
         margin-bottom: 10px;
-    }
-
-    .mainavt-container {
-        display: none;
     }
 
     .info-container, .bookmark-container {

@@ -99,7 +99,6 @@
     }
 }
 
-
 @media only screen and (min-width: 38.125em) and (max-width: 52em) {
     .film-category-container {
         --amountOfCol_category: 4;
@@ -115,11 +114,5 @@
 @media only screen and (max-width: 29.89em) {
     .film-category-container {
         --amountOfCol_category: 2;
-    }
-}
-
-@media only screen and (min-width: 62.6em) {
-    .film-category-container {
-        --amountOfCol_category: 6;
     }
 }

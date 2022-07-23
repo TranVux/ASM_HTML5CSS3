@@ -53,13 +53,7 @@
     position: relative;
 }
 
-.info-container {
-    width: 50%;
-    height: 100%;
-    padding-top: 120px;
-}
-
-.bookmark-container {
+.info-container, .bookmark-container {
     width: 50%;
     height: 100%;
     padding-top: 120px;
@@ -138,7 +132,7 @@
     background-color: #E5F4FF;
     padding: 24px 10px;
     overflow-x: scroll;
-    white-space: normal;
+    /* white-space: normal; */
     scroll-behavior: smooth;
 }
 

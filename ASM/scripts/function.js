@@ -1,4 +1,4 @@
-import { filmsInMain, showTimes, topComment, topView } from "./data.js";
+import { arrBackground, filmsInMain, showTimes, topComment, topView } from "./data.js";
 import { pathNameDetailPage, pathNameWatchPage } from "./constants.js";
 
 export function loadTopView(container) {
@@ -477,4 +477,23 @@ export function loadFlmBookmark(container) {
             location.pathname = pathNameDetailPage;
         })
     });
+}
+
+export function slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter) {
+    var arrImage = [];
+    for (let i = 0; i < arrBackground.length; i++) {
+        let img = new Image();
+        img.src = arrBackground[i].filmBackgroud;
+        arrImage.push(img);
+    }
+    var index = 0;
+    setInterval(() => {
+        if (index >= arrImage.length) {
+            index = 0;
+        }
+        headerCenter.style.backgroundImage = `url(${arrImage[index].src})`;
+        filmNameHeaderCenter.innerHTML = arrBackground[index].filmName;
+        filmSubHeaderCenter.innerHTML = arrBackground[index].filmSub + `<button class="watch-btn btn">Xem ngay</button>`;
+        index++;
+    }, 5000);
 }

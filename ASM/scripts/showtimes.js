@@ -1,4 +1,4 @@
-import { loadFilmShowTime, setCategory, setOnClickForFilmShowTime, changeUserContainer } from "./function.js";
+import { loadFilmShowTime, setCategory, setOnClickForFilmShowTime, changeUserContainer, slideHeaderCenter } from "./function.js";
 import { pathNameUserPage } from "./constants.js";
 const arrItemCategory = document.querySelectorAll(".item-category");
 const arrContainer = document.querySelectorAll(".film-category-container");
@@ -6,6 +6,9 @@ const arrContainer = document.querySelectorAll(".film-category-container");
 const userContainer = document.querySelector(".usercontainer");
 const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
+const headerCenter = document.querySelector("#headerCenter");
+const filmNameHeaderCenter = document.querySelector(".film-name");
+const filmSubHeaderCenter = document.querySelector(".film-name1");
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 
@@ -33,3 +36,4 @@ function logout() {
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
+slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter);

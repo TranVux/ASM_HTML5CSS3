@@ -1,8 +1,14 @@
+// Nút mở menu
 var nav_btn = document.querySelector('.header-nav-btn');
+// Menu
 var nav_menu = document.querySelector(".nav-menu_mobile");
+// Lớp phủ phía sau menu được kích hoạt sau khi bấm vào nav_btn
 var bg_layer = document.querySelector(".gb-layer");
+// nút thể loại
 var btn_category = document.getElementById("btnCategory");
+// thẻ chứa các thể loại phim
 var categoryListContainer = document.querySelector(".category-mobile");
+// có chức năng bật menu khi bấm vào và tắt khi bấm vào 1 lần nữa
 function turnOnOffMenuMobile() {
     if (nav_btn.classList == "header-nav-btn exit") {
         categoryListContainer.classList = "category-mobile";
@@ -19,9 +25,9 @@ nav_btn.onclick = function () {
 bg_layer.onclick = function () {
     turnOnOffMenuMobile();
 }
+// sẽ bật ra tab thể loại phim khi bấm vào và tắt khi bấm vào lần nữa
 btn_category.addEventListener("click", () => {
     nav_btn.classList = "header-nav-btn exit";
     categoryListContainer.classList = "category-mobile show";
 })
-
 

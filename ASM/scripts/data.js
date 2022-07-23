@@ -1248,3 +1248,21 @@ export const showTimes = [
         slugs: ["ozNzjfAN1", "awCJyeHbd", "OnDqREkfV", "2FeXpzGs4", "oZuf7UQjX", "OswbwtelQ", "91PHcmPln-"]
     },
 ];
+
+export const arrBackground = [
+    {
+        filmName: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
+        filmSub: 'Thanh Gươm Diệt Quỷ Phần 2 – Phố Đèn Đỏ',
+        filmBackgroud: 'https://i1.wp.com/www.yami-sora.org/wp-content/uploads/2020/03/kimetsu.jpg?fit=1995%2C1245&ssl=1',
+    },
+    {
+        filmName: 'Tamako Market',
+        filmSub: 'Tamako Market',
+        filmBackgroud: 'https://images2.alphacoders.com/701/701413.png',
+    },
+    {
+        filmName: 'Phàm Nhân Tu Tiên',
+        filmSub: 'Phàm Nhân Tu Tiên - Phong Khởi Thiên Nam (2020)',
+        filmBackgroud: 'https://i.ytimg.com/vi/uZgyf0p9WXk/maxresdefault.jpg',
+    },
+]
