@@ -1,6 +1,6 @@
 import { filmsTrend } from "./data.js";
 import { loadFilm, loadFilmCategory, setCategory, changeUserContainer, slideHeaderCenter } from "./function.js";
-import { pathNameUserPage } from "./constants.js";
+import { pathNameUserPage, pathNameDetailPage } from "./constants.js";
 const container = document.getElementById('filmCategoryContainer');
 const trendContainer = document.getElementById('filmTrendCategory');
 const category = sessionStorage.getItem('category');
@@ -11,7 +11,8 @@ const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");
 const headerCenter = document.querySelector("#headerCenter");
 const filmNameHeaderCenter = document.querySelector(".film-name");
-const filmSubHeaderCenter = document.querySelector(".film-name1");
+const filmSubHeaderCenter = document.querySelector(".film-sub_header-center");
+const btnHeaderCenter = document.getElementById("btnHeaderCenter");
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 setCategory(arrItemCategory);
@@ -62,4 +63,11 @@ function logout() {
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
-slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter);
+slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter, btnHeaderCenter);
+btnHeaderCenter.addEventListener('click', () => {
+    let index = btnHeaderCenter.getAttribute("data-indexfilm");
+    console.log('successfully, index is: ', index);
+    sessionStorage.setItem('indexFilm', index);
+    sessionStorage.setItem('typeOfData', 'detail');
+    location.pathname = pathNameDetailPage;
+});

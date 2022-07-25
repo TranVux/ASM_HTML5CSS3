@@ -479,7 +479,7 @@ export function loadFlmBookmark(container) {
     });
 }
 
-export function slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter) {
+export function slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHeaderCenter, btnHeaderCenter) {
     var arrImage = [];
     for (let i = 0; i < arrBackground.length; i++) {
         let img = new Image();
@@ -493,7 +493,8 @@ export function slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHea
         }
         headerCenter.style.backgroundImage = `url(${arrImage[index].src})`;
         filmNameHeaderCenter.innerHTML = arrBackground[index].filmName;
-        filmSubHeaderCenter.innerHTML = arrBackground[index].filmSub + `<button class="watch-btn btn">Xem ngay</button>`;
+        filmSubHeaderCenter.innerHTML = arrBackground[index].filmSub;
+        btnHeaderCenter.setAttribute("data-indexfilm", arrBackground[index].indexInMain);
         index++;
     }, 5000);
 }
