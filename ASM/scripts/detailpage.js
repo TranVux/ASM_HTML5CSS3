@@ -6,7 +6,8 @@ const detailFilm = document.getElementById('articleDetailFilm');
 const relativeFilm = document.getElementById('titleRelatedFilms');
 const indexFilm = sessionStorage.getItem('indexFilm');
 const typeOfData = sessionStorage.getItem('typeOfData');
-
+// const searchBar = document.querySelector("#searchBar");
+// const searchBtn = document.querySelector("#searchBtn");
 const userContainer = document.querySelector(".usercontainer");
 const userMobileContainer = document.querySelector("#useMobileContainer");
 const btnLogoutMobile = document.querySelector("#bntLogoutMobile");

@@ -1,4 +1,4 @@
-import { loadFilmShowTime, setCategory, setOnClickForFilmShowTime, changeUserContainer, slideHeaderCenter } from "./function.js";
+import { loadFilmShowTime, setCategory, setOnClickForFilmShowTime, changeUserContainer, slideHeaderCenter, searchFilm } from "./function.js";
 import { pathNameUserPage, pathNameDetailPage } from "./constants.js";
 const arrItemCategory = document.querySelectorAll(".item-category");
 const arrContainer = document.querySelectorAll(".film-category-container");
@@ -10,6 +10,8 @@ const headerCenter = document.querySelector("#headerCenter");
 const filmNameHeaderCenter = document.querySelector(".film-name");
 const filmSubHeaderCenter = document.querySelector(".film-sub_header-center");
 const btnHeaderCenter = document.getElementById("btnHeaderCenter");
+const searchBar = document.querySelector("#searchBar");
+const searchBtn = document.querySelector("#searchBtn");
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 
@@ -17,9 +19,17 @@ setCategory(arrItemCategory);
 loadFilmShowTime(arrContainer);
 setOnClickForFilmShowTime();
 
-
 changeUserContainer(userContainer, userMobileContainer, indexUser);
 
+searchBtn.addEventListener("click", () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+});
+
+searchBar.onkeyup = () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+}
 
 userMobileContainer.addEventListener("click", () => {
     location.pathname = pathNameUserPage;

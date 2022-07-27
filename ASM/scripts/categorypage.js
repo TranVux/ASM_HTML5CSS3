@@ -1,5 +1,5 @@
 import { filmsTrend } from "./data.js";
-import { loadFilm, loadFilmCategory, setCategory, changeUserContainer, slideHeaderCenter } from "./function.js";
+import { loadFilm, loadFilmCategory, setCategory, changeUserContainer, slideHeaderCenter, searchFilm } from "./function.js";
 import { pathNameUserPage, pathNameDetailPage } from "./constants.js";
 const container = document.getElementById('filmCategoryContainer');
 const trendContainer = document.getElementById('filmTrendCategory');
@@ -13,6 +13,8 @@ const headerCenter = document.querySelector("#headerCenter");
 const filmNameHeaderCenter = document.querySelector(".film-name");
 const filmSubHeaderCenter = document.querySelector(".film-sub_header-center");
 const btnHeaderCenter = document.getElementById("btnHeaderCenter");
+const searchBar = document.querySelector("#searchBar");
+const searchBtn = document.querySelector("#searchBtn");
 var indexUser = localStorage.getItem("indexCurrentUser");
 var btnLogout;
 setCategory(arrItemCategory);
@@ -40,10 +42,20 @@ if (container.childElementCount == 0) {
     // thêm "alert-container" vào trong "film-catefory-container"
     container.appendChild(containerAlert);
 }
-if (container.childElementCount < 6) {
-    pageNumber.style.display = "none";
-}
+HiddenPageBar();
 loadFilm(trendContainer, filmsTrend, 'trend', 'trend');
+
+searchBtn.addEventListener("click", () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+    HiddenPageBar();
+});
+
+searchBar.onkeyup = () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+    HiddenPageBar();
+}
 
 changeUserContainer(userContainer, userMobileContainer, indexUser);
 
@@ -71,3 +83,9 @@ btnHeaderCenter.addEventListener('click', () => {
     sessionStorage.setItem('typeOfData', 'detail');
     location.pathname = pathNameDetailPage;
 });
+
+function HiddenPageBar() {
+    if (container.childElementCount < 6) {
+        pageNumber.style.display = "none";
+    }
+}

@@ -1113,6 +1113,21 @@ export const showTimes = [
         slugs: ["J_vPPFTiM", "CB7UzvEru", "W_UEcZ-Ar", "6p7shwNwAy", "HLyj03PES", "1Z8qNZAUO", "tc2UoagHe", "xjKEJtpQe", "sRm3e-pCS6", "ojXVx6J_", "kzosIraDu", "RPjVSqyal", "wWk2rXGIQ"]
     },
     {
+        filmName: 'Đấu La Đại Lục',
+        subTitle: 'Đấu La Đại Lục – Soul Land',
+        thumbnail: 'assets/images/img-film/top film/dau-la-dai-luc-1-250x350.jpg.webp',
+        backgroundImg: 'https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png',
+        view: 37000,
+        date: 'friday',
+        newEpisode: 195,
+        episode: '193/???',
+        urlVideo: '',
+        desc: 'Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhất tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. Vũ hồn có thể là cái cày, cái cuốc, liêm đao… thuộc khối công cụ, một đóa hoa cúc, một cành mai… thuộc thực vật hệ, đến các vũ hồn cường đại như Tuyết Ảnh Ma Hùng, Tật Phong Ma Lang….',
+        bookmark: true,
+        type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
+        slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
+    },
+    {
         filmName: 'Shingeki No Kyojin-The Final Season Part 2',
         subTitle: 'Shingeki no Kyojin Season 4, Attack on Titan Season 4 (2022)',
         thumbnail: 'assets/images/img-film/top film/SHINGEKI NO KYOJIN-THE FINAL SEASON PART 2.jpg',

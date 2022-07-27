@@ -1,5 +1,5 @@
 import { filmsInMain } from "./data.js";
-import { loadTopComment, loadTopView, loadFilm, setOnClickForFilmTopCmt, setOnClickForFilmTopView, changeUserContainer, setCategory, slideHeaderCenter } from "./function.js";
+import { loadTopComment, loadTopView, loadFilm, setOnClickForFilmTopCmt, setOnClickForFilmTopView, changeUserContainer, setCategory, slideHeaderCenter, searchFilm } from "./function.js";
 import { pathNameUserPage, pathNameDetailPage } from "./constants.js";
 const filmsContainer = document.getElementById('filmCateforyContainer');
 const asideContainer = document.getElementById('aside');
@@ -11,6 +11,9 @@ const headerCenter = document.querySelector("#headerCenter");
 const filmNameHeaderCenter = document.querySelector(".film-name");
 const filmSubHeaderCenter = document.querySelector(".film-sub_header-center");
 const btnHeaderCenter = document.getElementById("btnHeaderCenter");
+const searchBar = document.querySelector("#searchBar");
+const searchBtn = document.querySelector("#searchBtn");
+
 console.log(filmNameHeaderCenter);
 console.log(filmSubHeaderCenter);
 console.log(headerCenter);
@@ -33,11 +36,22 @@ loadTopView(asideContainer);
 loadTopComment(asideContainer);
 setOnClickForFilmTopCmt();
 setOnClickForFilmTopView();
+
 loadFilm(filmsContainer, filmsInMain, 'detail', 'detail');
+
 setCategory(arrItemCategory);
 console.table(filmsInMain);
-
 console.log(indexUser);
+
+searchBtn.addEventListener("click", () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+});
+
+searchBar.onkeyup = () => {
+    console.log(searchBar.value);
+    searchFilm(searchBar.value);
+}
 
 changeUserContainer(userContainer, userMobileContainer, indexUser);
 userMobileContainer.addEventListener("click", () => {
@@ -55,5 +69,7 @@ function logout() {
     indexUser = localStorage.getItem("indexCurrentUser");
     changeUserContainer(userContainer, userMobileContainer, indexUser);
 }
+
+
 
 

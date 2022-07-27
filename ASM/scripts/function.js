@@ -1,5 +1,5 @@
 import { arrBackground, filmsInMain, showTimes, topComment, topView } from "./data.js";
-import { pathNameDetailPage, pathNameWatchPage } from "./constants.js";
+import { pathNameDetailPage, pathnameIndexPage, pathNameWatchPage } from "./constants.js";
 
 export function loadTopView(container) {
     container.innerHTML += `
@@ -89,7 +89,6 @@ export function loadTopComment(container) {
         `
         }
         container.innerHTML += temp;
-
     });
 }
 
@@ -497,4 +496,17 @@ export function slideHeaderCenter(headerCenter, filmNameHeaderCenter, filmSubHea
         btnHeaderCenter.setAttribute("data-indexfilm", arrBackground[index].indexInMain);
         index++;
     }, 5000);
+}
+
+export function searchFilm(keyWord) {
+    const aFilmContainer = document.querySelectorAll(`.film-container`);
+    const arrFilmName = document.querySelectorAll(".film-title");
+    aFilmContainer.forEach((element) => {
+        element.style.display = "block";
+    });
+    arrFilmName.forEach((element, index) => {
+        if (!(element.innerText.includes(keyWord))) {
+            aFilmContainer[index].style.display = "none";
+        }
+    });
 }

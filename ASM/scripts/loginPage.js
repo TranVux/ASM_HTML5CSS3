@@ -1,15 +1,24 @@
 import { pathnameIndexPage } from "./constants.js";
+// Nút login trong form
 const btnLogin = document.querySelector("#btnLogin");
+// Thẻ thông báo trong form
 const warning = document.querySelector(".warning");
 var indexUser;
+// biến giúp ghi nhận trang thái đăng nhập của user
 var loginSuccess = false;
+// Lấy list user được lưu trữ trong LocalStorage
 var listUser = localStorage.getItem("listUser");
 if (listUser == null) {
     localStorage.setItem("listUser", JSON.stringify([]));
     listUser = localStorage.getItem("listUser");
 }
+// Thẻ input nhập email trong form
 var email = document.getElementById("email");
+// Thẻ input nhập password trong form
 var password = document.getElementById("password");
+// Bắt sự kiện cho nút login. Nếu khi bấm vào nút bấm mà người dùng vẫn chưa nhập thông tin đầy đủ cũng như nhập thông tin
+// tài khoản mật khẩu sai thì sẽ không được chấp nhận và đưa ra thông báo "Email hoặc password chưa đúng"
+// Nếu người dùng nhập đúng tài khoản và mật khẩu thì chuyển tới trang chủ sau 4s và đưa ra thông báo "Đăng nhập thành công!. Sẽ chuyển tới trang chính trong 4s"
 btnLogin.addEventListener("click", () => {
     if (email.value.length > 0 && password.value.length > 0) {
         console.log(JSON.parse(listUser));

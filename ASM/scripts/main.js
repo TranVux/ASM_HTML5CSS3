@@ -47,9 +47,9 @@ myCanvas.addEventListener("click", () => {
 });
 
 window.onscroll = () => {
-    console.log(window.innerHeight);
-    console.log(document.body.scrollTop);
-    console.log(document.documentElement.scrollTop);
+    // console.log(window.innerHeight);
+    // console.log(document.body.scrollTop);
+    // console.log(document.documentElement.scrollTop);
     if (document.body.scrollTop > window.innerHeight || document.documentElement.scrollTop > window.innerHeight) {
         myCanvas.style.visibility = 'visible';
         myCanvas.style.opacity = 1;
