@@ -39,6 +39,20 @@ export const filmsInMain = [
         slugs: ["jDfmDW5B6", "K6P662qca", "51EQG9rrQ", "R6cILrKvv", "RZQFH5XOp", "bMHw5OjbH", "hJ2nIbs02", "hIouytgpG", "VDsN9VHBih", "9aCu_vUxJ", "z5GeOXnom"]
     },
     {
+        filmName: 'Jujutsu Kaisen 0',
+        subTitle: 'Chú Thuật Hồi Chiến 2022',
+        thumbnail: 'https://i.bloganchoi.com/bloganchoi.com/wp-content/uploads/2022/03/chu-thuat-2-696x1031.jpg?fit=700%2C20000&quality=95&ssl=1',
+        backgroundImg: 'https://www.elleman.vn/wp-content/uploads/2022/04/16/213427/Chu-Thuat-Hoi-Chien-elleman-2022.jpg',
+        view: 52123,
+        episode: '01/01',
+        urlVideo: '',
+        desc: `Jujutsu Kaisen 0 Movie, Gekijouban Jujutsu Kaisen 0, Jujutsu Kaisen Movie <br></br>
+        Cho những ai chưa biết, Jujutsu Kaisen 0 là là tập truyện ngắn ra mắt trước khi Chú Thuật Hồi Chiến được sáng tác.Trọng tâm câu chuyện xoay quanh nguyền sư đặc cấp Yuta Okkotsu trong thời gian anh ta mới vào học viện chú thuật.Theo nhiều dự đoán, Jujutsu Kaisen 0 được chuyển thể anime movie là "bước mở đường" cho những dự án Jujutsu Kaisen tiếp theo.Phần phim này sẽ giúp giải thích về các nhân vật chính, đặc biệt là những nguyền sư đặc cấp hiện tại.`,
+        bookmark: true,
+        type: 'Anime, Hành động, Shounen, Siêu nhiên, Viễn tưởng',
+        slugs: ["UftPNxYxI"]
+    },
+    {
         filmName: 'Độc Bộ Tiêu Dao',
         subTitle: 'Độc Bộ Tiêu Dao (2020)',
         thumbnail: 'assets/images/img-film/top film/ĐỘC BỘ TIÊU DAO.jpg',
