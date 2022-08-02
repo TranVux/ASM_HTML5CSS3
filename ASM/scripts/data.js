@@ -1297,4 +1297,10 @@ export const arrBackground = [
         filmBackgroud: 'https://i.ytimg.com/vi/uZgyf0p9WXk/maxresdefault.jpg',
         indexInMain: 21
     },
+    {
+        filmName: 'Jujutsu Kaisen',
+        filmSub: 'Chú Thuật Hồi Chiến Movies 2022',
+        filmBackgroud: 'https://www.elleman.vn/wp-content/uploads/2022/04/16/213427/Chu-Thuat-Hoi-Chien-elleman-2022.jpg',
+        indexInMain: 3
+    },
 ]
