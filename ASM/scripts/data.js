@@ -2,7 +2,7 @@ export const filmsInMain = [
     {
         filmName: 'Tamako Market',
         subTitle: 'Tamako Market',
-        thumbnail: 'assets/images/img-film/top film/tamakomarket.jpg',
+        thumbnail: 'https://animeweb.xyz/wp-content/uploads/2021/09/Co-Be-Banh-Gao-250x350.jpg',
         backgroundImg: 'https://images2.alphacoders.com/701/701413.png',
         view: 12000,
         episode: '12/12',
@@ -15,7 +15,7 @@ export const filmsInMain = [
     {
         filmName: 'Tamako Love Story',
         subTitle: 'Tamako Love Story',
-        thumbnail: 'assets/images/img-film/top film/tamakolovestory.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT41KYho8WburlI0WQzixrDqTHGaP4evWJTeW-of1YsY8G94Cb6AZbik90HLy1rwLC5dYc&usqp=CAU',
         backgroundImg: 'https://pic-bstarstatic.akamaized.net/ugc/081ccd56b436029508f4c315b372511bdc139fe6.png',
         view: 30000,
         episode: '01/01',
@@ -28,7 +28,7 @@ export const filmsInMain = [
     {
         filmName: 'Thanh Gươm Diệt Quỷ',
         subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
-        thumbnail: 'assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp',
+        thumbnail: 'https://static2.vieon.vn/vieplay-image/poster_v4/2022/07/05/2y10nd8w_660x946-thanhguomdietquy-kyvientran-demo_360_534.jpg',
         backgroundImg: 'https://file.hstatic.net/1000231532/file/r_kimetsu_no_yaiba_-_the_hinokami_chronicles_ra_mat_trailer_cot_truyen_d82208c8197542a9a9db3506b45bc944.jpg',
         view: 97000,
         episode: '11/??',
@@ -55,7 +55,7 @@ export const filmsInMain = [
     {
         filmName: 'Độc Bộ Tiêu Dao',
         subTitle: 'Độc Bộ Tiêu Dao (2020)',
-        thumbnail: 'assets/images/img-film/top film/ĐỘC BỘ TIÊU DAO.jpg',
+        thumbnail: 'https://bachngocsach.com/reader/sites/default/files/anhbia/20200312_132656.jpg',
         backgroundImg: 'https://i.ytimg.com/vi/CgUf-l6cwik/maxresdefault.jpg',
         view: 43000,
         episode: '177/???',
@@ -68,7 +68,7 @@ export const filmsInMain = [
     {
         filmName: 'Chân Võ Đỉnh Phong',
         subTitle: 'Chân Võ Đỉnh Phong (2021)',
-        thumbnail: 'assets/images/img-film/top film/CHÂN VÕ ĐỈNH PHONG.jpg',
+        thumbnail: 'https://hhpanda.tv/images/1640277926.jpg',
         backgroundImg: 'https://media.voocdn.com/media/image/id/61d5a6610df938bc4232bd0e_720x',
         view: 35000,
         episode: '13/??',
@@ -81,7 +81,7 @@ export const filmsInMain = [
     {
         filmName: 'CUE!',
         subTitle: 'Cue! (2022)',
-        thumbnail: 'assets/images/img-film/top film/CUE!.jpg',
+        thumbnail: 'https://cabfansub.com/wp-content/uploads/2022/01/119046.jpg',
         backgroundImg: 'https://wallpaperaccess.com/full/24539.jpg',
         view: 35000,
         episode: '04/??',
@@ -94,7 +94,7 @@ export const filmsInMain = [
     {
         filmName: "Dolls' Frontline",
         subTitle: "Girls' Frontline (2022)",
-        thumbnail: "assets/images/img-film/top film/DOLLS' FRONTLINE.jpg",
+        thumbnail: "https://lyricsfromanime.com/animes-info/dolls-frontline/cover/dolls-frontline-lyrics.jpg",
         backgroundImg: 'https://i.pinimg.com/564x/60/c7/af/60c7af896ec257874789dbb6fc031e34.jpg',
         view: 57000,
         episode: '04/??',
@@ -107,7 +107,7 @@ export const filmsInMain = [
     {
         filmName: 'Hồi Ký Vanitas',
         subTitle: 'Vanitas no Carte - The Case Study of Vanitas (2021)',
-        thumbnail: 'assets/images/img-film/top film/HỒI KÍ VANITAS.jpg',
+        thumbnail: 'https://pic8.iqiyipic.com/image/20211231/2d/4c/a_100464867_m_601_en_m3_260_360.jpg',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/12/11080606/The-Case-Study-of-Vanitas-part-2-2-game4v-1639184762-96.png',
         view: 49000,
         episode: '15/24',
@@ -120,7 +120,7 @@ export const filmsInMain = [
     {
         filmName: 'Karakai Jouzu No Takagi-San 3',
         subTitle: 'Karakai Jouzu no Takagi-san Third Season, Teasing Master Takagi-san(2022)',
-        thumbnail: 'assets/images/img-film/top film/KARAKAI JOUZU NO TAKAGI-SAN 3.jpg',
+        thumbnail: 'https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/12/10/cua5-1639128334405337998347.jpg',
         backgroundImg: 'https://wallpaperspeed.id/wp-content/uploads/2022/03/Karakai-Jouzu-no-Takagi-san-3-09-49.jpg',
         view: 52000,
         episode: '04/??',
@@ -133,7 +133,7 @@ export const filmsInMain = [
     {
         filmName: 'Maiko-San Chi No Makanai-San',
         subTitle: 'The caterer at the Maiko Manor, Kiyo in Kyoto: From the Maiko House (2021)',
-        thumbnail: 'assets/images/img-film/top film/MAIKO-SAN CHI NO MAKANAI-SAN.jpg',
+        thumbnail: 'https://chuuniotaku.com/wp-content/uploads/2021/01/anime-maiko-san-chi-no-makanai-san-se-cong-chieu-vao-25-02-tiet-lo-dan-dien-vien-va-nhan-vien.jpg',
         backgroundImg: 'https://i.ytimg.com/vi_webp/SZyuBw3dhOU/maxresdefault.webp',
         view: 14000,
         episode: '12/??',
@@ -146,7 +146,7 @@ export const filmsInMain = [
     {
         filmName: 'Nghịch Thiên Chí Tôn',
         subTitle: 'Nghịch Thiên Chí Tôn (2021)',
-        thumbnail: 'assets/images/img-film/top film/NGHỊCH THIÊN CHÍ TÔN.jpg',
+        thumbnail: 'https://lh3.googleusercontent.com/-xi81vHWmRl4/YeYatim7ACI/AAAAAAAABFA/SlmITnHfzfA0Mg4rqsYhvTULFitdrEqXgCNcBGAsYHQ/s0/nghich-thien-chi-ton.webp',
         backgroundImg: "https://allimages.sgp1.digitaloceanspaces.com/tintapchicom/2021/08/Nghich-Thien-Chi-Ton-Tap-11-Vietsub-Thuyet-Minh.jpg",
         view: 98000,
         episode: '62/??',
@@ -159,7 +159,7 @@ export const filmsInMain = [
     {
         filmName: 'Ousama Ranking',
         subTitle: 'King Ranking',
-        thumbnail: 'assets/images/img-film/top film/OUSAMA RANKING.jpg',
+        thumbnail: 'https://images.justwatch.com/poster/270915755/s718/ousama-ranking.%7Bformat%7D',
         backgroundImg: 'https://cdn.wallpapersafari.com/70/65/km02En.png',
         view: 39000,
         episode: '15/23',
@@ -172,7 +172,7 @@ export const filmsInMain = [
     {
         filmName: 'Platinum End',
         subTitle: 'Platinum End (2021)',
-        thumbnail: 'assets/images/img-film/top film/PLATINUM END.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbAU54OC0aAM1dqPKykswcJdN1XIRzMOUC75XKCFfIf_dSHMGDKSewfoT9exO8aoPiTE&usqp=CAU',
         backgroundImg: 'https://images7.alphacoders.com/117/thumbbig-1172743.webp',
         view: 26000,
         episode: '16/24',
@@ -185,7 +185,7 @@ export const filmsInMain = [
     {
         filmName: 'Saiyuuki Reload: Zeroin',
         subTitle: 'Saiyuuki Reload: Even a Worm Arc (2022)',
-        thumbnail: 'assets/images/img-film/top film/SAIYUUKI RELOAD ZEROIN.jpg',
+        thumbnail: 'https://static.247phim.com/163968/conversions/61e0ecb49ffeb_shaiyuki-435_627.jpg',
         backgroundImg: 'https://i0.wp.com/omnitos.com/wp-content/uploads/2022/01/Saiyuuki-Reload-Zeroin-Episode-3.jpg',
         view: 37000,
         episode: '04/??',
@@ -198,7 +198,7 @@ export const filmsInMain = [
     {
         filmName: 'Shingeki No Kyojin-The Final Season Part 2',
         subTitle: 'Shingeki no Kyojin Season 4, Attack on Titan Season 4 (2022)',
-        thumbnail: 'assets/images/img-film/top film/SHINGEKI NO KYOJIN-THE FINAL SEASON PART 2.jpg',
+        thumbnail: 'https://animehay.club//upload/poster/3416.jpg',
         backgroundImg: 'https://animecorner.me/wp-content/uploads/2021/11/attack-on-titan-final-season-visual.png?ezimgfmt=ng%3Awebp%2Fngcb21%2Frs%3Adevice%2Frscb21-1',
         view: 90000,
         episode: '03/??',
@@ -211,7 +211,7 @@ export const filmsInMain = [
     {
         filmName: 'Slow Loop',
         subTitle: 'Slow Loop (2022)',
-        thumbnail: 'assets/images/img-film/top film/SLOW LOOP.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG0hJB53d5_ssfXfrc22dPil4giGJP5HFAnat4m43liOhDqeODpNnqPcXPzk6flbhifDM&usqp=CAU',
         backgroundImg: 'https://images3.alphacoders.com/121/thumb-1920-1213192.jpg',
         view: 30000,
         episode: '04/??',
@@ -224,7 +224,7 @@ export const filmsInMain = [
     {
         filmName: 'Thiếu Niên Ca Hành 2',
         subTitle: 'Thiếu Niên Ca Hành 2 (2021)',
-        thumbnail: 'assets/images/img-film/top film/THIẾU NIÊN CA HÀNH 2.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3c43DBEwoMuqEWv6g_weq6C6bYa4XM2znjb2-aF7f1hM20Y1v8EDsE8sTowMw7JC13o&usqp=CAU',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/06/gam4v-thieu-nien-ca-hanh.jpg',
         view: 96000,
         episode: '18/??',
@@ -237,7 +237,7 @@ export const filmsInMain = [
     {
         filmName: 'Yêu Thần Ký',
         subTitle: 'Yêu Thần Ký (2017)',
-        thumbnail: 'assets/images/img-film/top film/YÊU THẦN KÝ.jpg',
+        thumbnail: 'https://nae.vn/ttv/ttv/public/images/story/9a8ff1d5955fc851ad462c6fa78ce83f8ada040f0ad89ff43eb60d64a2a6f7c3.jpg',
         backgroundImg: 'https://zingaudio.net/wp-content/uploads/2020/10/yeu-than-ky.jpg',
         view: 46000,
         episode: '201/???',
@@ -250,7 +250,7 @@ export const filmsInMain = [
     {
         filmName: 'Đấu Phá Thương Khung OVA',
         subTitle: 'Đấu Phá Thương Khung OVA (2021)',
-        thumbnail: 'assets/images/img-film/top film/ĐẤU PHÁ THƯƠNG KHUNG OVA.jpg',
+        thumbnail: 'https://media.voocdn.com/media/image/id/61f105240df938d95a941f26_480x?type=webp',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/07/game4v-11.jpg',
         view: 41000,
         episode: '13/13',
@@ -263,7 +263,7 @@ export const filmsInMain = [
     {
         filmName: 'Ăn Không Uổng Kể Sơn Hải Kinh',
         subTitle: 'Ăn Không Uổng Kể Sơn Hải Kinh (2021)',
-        thumbnail: 'assets/images/img-film/top film/ĂN KHÔNG UỔNG KỂ SƠN HẢI KINH.jpg',
+        thumbnail: 'https://media.voocdn.com/media/image/id/621586bf0df938062d942726_480x?type=webp',
         backgroundImg: 'https://pic.bstarstatic.com/ogv/07ec26b13704e80336a427abc3cdf3c3c5ad7471.png@960w_540h_1e_1c_1f.webp',
         view: 28000,
         episode: '16/??',
@@ -276,7 +276,7 @@ export const filmsInMain = [
     {
         filmName: 'Đấu La Đại Lục',
         subTitle: 'Đấu La Đại Lục – Soul Land',
-        thumbnail: 'assets/images/img-film/top film/dau-la-dai-luc-1-250x350.jpg.webp',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/dau-la-dai-luc-1.jpg',
         backgroundImg: 'https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png',
         view: 37000,
         episode: '193/???',
@@ -289,7 +289,7 @@ export const filmsInMain = [
     {
         filmName: 'Phàm Nhân Tu Tiên',
         subTitle: 'Phàm Nhân Tu Tiên - Phong Khởi Thiên Nam (2020)',
-        thumbnail: 'assets/images/img-film/top film/Phàm Nhân Tu Tiên.jpg',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/pham-nhan-tu-tien-1-250x350.jpg.webp',
         backgroundImg: 'https://i.ytimg.com/vi/uZgyf0p9WXk/maxresdefault.jpg',
         view: 36000,
         episode: '34/??',
@@ -302,7 +302,7 @@ export const filmsInMain = [
     {
         filmName: 'Vạn Giới Tiên Tung',
         subTitle: 'Vạn Giới Tiên Tung (2018)',
-        thumbnail: 'assets/images/img-film/top film/Vạn Giới Tiên Tung.jpg',
+        thumbnail: 'https://traphim.org/wp-content/uploads/2019/11/van-gioi-tien-tung.jpg',
         backgroundImg: 'https://static.fptplay.net/static/img/share/video/29_03_2018/van-gioi-tien-tung-229-03-2018_16g11-55.jpg',
         view: 37000,
         episode: '240/???',
@@ -315,7 +315,7 @@ export const filmsInMain = [
     {
         filmName: 'Võ Thần Chúa Tể',
         subTitle: 'Võ Thần Chúa Tể (2020)',
-        thumbnail: 'assets/images/img-film/top film/Võ Thần Chúa Tể.jpg',
+        thumbnail: 'https://lh3.googleusercontent.com/-HQ6e6IQFiDM/YQFzNql4mTI/AAAAAAAAAGk/sTgekDm0pdEt3bmtJ1JE8U_e-M1EQ6exACLcBGAsYHQ/s0/vo-than-chua-te.webp',
         backgroundImg: 'https://s2.dmcdn.net/v/T92dV1X1XpL9avReN',
         view: 59000,
         episode: '200/???',
@@ -328,7 +328,7 @@ export const filmsInMain = [
     {
         filmName: 'Tuyết Ưng Lĩnh Chủ Phần 3',
         subTitle: 'Tuyết Ưng Lĩnh Chủ Phần 3 (2021)',
-        thumbnail: 'assets/images/img-film/top film/Tuyết Ưng Lĩnh Chủ Phần 3.jpg',
+        thumbnail: 'https://traphim.org/wp-content/uploads/2021/01/tuyet-ung-linh-chu.jpg',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/10/29151308/game4v-tuyet-ung-linh-chu-2-1635495188-92.jpg',
         view: 19000,
         episode: '06/??',
@@ -341,7 +341,7 @@ export const filmsInMain = [
     {
         filmName: 'Thôn Phệ Tinh Không',
         subTitle: 'Swallowed Star (2020)',
-        thumbnail: 'assets/images/img-film/top film/Thôn Phệ Tinh Không.jpg',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/thon-phe-tinh-khong-1.jpg',
         backgroundImg: 'https://img.subhay.net/date/info/Swallowed-Star-Nga-Cat-Tay-Hong-Thi-2.jpg',
         view: 21000,
         episode: '32/??',
@@ -354,7 +354,7 @@ export const filmsInMain = [
     {
         filmName: 'Koroshi Ai',
         subTitle: 'Love of Kill',
-        thumbnail: 'assets/images/img-film/top film/Koroshi Ai.jpg',
+        thumbnail: 'https://chuuniotaku.com/wp-content/uploads/2021/11/anime-koroshi-ai-se-ra-mat-vao-01-2022-tiet-lo-dan-dien-vien.jpg',
         backgroundImg: 'https://www.playerone.vg/wp-content/uploads/2021/07/Koroshi-Ai-produccion.jpg',
         view: 8000,
         episode: '03/??',
@@ -367,7 +367,7 @@ export const filmsInMain = [
     {
         filmName: 'Pocket Monsters: Kami To Yobareshi Arceus',
         subTitle: 'Pocket Monsters',
-        thumbnail: 'assets/images/img-film/top film/Pocket Monsters Kami To Yobareshi Arceus.jpg',
+        thumbnail: 'https://weblinhtinh.net/wp-content/uploads/2022/01/pocket-monsters-kami-to-yobareshi-arceus.jpg',
         backgroundImg: 'https://media.voocdn.com/media/image/id/61f8d5ce0df93879589429ef_720x',
         view: 2000,
         episode: '02/04',
@@ -380,7 +380,7 @@ export const filmsInMain = [
     {
         filmName: 'Kena No Deshi Wo Nanoru Kenja',
         subTitle: 'She Professed Herself Pupil of the Wise Man, Kendeshi',
-        thumbnail: 'assets/images/img-film/top film/Kena No Deshi Wo Nanoru Kenja.jpg',
+        thumbnail: 'https://animeaz.net/zip/uploads/kenja-no-deshi-wo-nanoru-kenja.webp',
         backgroundImg: 'https://i.pinimg.com/originals/ab/a9/de/aba9de03361d8a7c5987c2d00eb65aa9.jpg',
         view: 19000,
         episode: '03/??',
@@ -393,7 +393,7 @@ export const filmsInMain = [
     {
         filmName: 'Sabikui Bisco',
         subTitle: 'Rust-Eater Bisco',
-        thumbnail: 'assets/images/img-film/top film/Sabikui Bisco.jpg',
+        thumbnail: 'https://weblinhtinh.net/wp-content/uploads/2022/01/sabikui-bisco.jpg',
         backgroundImg: 'https://images8.alphacoders.com/120/1204312.jpg',
         view: 10000,
         episode: '03/??',
@@ -406,7 +406,7 @@ export const filmsInMain = [
     {
         filmName: 'Sabiiro No Armor: Reimei',
         subTitle: 'Rusted Armors',
-        thumbnail: 'assets/images/img-film/top film/Sabiiro No Armor Reimei.jpg',
+        thumbnail: 'https://lyricsfromanime.com/animes-info/sabiiro-no-armor-reimei/cover/sabiiro-no-armor-reimei-lyrics.jpg',
         backgroundImg: 'https://honeysanime.com/wp-content/uploads/2021/06/Sabiiro-no-Armor-Rusted-Armors-Magoichi-scaled.jpg',
         view: 2200,
         episode: '03/??',
@@ -419,7 +419,7 @@ export const filmsInMain = [
     {
         filmName: 'Tabi Wa Ni',
         subTitle: 'Tabi Hani',
-        thumbnail: 'assets/images/img-film/top film/Tabi Wa Ni.jpg',
+        thumbnail: 'https://honeysanime.com/wp-content/uploads/2021/07/tabi-hani-kv.jpeg',
         backgroundImg: 'https://gamenewsnetwork.net/wp-content/uploads/2021/12/1640271326_723_Doan-gioi-thieu-moi-da-ra-mat-Chi-tiet-phat.jpg',
         view: 283,
         episode: '05/??',
@@ -432,7 +432,7 @@ export const filmsInMain = [
     {
         filmName: 'Leadale No DaiChi Nite',
         subTitle: 'World of Leadale, In the Land of Leadale',
-        thumbnail: 'assets/images/img-film/top film/Leadale No DaiChi Nite.jpg',
+        thumbnail: 'https://animehay.club//upload/poster/3403.jpg',
         backgroundImg: 'https://static.zerochan.net/Leadale.no.Daichi.nite.full.3546796.jpg',
         view: 41000,
         episode: '04/??',
@@ -445,7 +445,7 @@ export const filmsInMain = [
     {
         filmName: "Tokyo Revengers",
         subTitle: "Tokyo Revengers (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Tokyo Revengers.jpg",
+        thumbnail: "https://ecdn.game4v.com/g4v-content/uploads/2021/07/game4v-tokyo-revengers-manga-3.jpg",
         backgroundImg: 'https://images7.alphacoders.com/115/1155001.jpg',
         view: 881000,
         episode: '24/24',
@@ -458,7 +458,7 @@ export const filmsInMain = [
     {
         filmName: "Kimetsu No Yaiba: Mugen Ressha-hen",
         subTitle: "Kimetsu no Yaiba Movie: Mugen Ressha-hen (TV) (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Kimetsu No Yaiba Mugen Ressha-hen.jpg",
+        thumbnail: "https://pics.filmaffinity.com/kimetsu_no_yaiba_mugen_ressha_hen_tv-637333814-mmed.jpg",
         backgroundImg: 'https://jpsharing.net/wp-content/uploads/2021/10/Kimetsu-no-yaiba-movie-jpsharing.net-2-1.jpg',
         view: 357000,
         episode: '07/07',
@@ -471,7 +471,7 @@ export const filmsInMain = [
     {
         filmName: "Tensei Shirata Slime Datta Ken 2ND Season",
         subTitle: "Vào Ngày Đó Tôi Đã Chuyển Sinh Thành Con Slime | That Time I Got Reincarnated as a Slime Season 2, Tensura 2 (2020)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/TENSEI SHITARA SLIME DATTA KEN 2ND SEASON.jpg",
+        thumbnail: "https://media.voocdn.com/media/image/id/61d1d1630df938762232c018_480x?type=webp",
         backgroundImg: 'https://gamek.mediacdn.vn/133514250583805952/2021/8/30/tensei-shitara-slime-datta-ken-1-752x440-16303290822591498423164.jpg',
         view: 2162000,
         episode: '24/24',
@@ -484,7 +484,7 @@ export const filmsInMain = [
     {
         filmName: "Tensura Nikki Tensei Shirata Slime Datta Ken",
         subTitle: "The Slime Diaries: That Time I Got Reincarnated as a Slime (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/TENSURA NIKKI TENSEI SHITARA SLIME DATTA KEN.jpg",
+        thumbnail: "https://img.hmv.co.jp/image/jacket/800/0000114/9/4/729.jpg",
         backgroundImg: 'https://thuvienanime.com/wp-content/uploads/2021/09/Tensei-shitara-Slime-Datta-Ken.jpg',
         view: 751000,
         episode: '12/12',
@@ -497,7 +497,7 @@ export const filmsInMain = [
     {
         filmName: "Edens Zero",
         subTitle: "Edens Zero (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Edens Zero.jpg",
+        thumbnail: "https://animevi.net/image/poster/8321624985369.jpg",
         backgroundImg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3UnAUZ19_gcGZSxNa9rZHKzxRD-nUy1kETbeSx11Pt4kiK_J3F972jy2y9hTbyMtGboQ&usqp=CAU',
         view: 751000,
         episode: '23/??',
@@ -510,7 +510,7 @@ export const filmsInMain = [
     {
         filmName: "Fumetsu No Anata E",
         subTitle: "Gửi em, người bất tử (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Fumetsu No Anata E.jpg",
+        thumbnail: "https://cdn.myanimelist.net/images/anime/1134/111757.jpg",
         backgroundImg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQloxU_8Q8A3MJdn2PPMt7M5ZVlGPFVSlL65wiTOhrpVSUwMPH17zh0BFXNep822IMBPgs&usqp=CAU',
         view: 650000,
         episode: '20/??',
@@ -523,7 +523,7 @@ export const filmsInMain = [
     {
         filmName: "Shaman King",
         subTitle: "Shaman King (2021) (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Shaman King.jpg",
+        thumbnail: "https://s1.boctem.com/wp-content/uploads/2021/03/113270.jpg",
         backgroundImg: 'https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2021/06/Shaman-King-Soundtrack-scaled-e1624581333444.jpg',
         view: 595000,
         episode: '41/52',
@@ -536,7 +536,7 @@ export const filmsInMain = [
     {
         filmName: "Kakushigoto Movie",
         subTitle: "Hidden Things Movie (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Karushigoto Movie.jpg",
+        thumbnail: "https://weblinhtinh.net/wp-content/uploads/2021/09/kakushigoto-movie.jpg",
         backgroundImg: 'https://images5.alphacoders.com/107/1073869.jpg',
         view: 21000,
         episode: '01/01',
@@ -549,7 +549,7 @@ export const filmsInMain = [
     {
         filmName: "Boruto: Naruto Next Generations",
         subTitle: "BORUTO -NARUTO NEXT GENERATIONS- ( Naruto Season 3) | Boruto: Naruto những thế hệ kế tiếp (2017)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/BORUTO NARUTO NEXT GENERATIONS.jpg",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkuOTgYrwHUmlTa8SL5CQyNw1JDZBNnmBMRLBYDuVQoTObQQBsLzQNGrTTMnvufmQwXiU&usqp=CAU",
         backgroundImg: 'https://static.ssphim.net/static/5fe2d564b3fa6403ffa11d1c/60939d111563bd83d552ae11_boruto-1.jpg',
         view: 4966000,
         episode: '234/???',
@@ -562,7 +562,7 @@ export const filmsInMain = [
     {
         filmName: "Nanatsu No Taizai Movie 2 Hikari Ni Norowareshi Mono-Tachi",
         subTitle: "Gekijouban Nanatsu no Taizai Hikari ni Norowareshi Mono-tachi, The Seven Deadly Sins the Movie: Cursed by Light (2021)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/NANATSU NO TAIZAI MOVIE 2 HIKARI NI NOROWARESHI MONO-TACHI.jpg",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo0AMq_r4NO9cIJl74FJT00H87wiQNaoh_JqllescWS-Wl272kFgNS7E9ZC_u-hW9xbkM&usqp=CAU",
         backgroundImg: 'https://i3.wp.com/img.bilutv.cc/film/18637/big.jpg',
         view: 80000,
         episode: '01/01',
@@ -575,7 +575,7 @@ export const filmsInMain = [
     {
         filmName: "Vua Hải Tặc",
         subTitle: "One Piece | Đảo Hải Tặc (1999)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Vua Hải Tặc.jpg",
+        thumbnail: "https://content.fun-japan.jp/renewal-prod/cms/articles/content/mainjpg_2021-07-09-12-12-49.jpg",
         backgroundImg: 'https://i.pinimg.com/originals/a2/84/29/a284294e7badfbda66fea132db44dc76.jpg',
         view: 5212000,
         episode: '1008/????',
@@ -588,7 +588,7 @@ export const filmsInMain = [
     {
         filmName: "Dragon Ball Heroes",
         subTitle: "Dragon Ball Heroes (2018)",
-        thumbnail: "assets/images/img-film/film-category/Shounen/Dragon Ball Heroes.jpg",
+        thumbnail: "https://static.247phim.com/160937/conversions/604b30b7e4ca6_super-dragon-ball-heroes-season-2-big-bang-mission-poster-1227057-435_627.jpg",
         backgroundImg: 'https://i.pinimg.com/originals/b8/09/20/b80920500b773a22ec8af4af240c1340.jpg',
         view: 897000,
         episode: '23/??',
@@ -609,7 +609,7 @@ export const topView = [
         desc: "Mùa thứ 2 của anime Kimetsu No Yaiba xoay quanh arc khu phố đèn đỏ đội của Tanjiro cùng với âm trụ chiến đấu với 2 anh em thượng lục quỷ",
         bookmark: true,
         episode: "08/??",
-        thumbnail: "assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp",
+        thumbnail: "https://static2.vieon.vn/vieplay-image/poster_v4/2022/07/05/2y10nd8w_660x946-thanhguomdietquy-kyvientran-demo_360_534.jpg",
         backgroundImg: "https://file.hstatic.net/1000231532/file/r_kimetsu_no_yaiba_-_the_hinokami_chronicles_ra_mat_trailer_cot_truyen_d82208c8197542a9a9db3506b45bc944.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["jDfmDW5B6", "K6P662qca", "51EQG9rrQ", "R6cILrKvv", "RZQFH5XOp", "bMHw5OjbH", "hJ2nIbs02", "hIouytgpG", "VDsN9VHBih", "9aCu_vUxJ", "z5GeOXnom"]
@@ -635,7 +635,7 @@ export const topView = [
         desc: "Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhất tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. Vũ hồn có thể là cái cày, cái cuốc, liêm đao… thuộc khối công cụ, một đóa hoa cúc, một cành mai… thuộc thực vật hệ, đến các vũ hồn cường đại như Tuyết Ảnh Ma Hùng, Tật Phong Ma Lang…. ",
         bookmark: true,
         episode: "215/???",
-        thumbnail: "assets/images/img-film/top-view-film/dau-la-dai-luc-1-250x350.jpg.webp",
+        thumbnail: "https://hhtq.vip/wp-content/uploads/2021/09/dau-la-dai-luc-1.jpg",
         backgroundImg: "https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
@@ -648,7 +648,7 @@ export const topView = [
         desc: "Các câu chuyện trong Doraemon thường có một công thức chung, đó là xoay quanh những rắc rối hay xảy ra với cậu bé Nobita học lớp bốn, nhân vật chính thứ nhì của bộ truyện. Doraemon có một chiếc túi thần kỳ trước bụng với đủ loại bảo bối của tương lai. Cốt truyện thường gặp nhất sẽ là Nobita trở về nhà khóc lóc với những rắc rối mà cậu gặp phải ở trường hoặc với bạn bè. Sau khi bị cậu bé van nài hoặc thúc giục, Doraemon sẽ đưa ra một bảo bối giúp Nobita giải quyết những rắc rối của mình, hoặc là để trả đũa hay khoe khoang với bạn bè của cậu. Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon, thậm chí với những bảo bối mới cậu còn gặp rắc rối lớn hơn trước đó. Đôi khi những người bạn của Nobita, thường là Suneo (Xêkô) hoặc Jaian (Chaien) lại lấy trộm những bảo bối và sử dụng chúng không đúng mục đích. Tuy nhiên thường thì ở cuối mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra, và người đọc sẽ rút ra được bài học từ đó.",
         bookmark: true,
         episode: "713/???",
-        thumbnail: "assets/images/img-film/top-view-film/doraemon-new-tv-series.jpg",
+        thumbnail: "https://animeaz.net/zip/uploads/doraemon-new-tv-series-355-thumbnail.jpg.webp",
         backgroundImg: "https://cdn.voh.com.vn/voh/thumbnail/2022/03/12/list-15-phim-hoat-hinh-doraemon-tap-dai.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["9g7R-S9ew", "80wizFgT3", "l62Jdq8ti"]
@@ -661,7 +661,7 @@ export const topView = [
         desc: "Mùa hai của Arifureta Shokugyou de Sekai Saikyou.",
         bookmark: true,
         episode: "12/12",
-        thumbnail: "assets/images/img-film/top-view-film/arifureta-shokugyou-de-sekai-saikyou-2nd-season.jpg",
+        thumbnail: "https://animet.net/upload/images/2021/06/arifureta-shokugyou-de-sekai-saikyou-2nd-season-thumbnail.jpg",
         backgroundImg: "https://www.kaorinusantara.or.id/wp-content/uploads/2019/10/arifureta.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["HPOI_Mm4x", "Cv0qBH_Os", "ZLdwvx_Xw", "yhSx6d2Iq", "3TPqpolFE", "2L5RGxCqN", "5AwLeMBFC", "ikC7Yf0al", "nYL7E8SiCh", "_VJTjsOKy", "GsaXhD06I", "XP89rnSZo", "8jQYJIq6N"]
@@ -674,7 +674,7 @@ export const topView = [
         desc: "Naruto Shippuden hay còn được gọi với cái tên quen thuộc Naruto phần 2 là phần tiếp theo của bộ phim hoạt hình nổi tiếng Naruto, lấy bối cảnh hai năm rưỡi sau khi Naruto rời làng Lá. Naruto Shippuden tiếp tục theo chân chàng ninja trẻ tuổi Naruto Uzumaki trong cuộc hành trình luyện tập cực khổ để trở thành ninja giỏi nhất. Trong khi đó, Akatsuki, một tổ chức bí ẩn tập hợp những ninja phản diện tài giỏi bậc nhất, đang từng bước thực hiện kế hoạch lớn của chúng, đe dọa sự an toàn của thế giới ninja. Naruto sẽ làm gì để bảo vệ làng Lá và những người mà cậu yêu quý?",
         bookmark: true,
         episode: "500/???",
-        thumbnail: "assets/images/img-film/top-view-film/naruto-shippuuden-thumbnail.jpg",
+        thumbnail: "https://animeaz.net/zip/uploads/naruto-phan-2-300-thumbnail.jpg.webp",
         backgroundImg: "https://cdn.tgdd.vn/2020/07/content/thumb-800x450-33.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["hSJbpmsAP", "RqmhY7B9e", "70_TXjMQO", "bpz-z6G1P", "Y7dYqGQ27"]
@@ -687,7 +687,7 @@ export const topView = [
         desc: 'Phim xoay quanh Bojji, một hoàng tử bị điếc, bất lực, thậm chí không thể sử dụng thanh kiếm của trẻ em. Là con trai đầu lòng, anh phấn đấu hết mình và ước mơ trở thành vị vua vĩ đại nhất thế giới. Tuy nhiên, mọi người đồn thổi về anh sau lưng anh là "một hoàng tử chẳng ra gì" và "không thể nào anh có thể làm vua được." Bojji có thể kết bạn đầu tiên của mình, "Kage" (bóng tối) —một cái bóng theo nghĩa đen trên mặt đất, người bằng cách nào đó hiểu rõ Bojji. (Kage là một người sống sót trong gia tộc sát thủ Kage đã bị xóa sổ. Không còn là một kẻ giết người, Kage giờ đây kiếm sống bằng cách ăn trộm.) với cuộc gặp gỡ định mệnh của mình với Kage.',
         bookmark: true,
         episode: "15/23",
-        thumbnail: "assets/images/img-film/top-view-film/bang-xep-hang-quoc-vuong-ousama-ranking-thumbnail.jpg",
+        thumbnail: "https://images.justwatch.com/poster/270915755/s718/ousama-ranking.%7Bformat%7D",
         backgroundImg: "https://cdn.wallpapersafari.com/70/65/km02En.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["-33BrvPZ2", "kY3cK1Cmm", "E2XVXs5vn", "IeVZqjho", "tehOa_ZWM", "Prjub2gHu", "hewiTmMqt", "wAXHOSPfm", "wVN7VN9bV"]
@@ -700,7 +700,7 @@ export const topView = [
         desc: "Sức mạnh của anh ta bị giới hạn bởi huy hiệu ma thuật mà anh ta có từ khi được sinh ra, Mathias, nhà hiền triết mạnh nhất thế giới, quyết định phải chuyển sinh để trở thành người mạnh nhất. Khi tái sinh là một cậu bé, Mathias rất vui mừng khi phát hiện ra rằng cậu được sinh ra với huy hiệu tối ưu để chiến đấu bằng phép thuật trong lần thử đầu tiên! Thật không may, thế giới mà anh ấy sinh ra có những tiêu chuẩn cực kỳ kém về phép thuật, và mọi người đều nghĩ rằng anh ấy vẫn là kẻ thất bại! Bây giờ Mathias phải chứng minh mọi người sai… theo phong cách của nhà hiền triết mạnh nhất thế giới!",
         bookmark: false,
         episode: "12/12",
-        thumbnail: "assets/images/img-film/top-view-film/shikkakumon-no-saikyou-kenja-thumbnail.jpg",
+        thumbnail: "https://chuuniotaku.com/wp-content/uploads/2021/12/anime-shikkaku-mon-no-saikyou-kenja-tiet-lo-ra-mat-08-01.jpg",
         backgroundImg: "https://truyengihot.net/uploads/anime/cover_1641666501.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["L2XHCumZi", "CjP4HJaG8", "u1ROrN995", "plPrFb4K_", "n5s85i68y", "pjE4A6sSh", "U4x1kV176", "DAjuUokMg", "tbcvYScmq", "pzu-Ds4BF", "KPyiRvubu", "0hXGEmTov"]
@@ -713,7 +713,7 @@ export const topView = [
         desc: "Wakana Gojou là một thằng giai tân mười lăm tuổi, người bị sang chấn tâm lí trong quá khứ do niềm đam mê của mình. Sự cố đó đã để lại dấu ấn cho anh khiến anh trở thành một người ẩn dật xã hội. Cho đến một ngày, anh đã gặp phải Kitagawa, một gyaru hòa đồng, hoàn toàn trái ngược với anh. Họ sớm chia sẻ niềm đam mê của họ với nhau mà dẫn đến mối quan hệ kỳ quặc của họ.",
         bookmark: true,
         episode: "12/12",
-        thumbnail: "assets/images/img-film/top-view-film/sono-bisque-doll-wa-koi-wo-suru-thumbnail.jpg",
+        thumbnail: "https://cdn.myanimelist.net/images/anime/1179/119897.jpg",
         backgroundImg: "https://static.lag.vn/upload/news/21/12/06/anime-Sono-Bisque-Doll-Wa-Koi-Wo-Suru_DGYY.jpg?w=800&encoder=wic&subsampling=444",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["-FSCpm7IT", "NzsgioFCd", "DsEN-tmoP", "2FOqcWCyz", "9VpUoiZ4_", "s90j7Og-9", "t64tJF-fIG", "50zcBdNno", "hbruYEm3F", "ZEjkow23w", "0Ytojtyav", "qvOWAVf_m"]
@@ -726,7 +726,7 @@ export const topView = [
         desc: "Đã 100 năm kể từ khi vua Kyle chôn cất Ang Mundo. Bây giờ trong thời kỳ hòa bình, hiệp sĩ tập sự Kasel tận hưởng cuộc sống của mình mà không cần lo lắng. Tuy nhiên, số phận của anh ta bắt đầu thay đổi, với tin tức về những con quỷ xuất hiện xâm chiếm khu phố. Được hướng dẫn bởi một người đàn ông thông thái, Kasel tìm thấy những người bạn mà anh có thể dựa vào và bắt đầu sứ mệnh tìm kiếm thánh kiếm, có khả năng tiêu diệt kẻ thù mới tìm thấy của mình.",
         bookmark: false,
         episode: "26/26",
-        thumbnail: "assets/images/img-film/top-view-film/King raid.jpg",
+        thumbnail: "https://cdn.myanimelist.net/images/anime/1885/109122.jpg",
         backgroundImg: "https://i.ytimg.com/vi/7FyrUKmai3I/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["O8sXI9KMJ", "hSg8Wn_3v", "3Ccfbrpf5G", "_r3TUdmRI", "PbVIty2lXm", "6PmzBEJkX3", "u4oOAXDDo", "KcfYzNPzgb", "_P_bCI6Vf", "LRGQZXXPO"]
@@ -755,7 +755,7 @@ export const topComment = [
         desc: "Thiếu niên Itadori Yuuji, mang năng lực thể chất phi thường, trải qua cuộc sống học sinh cấp 3 bình thường, nhưng đến một ngày vì cứu bạn bè bị đe doạ bởi “lời nguyền”, cậu đã nuốt chú vật đặc cấp - “Ngón tay của Ryomen Sukuna” và để cho lời nguyền trú ngụ trong linh hồn mình.",
         bookmark: true,
         episode: "10/24",
-        thumbnail: "assets/images/img-film/top-film-cmt/Jujutsu Kaisen.jpg",
+        thumbnail: "https://upload.wikimedia.org/wikipedia/vi/thumb/8/82/Jujutsu_Kaisen_vol_1_cover.jpeg/230px-Jujutsu_Kaisen_vol_1_cover.jpeg",
         backgroundImg: "https://i0.wp.com/dmtalkies.com/wp-content/uploads/2021/08/ezgif-1-078409066a3b-compressed-1.jpg?fit=1200%2C674&ssl=1",
         type: 'Hành động, viễn tưởng',
         slugs: ["vzx7upXjI", "Orblz3UMi", "8Mg4jiydc3", "1DwbDQ6jW", "EU254N30N", "jgJott7Vp", "9SZ2Wrkzp", "8RrS7EexA", "7Z58yujDZ", "55E9n0tp7", "S0eMaIvpXb", "ylh4jv0H6", "uo4CK2QSt", "g8ThUQLPG", "bVxucyl9H", "0aX8FIZKL", "EHfeiOymd", "VNPJjd2kH", "95LCcfcQ8g", "JBQL9HoKc", "R8F4wtY7Q", "WOdbw850R", "yyg4x_nsT", "nztQ4xk048"]
@@ -768,7 +768,7 @@ export const topComment = [
         desc: "Mùa hai của Arifureta Shokugyou de Sekai Saikyou.",
         bookmark: true,
         episode: "12/12",
-        thumbnail: "assets/images/img-film/top-film-cmt/arifureta-shokugyou-de-sekai-saikyou-2nd-season.jpg",
+        thumbnail: "https://animet.net/upload/images/2021/06/arifureta-shokugyou-de-sekai-saikyou-2nd-season-thumbnail.jpg",
         backgroundImg: "https://www.kaorinusantara.or.id/wp-content/uploads/2019/10/arifureta.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["HPOI_Mm4x", "Cv0qBH_Os", "ZLdwvx_Xw", "yhSx6d2Iq", "3TPqpolFE", "2L5RGxCqN", "5AwLeMBFC", "ikC7Yf0al", "nYL7E8SiCh", "_VJTjsOKy", "GsaXhD06I", "XP89rnSZo", "8jQYJIq6N"]
@@ -781,7 +781,7 @@ export const topComment = [
         desc: 'Phim xoay quanh Bojji, một hoàng tử bị điếc, bất lực, thậm chí không thể sử dụng thanh kiếm của trẻ em. Là con trai đầu lòng, anh phấn đấu hết mình và ước mơ trở thành vị vua vĩ đại nhất thế giới. Tuy nhiên, mọi người đồn thổi về anh sau lưng anh là "một hoàng tử chẳng ra gì" và "không thể nào anh có thể làm vua được." Bojji có thể kết bạn đầu tiên của mình, "Kage" (bóng tối) —một cái bóng theo nghĩa đen trên mặt đất, người bằng cách nào đó hiểu rõ Bojji. (Kage là một người sống sót trong gia tộc sát thủ Kage đã bị xóa sổ. Không còn là một kẻ giết người, Kage giờ đây kiếm sống bằng cách ăn trộm.) với cuộc gặp gỡ định mệnh của mình với Kage.',
         bookmark: true,
         episode: "15/23",
-        thumbnail: "assets/images/img-film/top-film-cmt/bang-xep-hang-quoc-vuong-ousama-ranking-thumbnail.jpg",
+        thumbnail: "https://images.justwatch.com/poster/270915755/s718/ousama-ranking.%7Bformat%7D",
         backgroundImg: "https://cdn.wallpapersafari.com/70/65/km02En.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["-33BrvPZ2", "kY3cK1Cmm", "E2XVXs5vn", "IeVZqjho", "tehOa_ZWM", "Prjub2gHu", "hewiTmMqt", "wAXHOSPfm", "wVN7VN9bV"]
@@ -794,7 +794,7 @@ export const topComment = [
         desc: "Ngày xửa ngày xưa, xưa ơi là xưa, xưa thiệt là xưa, có một cô phù thủy tên là Elaina, cô chính là người sẽ có cuộc hành trình đi xuyên thế giới. Trên đường đi, cô sẽ gặp rất nhiều người, nhiều nơi. Từ một vùng đất đầy phù thủy đến một nơi có những tên khổng lồ cuồng cơ bắp nhưng trong mỗi cuộc gặp gỡ, Elaina sẽ bắt tay trở thành một phần nhỏ trong câu chuyện của họ và về thế giới riêng của cô nàng bé nhỏ này.",
         bookmark: false,
         episode: "12/12",
-        thumbnail: "assets/images/img-film/top-film-cmt/Majo No Tabitabi.jpg",
+        thumbnail: "https://cdn.myanimelist.net/images/anime/1802/108501.jpg",
         backgroundImg: "https://i.ytimg.com/vi/SpTgCQGWqqc/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["HFnLY4mr2", "wAOL5eE17", "wAOL5eE17", "iylJ_ciIh", "gYUEFumo8"]
@@ -807,7 +807,7 @@ export const topComment = [
         desc: "Các câu chuyện trong Doraemon thường có một công thức chung, đó là xoay quanh những rắc rối hay xảy ra với cậu bé Nobita học lớp bốn, nhân vật chính thứ nhì của bộ truyện. Doraemon có một chiếc túi thần kỳ trước bụng với đủ loại bảo bối của tương lai. Cốt truyện thường gặp nhất sẽ là Nobita trở về nhà khóc lóc với những rắc rối mà cậu gặp phải ở trường hoặc với bạn bè. Sau khi bị cậu bé van nài hoặc thúc giục, Doraemon sẽ đưa ra một bảo bối giúp Nobita giải quyết những rắc rối của mình, hoặc là để trả đũa hay khoe khoang với bạn bè của cậu. Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon, thậm chí với những bảo bối mới cậu còn gặp rắc rối lớn hơn trước đó. Đôi khi những người bạn của Nobita, thường là Suneo (Xêkô) hoặc Jaian (Chaien) lại lấy trộm những bảo bối và sử dụng chúng không đúng mục đích. Tuy nhiên thường thì ở cuối mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra, và người đọc sẽ rút ra được bài học từ đó.",
         bookmark: true,
         episode: "713/???",
-        thumbnail: "assets/images/img-film/top-film-cmt/doraemon-new-tv-series.jpg",
+        thumbnail: "https://animeaz.net/zip/uploads/doraemon-new-tv-series-355-thumbnail.jpg.webp",
         backgroundImg: "https://cdn.voh.com.vn/voh/thumbnail/2022/03/12/list-15-phim-hoat-hinh-doraemon-tap-dai.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["9g7R-S9ew", "80wizFgT3", "l62Jdq8ti"]
@@ -820,7 +820,7 @@ export const topComment = [
         desc: "Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhất tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. Vũ hồn có thể là cái cày, cái cuốc, liêm đao… thuộc khối công cụ, một đóa hoa cúc, một cành mai… thuộc thực vật hệ, đến các vũ hồn cường đại như Tuyết Ảnh Ma Hùng, Tật Phong Ma Lang….",
         bookmark: true,
         episode: "215/???",
-        thumbnail: "assets/images/img-film/top-film-cmt/dau-la-dai-luc-1-250x350.jpg.webp",
+        thumbnail: "https://hhtq.vip/wp-content/uploads/2021/09/dau-la-dai-luc-1.jpg",
         backgroundImg: "https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["EF6c22eqR", "6USJTAQ90", "-jRD-Db-i4", "1QI87eKp8", "m1NNc2ZNX", "-s8CZ1QF_t", "ukrqtoFQI", "k1RjW5rDZ", "U2LpYKaOkM", "AEgAywjrG", "y6luWQU4JS", "rmH5Mr2BZ", "IR978mrz1", "QnSmy3upCo", "TYq8piNeX", "nQ-kKBpr9", "6C0jrxpewP", "C9H5scLhD", "P80t6a2F2", "aVFD7w3a0N", "wjrFXIpBn"]
@@ -833,7 +833,7 @@ export const topComment = [
         desc: "Tầng hai của phòng tập thể dục ― đây là nơi chúng tôi luôn gặp nhau. Đó là giờ học, nhưng tất nhiên, không có bất kỳ lớp học nào diễn ra ở một nơi như thế này.Đây là nơi tôi và Shimamura trở thành bạn của nhau. Chúng tôi đã đi chơi ở đây ― nói về các chương trình truyền hình và nấu ăn, chơi bóng bàn ... Đây là nơi chúng tôi nuôi dưỡng tình bạn của mình.Cúi đầu vào tường, tôi khẽ thở dài.Cảm giác này là gì? Hôm qua, tôi đã mơ thấy tôi và Shimamura hôn nhau.Không phải tôi như vậy. Tôi chắc rằng Shimamura cũng không.",
         bookmark: false,
         episode: " 12/12",
-        thumbnail: "assets/images/img-film/top-film-cmt/Adachi To Shimamura.jpg",
+        thumbnail: "https://vuianime.tv/upload/images/pj6XHqm.jpg",
         backgroundImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyBFak6Vy0vpaUiBn-S6qEl7APLmgu7JND_w&usqp=CAU",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["5j6HLqmW6", "wHCsLDDYag", "O0cAdpOo5", "yVp70A2qjZ", "O6gsTiDQk", "vvY0Q0iYf"]
@@ -846,7 +846,7 @@ export const topComment = [
         desc: "Đã 100 năm kể từ khi vua Kyle chôn cất Ang Mundo. Bây giờ trong thời kỳ hòa bình, hiệp sĩ tập sự Kasel tận hưởng cuộc sống của mình mà không cần lo lắng. Tuy nhiên, số phận của anh ta bắt đầu thay đổi, với tin tức về những con quỷ xuất hiện xâm chiếm khu phố. Được hướng dẫn bởi một người đàn ông thông thái, Kasel tìm thấy những người bạn mà anh có thể dựa vào và bắt đầu sứ mệnh tìm kiếm thánh kiếm, có khả năng tiêu diệt kẻ thù mới tìm thấy của mình.",
         bookmark: false,
         episode: "26/26",
-        thumbnail: "assets/images/img-film/top-film-cmt/King raid.jpg",
+        thumbnail: "https://cdn.myanimelist.net/images/anime/1885/109122.jpg",
         backgroundImg: "https://i.ytimg.com/vi/7FyrUKmai3I/maxresdefault.jpg",
         type: 'Anime, Hành động, Kinh dị, Siêu nhiên, Viễn tưởng',
         slugs: ["O8sXI9KMJ", "hSg8Wn_3v", "3Ccfbrpf5G", "_r3TUdmRI", "PbVIty2lXm", "6PmzBEJkX3", "u4oOAXDDo", "KcfYzNPzgb", "_P_bCI6Vf", "LRGQZXXPO"]
@@ -857,7 +857,7 @@ export const filmsTrend = [
     {
         filmName: 'Thanh Gươm Diệt Quỷ',
         subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
-        thumbnail: 'assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp',
+        thumbnail: 'https://static2.vieon.vn/vieplay-image/poster_v4/2022/07/05/2y10nd8w_660x946-thanhguomdietquy-kyvientran-demo_360_534.jpg',
         backgroundImg: 'https://file.hstatic.net/1000231532/file/r_kimetsu_no_yaiba_-_the_hinokami_chronicles_ra_mat_trailer_cot_truyen_d82208c8197542a9a9db3506b45bc944.jpg',
         view: 97000,
         episode: '11/??',
@@ -870,7 +870,7 @@ export const filmsTrend = [
     {
         filmName: 'Độc Bộ Tiêu Dao',
         subTitle: 'Độc Bộ Tiêu Dao (2020)',
-        thumbnail: 'assets/images/img-film/top film/ĐỘC BỘ TIÊU DAO.jpg',
+        thumbnail: 'https://bachngocsach.com/reader/sites/default/files/anhbia/20200312_132656.jpg',
         backgroundImg: 'https://i.ytimg.com/vi/CgUf-l6cwik/maxresdefault.jpg',
         view: 43000,
         episode: '177/???',
@@ -883,7 +883,7 @@ export const filmsTrend = [
     {
         filmName: 'Nghịch Thiên Chí Tôn',
         subTitle: 'Nghịch Thiên Chí Tôn (2021)',
-        thumbnail: 'assets/images/img-film/top film/NGHỊCH THIÊN CHÍ TÔN.jpg',
+        thumbnail: 'https://lh3.googleusercontent.com/-xi81vHWmRl4/YeYatim7ACI/AAAAAAAABFA/SlmITnHfzfA0Mg4rqsYhvTULFitdrEqXgCNcBGAsYHQ/s0/nghich-thien-chi-ton.webp',
         backgroundImg: "https://allimages.sgp1.digitaloceanspaces.com/tintapchicom/2021/08/Nghich-Thien-Chi-Ton-Tap-11-Vietsub-Thuyet-Minh.jpg",
         view: 98000,
         episode: '62/??',
@@ -896,7 +896,7 @@ export const filmsTrend = [
     {
         filmName: 'Ousama Ranking',
         subTitle: 'King Ranking',
-        thumbnail: 'assets/images/img-film/top film/OUSAMA RANKING.jpg',
+        thumbnail: 'https://images.justwatch.com/poster/270915755/s718/ousama-ranking.%7Bformat%7D',
         backgroundImg: 'https://cdn.wallpapersafari.com/70/65/km02En.png',
         view: 39000,
         episode: '15/23',
@@ -909,7 +909,7 @@ export const filmsTrend = [
     {
         filmName: 'Kena No Deshi Wo Nanoru Kenja',
         subTitle: 'She Professed Herself Pupil of the Wise Man, Kendeshi',
-        thumbnail: 'assets/images/img-film/top film/Kena No Deshi Wo Nanoru Kenja.jpg',
+        thumbnail: 'https://animeaz.net/zip/uploads/kenja-no-deshi-wo-nanoru-kenja.webp',
         backgroundImg: 'https://i.pinimg.com/originals/ab/a9/de/aba9de03361d8a7c5987c2d00eb65aa9.jpg',
         view: 19000,
         episode: '03/??',
@@ -922,7 +922,7 @@ export const filmsTrend = [
     {
         filmName: 'Sabikui Bisco',
         subTitle: 'Rust-Eater Bisco',
-        thumbnail: 'assets/images/img-film/top film/Sabikui Bisco.jpg',
+        thumbnail: 'https://weblinhtinh.net/wp-content/uploads/2022/01/sabikui-bisco.jpg',
         backgroundImg: 'https://images8.alphacoders.com/120/1204312.jpg',
         view: 10000,
         episode: '03/??',
@@ -935,7 +935,7 @@ export const filmsTrend = [
     {
         filmName: 'Sabiiro No Armor: Reimei',
         subTitle: 'Rusted Armors',
-        thumbnail: 'assets/images/img-film/top film/Sabiiro No Armor Reimei.jpg',
+        thumbnail: 'https://lyricsfromanime.com/animes-info/sabiiro-no-armor-reimei/cover/sabiiro-no-armor-reimei-lyrics.jpg',
         backgroundImg: 'https://honeysanime.com/wp-content/uploads/2021/06/Sabiiro-no-Armor-Rusted-Armors-Magoichi-scaled.jpg',
         view: 2200,
         episode: '03/??',
@@ -948,7 +948,7 @@ export const filmsTrend = [
     {
         filmName: 'Tabi Wa Ni',
         subTitle: 'Tabi Hani',
-        thumbnail: 'assets/images/img-film/top film/Tabi Wa Ni.jpg',
+        thumbnail: 'https://honeysanime.com/wp-content/uploads/2021/07/tabi-hani-kv.jpeg',
         backgroundImg: 'https://gamenewsnetwork.net/wp-content/uploads/2021/12/1640271326_723_Doan-gioi-thieu-moi-da-ra-mat-Chi-tiet-phat.jpg',
         view: 283,
         episode: '05/??',
@@ -964,7 +964,7 @@ export const showTimes = [
     {
         filmName: 'Chân Võ Đỉnh Phong',
         subTitle: 'Chân Võ Đỉnh Phong (2021)',
-        thumbnail: 'assets/images/img-film/top film/CHÂN VÕ ĐỈNH PHONG.jpg',
+        thumbnail: 'https://hhpanda.tv/images/1640277926.jpg',
         backgroundImg: 'https://media.voocdn.com/media/image/id/61d5a6610df938bc4232bd0e_720x',
         view: 35000,
         episode: '12/??',
@@ -979,7 +979,7 @@ export const showTimes = [
     {
         filmName: "Dolls' Frontline",
         subTitle: "Girls' Frontline (2022)",
-        thumbnail: "assets/images/img-film/top film/DOLLS' FRONTLINE.jpg",
+        thumbnail: "https://lyricsfromanime.com/animes-info/dolls-frontline/cover/dolls-frontline-lyrics.jpg",
         backgroundImg: 'https://i.pinimg.com/564x/60/c7/af/60c7af896ec257874789dbb6fc031e34.jpg',
         view: 57000,
         episode: '03/??',
@@ -994,7 +994,7 @@ export const showTimes = [
     {
         filmName: 'Platinum End',
         subTitle: 'Platinum End (2021)',
-        thumbnail: 'assets/images/img-film/top film/PLATINUM END.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbAU54OC0aAM1dqPKykswcJdN1XIRzMOUC75XKCFfIf_dSHMGDKSewfoT9exO8aoPiTE&usqp=CAU',
         backgroundImg: 'https://images7.alphacoders.com/117/thumbbig-1172743.webp',
         view: 26000,
         episode: '15/24',
@@ -1009,7 +1009,7 @@ export const showTimes = [
     {
         filmName: 'Thanh Gươm Diệt Quỷ',
         subTitle: 'Kimetsu No Yaiba ss2: Yuukaku-hen',
-        thumbnail: 'assets/images/kimetsu-no-yaiba-ss2-thanh-guom-diet-quy-phan-2-1-250x350.jpg.webp',
+        thumbnail: 'https://static2.vieon.vn/vieplay-image/poster_v4/2022/07/05/2y10nd8w_660x946-thanhguomdietquy-kyvientran-demo_360_534.jpg',
         backgroundImg: 'https://file.hstatic.net/1000231532/file/r_kimetsu_no_yaiba_-_the_hinokami_chronicles_ra_mat_trailer_cot_truyen_d82208c8197542a9a9db3506b45bc944.jpg',
         view: 97000,
         episode: '11/??',
@@ -1024,7 +1024,7 @@ export const showTimes = [
     {
         filmName: 'Độc Bộ Tiêu Dao',
         subTitle: 'Độc Bộ Tiêu Dao (2020)',
-        thumbnail: 'assets/images/img-film/top film/ĐỘC BỘ TIÊU DAO.jpg',
+        thumbnail: 'https://bachngocsach.com/reader/sites/default/files/anhbia/20200312_132656.jpg',
         backgroundImg: 'https://i.ytimg.com/vi/CgUf-l6cwik/maxresdefault.jpg',
         view: 43000,
         episode: '117/??',
@@ -1039,7 +1039,7 @@ export const showTimes = [
     {
         filmName: 'Hồi Ký Vanitas',
         subTitle: 'Vanitas no Carte - The Case Study of Vanitas (2021)',
-        thumbnail: 'assets/images/img-film/top film/HỒI KÍ VANITAS.jpg',
+        thumbnail: 'https://pic8.iqiyipic.com/image/20211231/2d/4c/a_100464867_m_601_en_m3_260_360.jpg',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/12/11080606/The-Case-Study-of-Vanitas-part-2-2-game4v-1639184762-96.png',
         view: 43000,
         episode: '14/24',
@@ -1054,7 +1054,7 @@ export const showTimes = [
     {
         filmName: 'Maiko-San Chi No Makanai-San',
         subTitle: 'The caterer at the Maiko Manor, Kiyo in Kyoto: From the Maiko House (2021)',
-        thumbnail: 'assets/images/img-film/top film/MAIKO-SAN CHI NO MAKANAI-SAN.jpg',
+        thumbnail: 'https://chuuniotaku.com/wp-content/uploads/2021/01/anime-maiko-san-chi-no-makanai-san-se-cong-chieu-vao-25-02-tiet-lo-dan-dien-vien-va-nhan-vien.jpg',
         backgroundImg: 'https://i.ytimg.com/vi_webp/SZyuBw3dhOU/maxresdefault.webp',
         view: 14000,
         episode: '11/??',
@@ -1069,7 +1069,7 @@ export const showTimes = [
     {
         filmName: 'Saiyuuki Reload: Zeroin',
         subTitle: 'Saiyuuki Reload: Even a Worm Arc (2022)',
-        thumbnail: 'assets/images/img-film/top film/SAIYUUKI RELOAD ZEROIN.jpg',
+        thumbnail: 'https://static.247phim.com/163968/conversions/61e0ecb49ffeb_shaiyuki-435_627.jpg',
         backgroundImg: 'https://i0.wp.com/omnitos.com/wp-content/uploads/2022/01/Saiyuuki-Reload-Zeroin-Episode-3.jpg',
         view: 37000,
         episode: '04/??',
@@ -1084,7 +1084,7 @@ export const showTimes = [
     {
         filmName: 'Maiko-San Chi No Makanai-San',
         subTitle: 'The caterer at the Maiko Manor, Kiyo in Kyoto: From the Maiko House (2021)',
-        thumbnail: 'assets/images/img-film/top film/MAIKO-SAN CHI NO MAKANAI-SAN.jpg',
+        thumbnail: 'https://chuuniotaku.com/wp-content/uploads/2021/01/anime-maiko-san-chi-no-makanai-san-se-cong-chieu-vao-25-02-tiet-lo-dan-dien-vien-va-nhan-vien.jpg',
         backgroundImg: 'https://i.ytimg.com/vi_webp/SZyuBw3dhOU/maxresdefault.webp',
         view: 14000,
         episode: '12/??',
@@ -1099,7 +1099,7 @@ export const showTimes = [
     {
         filmName: 'Nghịch Thiên Chí Tôn',
         subTitle: 'Nghịch Thiên Chí Tôn (2021)',
-        thumbnail: 'assets/images/img-film/top film/NGHỊCH THIÊN CHÍ TÔN.jpg',
+        thumbnail: 'https://lh3.googleusercontent.com/-xi81vHWmRl4/YeYatim7ACI/AAAAAAAABFA/SlmITnHfzfA0Mg4rqsYhvTULFitdrEqXgCNcBGAsYHQ/s0/nghich-thien-chi-ton.webp',
         backgroundImg: 'https://allimages.sgp1.digitaloceanspaces.com/tintapchicom/2021/08/Nghich-Thien-Chi-Ton-Tap-11-Vietsub-Thuyet-Minh.jpg',
         view: 98000,
         episode: '61/??',
@@ -1114,7 +1114,7 @@ export const showTimes = [
     {
         filmName: 'Saiyuuki Reload: Zeroin',
         subTitle: 'Saiyuuki Reload: Even a Worm Arc (2022)',
-        thumbnail: 'assets/images/img-film/top film/SAIYUUKI RELOAD ZEROIN.jpg',
+        thumbnail: 'https://static.247phim.com/163968/conversions/61e0ecb49ffeb_shaiyuki-435_627.jpg',
         backgroundImg: 'https://i0.wp.com/omnitos.com/wp-content/uploads/2022/01/Saiyuuki-Reload-Zeroin-Episode-3.jpg',
         view: 98000,
         episode: '04/??',
@@ -1129,7 +1129,7 @@ export const showTimes = [
     {
         filmName: 'Đấu La Đại Lục',
         subTitle: 'Đấu La Đại Lục – Soul Land',
-        thumbnail: 'assets/images/img-film/top film/dau-la-dai-luc-1-250x350.jpg.webp',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/dau-la-dai-luc-1.jpg',
         backgroundImg: 'https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png',
         view: 37000,
         date: 'friday',
@@ -1144,7 +1144,7 @@ export const showTimes = [
     {
         filmName: 'Shingeki No Kyojin-The Final Season Part 2',
         subTitle: 'Shingeki no Kyojin Season 4, Attack on Titan Season 4 (2022)',
-        thumbnail: 'assets/images/img-film/top film/SHINGEKI NO KYOJIN-THE FINAL SEASON PART 2.jpg',
+        thumbnail: 'https://animehay.club//upload/poster/3416.jpg',
         backgroundImg: 'https://animecorner.me/wp-content/uploads/2021/11/attack-on-titan-final-season-visual.png?ezimgfmt=ng%3Awebp%2Fngcb21%2Frs%3Adevice%2Frscb21-1',
         view: 90000,
         episode: '03/??',
@@ -1159,7 +1159,7 @@ export const showTimes = [
     {
         filmName: 'Slow Loop',
         subTitle: 'Slow Loop (2022)',
-        thumbnail: 'assets/images/img-film/top film/SLOW LOOP.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG0hJB53d5_ssfXfrc22dPil4giGJP5HFAnat4m43liOhDqeODpNnqPcXPzk6flbhifDM&usqp=CAU',
         backgroundImg: 'https://images3.alphacoders.com/121/thumb-1920-1213192.jpg',
         view: 30000,
         episode: '03/??',
@@ -1174,7 +1174,7 @@ export const showTimes = [
     {
         filmName: 'Thiếu Niên Ca Hành 2',
         subTitle: 'Thiếu Niên Ca Hành 2 (2021)',
-        thumbnail: 'assets/images/img-film/top film/THIẾU NIÊN CA HÀNH 2.jpg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3c43DBEwoMuqEWv6g_weq6C6bYa4XM2znjb2-aF7f1hM20Y1v8EDsE8sTowMw7JC13o&usqp=CAU',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/06/gam4v-thieu-nien-ca-hanh.jpg',
         view: 96000,
         episode: '18/??',
@@ -1189,7 +1189,7 @@ export const showTimes = [
     {
         filmName: 'Yêu Thần Ký',
         subTitle: 'Yêu Thần Ký (2021)',
-        thumbnail: 'assets/images/img-film/top film/YÊU THẦN KÝ.jpg',
+        thumbnail: 'https://nae.vn/ttv/ttv/public/images/story/9a8ff1d5955fc851ad462c6fa78ce83f8ada040f0ad89ff43eb60d64a2a6f7c3.jpg',
         backgroundImg: 'https://zingaudio.net/wp-content/uploads/2020/10/yeu-than-ky.jpg',
         view: 46000,
         episode: '200/???',
@@ -1204,7 +1204,7 @@ export const showTimes = [
     {
         filmName: 'Ăn Không Uổng Kể Sơn Hải Kinh',
         subTitle: 'Ăn Không Uổng Kể Sơn Hải Kinh (2021)',
-        thumbnail: 'assets/images/img-film/top film/ĂN KHÔNG UỔNG KỂ SƠN HẢI KINH.jpg',
+        thumbnail: 'https://media.voocdn.com/media/image/id/621586bf0df938062d942726_480x?type=webp',
         backgroundImg: 'https://pic.bstarstatic.com/ogv/07ec26b13704e80336a427abc3cdf3c3c5ad7471.png@960w_540h_1e_1c_1f.webp',
         view: 28000,
         date: 'saturday',
@@ -1219,7 +1219,7 @@ export const showTimes = [
     {
         filmName: 'Đấu La Đại Lục',
         subTitle: 'Đấu La Đại Lục – Soul Land',
-        thumbnail: 'assets/images/img-film/top film/dau-la-dai-luc-1-250x350.jpg.webp',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/dau-la-dai-luc-1.jpg',
         backgroundImg: 'https://ss-images.saostar.vn/2020/02/24/7047527/1_fxmws8sjy0fo5ehbehzyia.png',
         view: 37000,
         date: 'monday',
@@ -1234,7 +1234,7 @@ export const showTimes = [
     {
         filmName: 'Phàm Nhân Tu Tiên',
         subTitle: 'Phàm Nhân Tu Tiên - Phong Khởi Thiên Nam (2020)',
-        thumbnail: 'assets/images/img-film/top film/Phàm Nhân Tu Tiên.jpg',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/pham-nhan-tu-tien-1-250x350.jpg.webp',
         backgroundImg: 'https://i.ytimg.com/vi/uZgyf0p9WXk/maxresdefault.jpg',
         view: 36000,
         date: 'saturday',
@@ -1249,7 +1249,7 @@ export const showTimes = [
     {
         filmName: 'Tuyết Ưng Lĩnh Chủ Phần 3',
         subTitle: 'Tuyết Ưng Lĩnh Chủ Phần 3 (2021)',
-        thumbnail: 'assets/images/img-film/top film/Tuyết Ưng Lĩnh Chủ Phần 3.jpg',
+        thumbnail: 'https://traphim.org/wp-content/uploads/2021/01/tuyet-ung-linh-chu.jpg',
         backgroundImg: 'https://ecdn.game4v.com/g4v-content/uploads/2021/10/29151308/game4v-tuyet-ung-linh-chu-2-1635495188-92.jpg',
         view: 19000,
         date: 'sunday',
@@ -1264,7 +1264,7 @@ export const showTimes = [
     {
         filmName: 'Thôn Phệ Tinh Không',
         subTitle: 'Swallowed Star (2020)',
-        thumbnail: 'assets/images/img-film/top film/Thôn Phệ Tinh Không.jpg',
+        thumbnail: 'https://hhtq.vip/wp-content/uploads/2021/09/thon-phe-tinh-khong-1.jpg',
         backgroundImg: 'https://img.subhay.net/date/info/Swallowed-Star-Nga-Cat-Tay-Hong-Thi-2.jpg',
         view: 21000,
         date: 'sunday',
