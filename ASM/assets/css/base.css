@@ -214,6 +214,7 @@ html {
     cursor: pointer;
     right: 25px;
     bottom: 70px;
+    z-index: 10;
     transition: all linear 0.15s;
     visibility: hidden;
     opacity: 0;
