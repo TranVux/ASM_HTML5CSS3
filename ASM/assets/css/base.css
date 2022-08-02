@@ -212,8 +212,8 @@ html {
 #myCanvas {
     position: fixed;
     cursor: pointer;
-    right: 10px;
-    bottom: 20px;
+    right: 25px;
+    bottom: 70px;
     transition: all linear 0.15s;
     visibility: hidden;
     opacity: 0;
