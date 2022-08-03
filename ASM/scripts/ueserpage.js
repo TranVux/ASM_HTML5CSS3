@@ -78,7 +78,7 @@ function notify(container) {
     const text = document.createElement('p');
     const containerAlert = document.createElement('div');
     containerAlert.className = 'alert-container';
-    text.innerText = 'Đăng nhập để thì sẽ xuất hiện những phim đã lưu nha!'
+    text.innerText = 'Đăng nhập thì sẽ xuất hiện những phim đã lưu nha!'
     text.classList = 'empty-text';
     img.src = 'assets/images/cartoon-owls-sad.png';
     img.classList = 'empty-img';
